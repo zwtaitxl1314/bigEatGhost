@@ -1,0 +1,52 @@
+body{
+    margin: 0 0;
+    padding: 0 0;
+}
+
+/*导航栏*/
+.header {
+    width: 100%;
+    background-color: black;
+}
+
+.header .navigation{
+    text-align: center;
+
+}
+.header ul {
+    display: inline-block;
+    margin: 0 ;
+    padding: 0;
+}
+.header ul li {
+    list-style: none;
+    display: inline-block;
+    margin: auto;
+}
+.header a {
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+.header .hd-nav li {
+    padding: 2rem 1rem;
+}
+.header .hd-nav li a {
+    padding-bottom: 1rem;
+    font-size: 18px;
+}
+.header .hd-nav li a:hover {
+    color: #e25111;
+    border-bottom: 4px solid #e25111;
+}
+.header .hd-nav li span {
+    display: none;
+}
+.header ul:nth-child(3) li {
+    margin: .5rem;
+}
+
+/*注册*/
+.regist{
+    position: absolute;
+}

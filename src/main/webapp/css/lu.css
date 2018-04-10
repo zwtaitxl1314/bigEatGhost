@@ -1,0 +1,109 @@
+
+.distance{
+    height: auto;
+    margin-bottom: 100px;
+}
+.head_img{
+    width: 100%;
+    display: inline-block;
+
+}
+.head_img img{
+    height: 400px;
+    width: 600px;
+    display: inline-block;
+    float: left;
+}
+.head_img .benefits{
+    display: inline-block;
+    float: left;
+    width: 500px;
+    height: 300px;
+
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 0 0 10px 0;
+    margin: 50px 0 15px 70px;
+}
+
+.head_img .benefits
+
+/*食材明细*/
+p{
+    font-size: 14px;
+
+}
+
+
+.topic{
+    font-size: 25px;
+    color: #ffa500;
+}
+
+.ingredients{
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 0 0 10px 0;
+    margin: 0 auto 15px auto;
+    width: 800px;
+    height: auto;
+}
+
+.ingredients ul{
+    display: inline-block;
+}
+
+.ingredients ul li{
+    height:  50px;
+    width: 100px;
+    display: inline-block;
+    list-style: none;
+    font-size: 19px;
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
+/*做法*/
+.practice{
+    width: 800px;
+    border-top: 1px solid  #ddd;
+    margin: 0 auto;
+}
+
+.recipeStep_num {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    font-size: 18px;
+    height: 34px;
+    left: 0;
+    line-height: 34px;
+    text-align: center;
+    top: -44px;
+    width: 34px;
+}
+
+/*视频*/
+.video{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

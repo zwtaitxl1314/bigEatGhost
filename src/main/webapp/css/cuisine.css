@@ -1,0 +1,33 @@
+body{
+    margin: 0 0;
+    padding: 0 0;
+}
+
+
+
+.appreciate-text{
+    text-align: center;
+}
+
+.distance{
+    height: auto;
+}
+
+.distance ul{
+    display: inline-block;
+    width: 100%;
+
+}
+
+.distance ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.distance img{
+    width: 230px;
+    height: 230px;
+}
