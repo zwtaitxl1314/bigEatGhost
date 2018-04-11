@@ -72,7 +72,7 @@
     text-align: center;
 }
 .text form .submitbox .submit{
-    margin-top:50px;
+    margin-top:20px;
     display: inline-block;
     vertical-align: top;
     height: 42px;
@@ -85,4 +85,59 @@
     background: #ffa500;
     cursor: pointer;
 
+}
+
+
+.code {
+    font-family:Arial;
+    font-style:italic;
+    color:blue;
+    font-size:30px;
+    border:0;
+    padding:2px 3px;
+    letter-spacing:3px;
+    font-weight:bolder;
+    float:left;
+    cursor:pointer;
+    width:150px;
+    height:60px;
+    line-height:60px;
+    text-align:center;
+    vertical-align:middle;
+
+}
+
+a {
+    text-decoration:none;
+    font-size:12px;
+    color:#288bc4;
+}
+a:hover {
+    text-decoration:underline;
+}
+.verify{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+.verify table{
+    margin: 0 auto;
+    width: 320px;
+}
+.verify table tr{
+    display: inline-block;
+}
+
+.verify input{
+   float:left;
+    width: 92px;
+    display: inline-block;
+
+    height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #333;
+    padding: 11px;
 }
