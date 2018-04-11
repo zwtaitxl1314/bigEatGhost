@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="bigEatGhost:war exploded">
-    <output-path>$PROJECT_DIR$/target/Spring3</output-path>
+    <output-path>$PROJECT_DIR$/target/bigEatGhost</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">

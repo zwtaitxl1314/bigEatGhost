@@ -1,0 +1,88 @@
+.distance{
+    width: 100%;
+    height: 938px;
+}
+
+.head{
+    width: 100%;
+}
+.head a img{
+    width: 200px;
+    height: 80px;
+}
+.head span{
+    font-size: 20px;
+    border-left: 1px solid gray;
+    padding: 10px 10px;
+}
+
+/*登录框*/
+.text{
+    width: 100%;
+    height: 510px;
+    background-color: #f7f7f7;
+}
+.text form{
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    margin-left: 150px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.text form .textbox{
+    width: 320px;
+    height: 46px;
+    display: block;
+    margin: 30px auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #333;
+    padding: 11px;
+}
+.text form label{
+    color: #666;
+    font-size: 13px;
+    line-height: 22px;
+    display: inline-block;
+    margin-left: 40px;
+}
+.text form label .checkbox{
+    display: inline-block;
+}
+
+.text form .forgetpassword{
+    line-height: 22px;
+    color: #999;
+    font-size: 13px;
+    display: inline-block;
+    margin-left: 158px;
+}
+
+.text form  .forgetpassword:hover {
+    text-decoration: underline;
+    color: #ec5541;
+}
+
+.text form .suiminbox{
+    text-align: center;
+}
+.text form .submitbox .submit{
+    margin-top:50px;
+    display: inline-block;
+    vertical-align: top;
+    height: 42px;
+    border: 1px solid orange;
+    border-radius: 4px;
+    line-height: 40px;
+    font-size: 15px;
+    color: #fff;
+    padding: 0px 24px;
+    background: #ffa500;
+    cursor: pointer;
+
+}

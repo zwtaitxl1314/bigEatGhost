@@ -25,7 +25,7 @@ public class Customercontroller {
         return "regist";
     }
 
-
+    /*注册*/
     @RequestMapping("/regist")
     public String regist(HttpServletRequest request){
         System.out.println("执行regist方法");
@@ -66,8 +66,21 @@ public class Customercontroller {
     public  String login(String username){
         System.out.println("执行login方法");
         System.out.println(username);
+        return "login";
+    }
+
+    /*评论控制器*/
+    @RequestMapping("/comments")
+    public  String comments(HttpServletRequest request){
+        System.out.println("执行评论控制器");
+
+
+
+
         return "redirect:/index.jsp";
     }
+
+
 
     private boolean validateRegist(String name,String username, String password, String confirm, HttpSession session) {
 
@@ -77,37 +90,27 @@ public class Customercontroller {
             // 说明姓名是空的
             session.setAttribute( "namePrompt" , "用户名不能为空" );
             nameNotEmpty = false ;
-
         }
-
         boolean usernameNotEmpty = true ;
-
         if( StringHelper.empty( username ) ) {
             // 说明用户名是空的
             session.setAttribute( "usernamePrompt" , "用户名不能为空" );
             usernameNotEmpty = false ;
         }
-
         boolean passwordNotEmpty = true ;
-
         if( StringHelper.empty( password ) ) {
             // 说明密码是空的
             session.setAttribute( "passwordPrompt" , "密码不能为空" );
             passwordNotEmpty = false ;
         }
-
         boolean confirmNotEmpty = true ;
-
         if( StringHelper.empty( confirm ) ) {
             // 说明确认密码是空的
             session.setAttribute( "confirmPrompt" , "请确认密码" );
             confirmNotEmpty = false ;
         }
-
         boolean passwordEquals = false ;
-
         if( passwordNotEmpty && confirmNotEmpty ) {
-
             if( StringHelper.equals( password , confirm) ) {  // 注意 if 内部的 感叹号
                 passwordEquals = true ;
             } else {
@@ -115,29 +118,24 @@ public class Customercontroller {
                 session.setAttribute( "passwordPrompt" , "两次输入密码不一致" );
                 session.setAttribute( "confirmPrompt" , "请保证两次输入的密码是一致" );
             }
-
         }
-
         return nameNotEmpty&&usernameNotEmpty && passwordEquals ;
     }
 
-
     //检查登录数据（用户名、密码）是否不为空，不为空则返回true
     private boolean CheckLogin(String username, String password ) {
-
         boolean unEmpty = true;
         if(StringHelper.empty(username)) {
             unEmpty = false;
         }
-
         boolean pwEmpty = true;
         if(StringHelper.empty(password)) {
             pwEmpty = false;
         }
         System.out.println(unEmpty && pwEmpty);
         return unEmpty && pwEmpty ;
-
     }
+
     public User getUser() {
         return user;
     }
