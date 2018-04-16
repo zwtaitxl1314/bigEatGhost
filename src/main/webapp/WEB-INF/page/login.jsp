@@ -34,12 +34,15 @@
             if (inputCode.length <= 0)
             {
                 alert("请输入验证码！");
-                window.location.href="return_index";
             }
             else if (inputCode.toUpperCase() != code.toUpperCase())
             {
                 alert("验证码输入有误！");
                 createCode();
+            }
+            else{
+                alert("验证码输入正确！");
+                window.location.href="return_index.do";
             }
         }
     </script>
@@ -56,7 +59,7 @@
         </div>
 
         <div class="text" id="divID">
-                <form action="${pageContext.request.contextPath}/customer/login.do"id="form1" runat="server" onsubmit="validateCode()" method="post">
+                <form action="${pageContext.request.contextPath}/customer/login.do" id="form1" runat="server" onsubmit="validateCode()" method="post">
                     <div class="reg-box">
                         <input  class="textbox" name="username" placeholder="请输入手机号/邮箱/昵称" type="text">
                         <input class="textbox" name="password" placeholder="请输入密码" type="password">
@@ -69,9 +72,9 @@
                                 <tr>
                                     <td></td><td> <div class="code" id="checkCode" onclick="createCode()" ></div></td>
                                     <td><a  href="#" onclick="createCode()">看不清换一张</a></td>
-                                </tr>
-                                    <td><input id="Button1"  onclick="validateCode();" type="button" value="确定" /></td>
-                                </tr>
+                               <!-- </tr>
+                                    <td><input id="Button1"  type="button" value="确定" /></td>
+                                </tr>-->
                             </table>
                         </div>
 
@@ -81,7 +84,7 @@
 
                     </div>
                     <div class="submitbox" >
-                       <a href="${pageContext.request.contextPath}/customer/login.do"><input class="submit" value="登录" type="submit"></a>
+                       <a href="${pageContext.request.contextPath}/customer/login.do"><input class="submit" onclick="validateCode();" value="登录" type="submit"></a>
                     </div>
                 </form>
         </div>

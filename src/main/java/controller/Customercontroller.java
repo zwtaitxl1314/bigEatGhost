@@ -1,9 +1,12 @@
 package controller;
 
+import Dao.CommentDao;
+import entity.Comments;
 import entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import service.CommentService;
 import service.UserService;
 import util.MessageDigestType;
 import util.StringHelper;
@@ -19,6 +22,12 @@ public class Customercontroller {
     private  User user;
     @Autowired
     private  UserService us;
+
+    @Autowired
+    private CommentDao cd;
+
+    @Autowired
+    private Comments com;
 
     @RequestMapping("/registJsp")
     public String registJsp(HttpServletRequest request){
@@ -84,6 +93,11 @@ public class Customercontroller {
     @RequestMapping("/comments")
     public  String comments(HttpServletRequest request){
         System.out.println("执行评论控制器");
+        String comments= request.getParameter("Comments");
+        System.out.println("评论内容："+comments);
+        com.setComments(comments);
+
+        cd.save(com);
         return "redirect:/index.jsp";
     }
 
@@ -91,7 +105,7 @@ public class Customercontroller {
     @RequestMapping("/return_index")
     public  String returnindex(HttpServletRequest request){
         System.out.println("验证码错误，返回主页");
-        return "index";
+        return "redirect:/index.jsp";
     }
 
 

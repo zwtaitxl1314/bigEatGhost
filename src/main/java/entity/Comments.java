@@ -3,7 +3,7 @@ package entity;
 import java.io.Serializable;
 import java.util.Date;
 
-public class comments implements Serializable {
+public class Comments implements Serializable {
 
     private static final long serialVersionUID = -7743505069592739030L;
 

@@ -8,10 +8,13 @@
 
     <bean id="user" class="entity.User" />
     <bean id="userdao" class="Dao.UserDao" />
-
     <bean id="userservice " class="service.UserService">
         <property name="userdao" ref="userdao"/>
     </bean>
+
+
+    <bean id="commentdao" class="Dao.CommentDao" />
+    <bean id="comments" class="entity.Comments" />
 
     <context:component-scan base-package="Dao" />
 

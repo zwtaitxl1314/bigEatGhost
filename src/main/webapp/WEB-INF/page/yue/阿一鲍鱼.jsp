@@ -119,7 +119,7 @@
             </embed>
         </div>
 
-
+        <form method="post"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do">
         <div id="content" style="width: 700px; height: auto;margin : 40px auto 0 auto;">
             <div class="wrap">
                 <div class="comment">
@@ -129,11 +129,11 @@
                     </div>
                     <div class="content">
                         <div class="cont-box">
-                            <textarea class="text" placeholder="请输入..."></textarea>
+                            <textarea class="text"name="comments" placeholder="请输入..."></textarea>
                         </div>
                         <div class="tools-box">
                             <div class="operator-box-btn"><span class="face-icon"  >☺</span></div>
-                            <div class="submit-btn"><input type="button" onClick="out()"value="提交评论" /></div>
+                            <button  class="submit-btn"><input type="button"  value="提交评论" /></button>
                         </div>
                     </div>
                 </div>
@@ -151,15 +151,17 @@
 
     <script type="text/javascript" src="${pageContext.request.contextPath}/js/main.js"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath}/js/sinaFaceAndEffec.js"></script>
+
+
     <script type="text/javascript">
-        // 绑定表情
-        $('.face-icon').SinaEmotion($('.text'));
+        /*/ 绑定表情
+        $('.face-icon').SinaEmotion($('.text'));*/
         // 测试本地解析
         function out() {
             var inputText = $('.text').val();
             $('#info-show ul').append(reply(AnalyticEmotion(inputText)));
         }
-
+        /*
         var html;
         function reply(content){
             html  = '<li>';
@@ -173,7 +175,7 @@
             html += '</div>';
             html += '</li>';
             return html;
-        }
+        }*/
     </script>
 
 </body>

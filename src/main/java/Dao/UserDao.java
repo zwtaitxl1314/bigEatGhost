@@ -53,23 +53,6 @@ public class UserDao {
         }
     }
 
-    class MyRowMapper implements RowMapper<User> {
-        @Override
-        public User mapRow(ResultSet rs, int num) throws SQLException {
-            //从结果集中得到数据
-            int id = rs.getInt("id");
-            String username = rs.getString("username");
-            String password = rs.getString("password");
-            //把得到的数据封装到对象里面
-            User user = new User();
-            user.setId(id);
-            user.setUserName(username);
-            user.setPassword(password);
-            return user;
-        }
-    }
-
-
 
     public JdbcTemplate getJdbcTemplate() {
         return jdbcTemplate;
