@@ -1,8 +1,12 @@
 package entity;
 
-import java.io.Serializable;
+import org.springframework.jdbc.core.RowMapper;
 
-public class User implements Serializable {
+import java.io.Serializable;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+public class User implements RowMapper<User>,Serializable {
 
     private static final long serialVersionUID = 2277682025995113357L;
 
@@ -64,5 +68,19 @@ public class User implements Serializable {
 
     public void setUserName(String userName) {
         this.userName = userName;
+    }
+
+    @Override
+    public User mapRow(ResultSet rs, int rowNum) throws SQLException {
+        User user = new User();
+        user.setId(rs.getInt("id"));
+        user.setName(rs.getString("name"));
+
+        user.setUserName(rs.getString("username"));
+        user.setPassword(rs.getString("passwork"));
+
+        user.setAddress(rs.getString("address"));
+        user.setPhoneNum(rs.getString("mobilePhone"));
+        return user;
     }
 }

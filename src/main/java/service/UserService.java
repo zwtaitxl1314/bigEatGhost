@@ -24,6 +24,11 @@ public class UserService {
             return false;
     }
 
+    public User find( String username ){
+        System.out.println("准备执行DAO  findByName  方法");
+        return userdao.findByName( username);
+    }
+
     public UserDao getUserdao() {
         return userdao;
     }

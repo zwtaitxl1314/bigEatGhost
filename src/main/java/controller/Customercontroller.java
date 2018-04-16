@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import service.UserService;
+import util.MessageDigestType;
 import util.StringHelper;
 
 import javax.servlet.http.HttpServletRequest;
@@ -62,10 +63,20 @@ public class Customercontroller {
         }
     }
 
+    /*登录*/
     @RequestMapping("/login")
-    public  String login(String username){
-        System.out.println("执行login方法");
-        System.out.println(username);
+    public  String login(HttpServletRequest request){
+        String username = request.getParameter("username");
+        String password = request.getParameter("password");
+
+        boolean success =false ;
+        if(CheckLogin(username , password )) {
+            User user = us.find(username);
+            if(user == null) {
+                success = false ;
+                System.out.println("用户不存在");
+            }
+        }
         return "login";
     }
 

@@ -85,8 +85,8 @@
 
 
                     </div>
-                    <div class="submitbox" style="text-align:center;">
-                       <a href="${pageContext.request.contextPath}/index.jsp"><input class="submit" value="登录" type="submit"></a>
+                    <div class="submitbox" >
+                       <a href="${pageContext.request.contextPath}/customer/login.do"><input class="submit" value="登录" type="submit"></a>
                     </div>
                 </form>
         </div>
