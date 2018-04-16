@@ -84,11 +84,14 @@ public class Customercontroller {
     @RequestMapping("/comments")
     public  String comments(HttpServletRequest request){
         System.out.println("执行评论控制器");
-
-
-
-
         return "redirect:/index.jsp";
+    }
+
+    /*评论控制器*/
+    @RequestMapping("/return_index")
+    public  String returnindex(HttpServletRequest request){
+        System.out.println("验证码错误，返回主页");
+        return "index";
     }
 
 

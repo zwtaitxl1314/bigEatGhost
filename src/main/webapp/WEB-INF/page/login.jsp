@@ -34,15 +34,12 @@
             if (inputCode.length <= 0)
             {
                 alert("请输入验证码！");
+                window.location.href="return_index";
             }
             else if (inputCode.toUpperCase() != code.toUpperCase())
             {
                 alert("验证码输入有误！");
                 createCode();
-            }
-            else
-            {
-                alert("验证码正确！");
             }
         }
     </script>
@@ -73,10 +70,8 @@
                                     <td></td><td> <div class="code" id="checkCode" onclick="createCode()" ></div></td>
                                     <td><a  href="#" onclick="createCode()">看不清换一张</a></td>
                                 </tr>
-
-                                <!--<tr>
                                     <td><input id="Button1"  onclick="validateCode();" type="button" value="确定" /></td>
-                                </tr>-->
+                                </tr>
                             </table>
                         </div>
 
