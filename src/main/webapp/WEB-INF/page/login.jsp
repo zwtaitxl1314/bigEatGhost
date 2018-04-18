@@ -41,8 +41,9 @@
                 createCode();
             }
             else{
-                alert("验证码输入正确！");
-                window.location.href="return_index.do";
+                var username = document.getElementById('username').value;
+                var password = document.getElementById('password').value;
+                window.location.href="login.do?username="+username+"&password"+password;
             }
         }
     </script>
@@ -61,8 +62,8 @@
         <div class="text" id="divID">
                 <form action="${pageContext.request.contextPath}/customer/login.do" id="form1" runat="server" onsubmit="validateCode()" method="post">
                     <div class="reg-box">
-                        <input  class="textbox" name="username" placeholder="请输入手机号/邮箱/昵称" type="text">
-                        <input class="textbox" name="password" placeholder="请输入密码" type="password">
+                        <input id="username"  class="textbox" name="username" placeholder="请输入用户名" type="text">
+                        <input id="password" class="textbox" name="password" placeholder="请输入密码" type="password">
 
                             <div class="verify">
                             <table border="0" cellspacing="5" cellpadding="5" >

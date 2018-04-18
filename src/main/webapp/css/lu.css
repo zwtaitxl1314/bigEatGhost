@@ -6,13 +6,23 @@
 .head_img{
     width: 100%;
     display: inline-block;
-
+    margin-top: 20px;
 }
 .head_img img{
     height: 400px;
     width: 600px;
     display: inline-block;
     float: left;
+}
+.benefits legend{
+    margin: 0 0;
+}
+.cuisinename{
+    display: inline-block;
+    float: left;
+    width: 300px;
+    font: 24px '微软雅黑','YaHei',Arial,Helvetica,sans-serif;
+    margin-top: 50px;
 }
 .head_img .benefits{
     display: inline-block;
@@ -23,15 +33,15 @@
     border-radius: 10px;
     border: 1px solid #ddd;
     padding: 0 0 10px 0;
-    margin: 50px 0 15px 70px;
+    margin-top: 40px;
 }
-
-.head_img .benefits
+.head_img .benefits p{
+    margin: 8px 20px 0 20px;
+}
 
 /*食材明细*/
 p{
     font-size: 14px;
-
 }
 
 
@@ -66,7 +76,7 @@ p{
 /*做法*/
 .practice{
     width: 800px;
-    border-top: 1px solid  #ddd;
+    border-bottom: 1px solid  #ddd;
     margin: 0 auto;
 }
 

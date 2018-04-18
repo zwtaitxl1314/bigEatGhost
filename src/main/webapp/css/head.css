@@ -23,6 +23,16 @@ body{
     display: inline-block;
     margin: auto;
 }
+.header ul .user{
+    font-size: 18px;
+    color: white;
+}
+
+.header ul .user a{
+    font-size: 18px;
+    color: white;
+}
+
 .header a {
     color: #FFFFFF;
     text-decoration: none;
@@ -38,6 +48,7 @@ body{
 .header .hd-nav li a:hover {
     color: #e25111;
     border-bottom: 4px solid #e25111;
+    text-decoration: none;
 }
 .header .hd-nav li span {
     display: none;

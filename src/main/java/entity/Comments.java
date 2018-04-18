@@ -1,31 +1,44 @@
 package entity;
 
+import org.springframework.jdbc.core.RowMapper;
+
 import java.io.Serializable;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.Date;
 
-public class Comments implements Serializable {
+public class Comments implements RowMapper<Comments>,Serializable {
 
     private static final long serialVersionUID = -7743505069592739030L;
 
-    private Integer comId; //评论编码
-    private  Integer userId; //用户编码
+    private Integer comid; //评论编码
+    private  String comusername; //评论用户名
+    private  String comcuisine;//被评论的菜品名
     private  String comments; //评论内容
-    private Date comDate;  //评论时间
+    private Date comdate;  //评论时间
 
-    public Integer getComId() {
-        return comId;
+    public Integer getComid() {
+        return comid;
     }
 
-    public void setComId(Integer comId) {
-        this.comId = comId;
+    public void setComid(Integer comid) {
+        this.comid = comid;
     }
 
-    public Integer getUserId() {
-        return userId;
+    public String getComusername() {
+        return comusername;
     }
 
-    public void setUserId(Integer userId) {
-        this.userId = userId;
+    public void setComusername(String comusername) {
+        this.comusername = comusername;
+    }
+
+    public String getComcuisine() {
+        return comcuisine;
+    }
+
+    public void setComcuisine(String comcuisine) {
+        this.comcuisine = comcuisine;
     }
 
     public String getComments() {
@@ -36,11 +49,21 @@ public class Comments implements Serializable {
         this.comments = comments;
     }
 
-    public Date getComDate() {
-        return comDate;
+    public Date getComdate() {
+        return comdate;
     }
 
-    public void setComDate(Date comDate) {
-        this.comDate = comDate;
+    public void setComdate(Date comdate) {
+        this.comdate = comdate;
+    }
+
+    @Override
+    public Comments mapRow(ResultSet rs, int rowNum) throws SQLException {
+        Comments com = new Comments();
+        com.setComusername(rs.getString("comusername"));
+        com.setComcuisine(rs.getString("comcuisine"));
+        com.setComments(rs.getString("comcontent"));
+        com.setComdate(rs.getDate("createdate"));
+        return com;
     }
 }

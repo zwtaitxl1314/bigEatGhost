@@ -1,5 +1,7 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-         pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" pageEncoding="UTF-8" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
+
 <!DOCTYPE html>
 
 <html>
@@ -10,6 +12,7 @@
     <link rel="stylesheet" href="js/bootstrap-3.3.7-dist/css/bootstrap.css">
 
 </head>
+
 <body>
 
     <jsp:include page="${pageContext.request.contextPath}/WEB-INF/page/head.jsp" flush="true"/>
@@ -72,12 +75,13 @@
         <div class="appreciate-text">
             <img src="image/index/舌尖上的美食.jpg">
         </div>
+
         <div class="text">
             <p>
-                <span>每一种食物来源都经过我们的精挑细选，关于食材我们只选最天然、健康、优质的，只为一份对极致美味的追求，用心做好每一份菜，是我们不变的宗旨。</span>
+                <span>每一种食物来源都经过我们的精挑细选，关于食材我们只选最天然、健康、优质的，只为一份对极致美味的追求，用心做好每一份菜，是我们不变的宗旨。
+                </span>
             </p>
         </div>
-
         <div class="appreciate-pic">
             <img src="image/index/佛跳墙.jpg" alt="无法显示图片" title="佛跳墙">
             <img src="image/index/东坡肉.jpg" alt="无法显示图片" title="东坡肉">

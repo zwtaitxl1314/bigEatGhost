@@ -12,7 +12,9 @@ import util.MessageDigestType;
 import util.StringHelper;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import java.util.Date;
 
 @Controller
 @RequestMapping( "/customer/**")
@@ -51,10 +53,10 @@ public class Customercontroller {
         if( x ) { // 姓名、用户名不为空，而且两次输入密码(不为空)一致
             // 将从页面上收集到的数据，封装到 一个 User 对象中
             user.setName(name);
-            user.setUserName(username);
+            user.setUsername(username);
             user.setPassword(password);
             user.setAddress(address);
-            user.setPhoneNum(tel);
+            user.setMobilePhone(tel);
             System.out.println("准备执行service方法");
 
             boolean success = us.save(user);
@@ -74,37 +76,66 @@ public class Customercontroller {
 
     /*登录*/
     @RequestMapping("/login")
-    public  String login(HttpServletRequest request){
+    public  String login(HttpServletRequest request, HttpServletResponse response){
+        System.out.println("进入登录控制器");
         String username = request.getParameter("username");
         String password = request.getParameter("password");
+        System.out.println("用户名："+username+"登录密码："+password);
+        //获取session
+        HttpSession session = request.getSession();
 
-        boolean success =false ;
         if(CheckLogin(username , password )) {
             User user = us.find(username);
             if(user == null) {
-                success = false ;
                 System.out.println("用户不存在");
+            }else{
+                String passwordFromDb = user.getPassword();  //从数据库获取密码
+                //对表单获取到的密码进行加密
+                String passwordEncipher = StringHelper.encrypt(password.trim() , MessageDigestType.MD5 , null);
+                if(StringHelper.equals(passwordFromDb, passwordEncipher)) {
+                    System.out.println("用户名和密码正确");
+                    session.setAttribute("user", user);
+                    return "redirect:/index.jsp";
+                }else {
+                    System.out.println("密码错误");
+                }
             }
+
         }
         return "login";
+    }
+
+    /*注销控制器*/
+    @RequestMapping("/unlogin")
+    public  String unlogin(HttpServletRequest request){
+        System.out.println("执行注销控制器");
+        request.getSession().invalidate();// 废弃 session
+        return "redirect:/index.jsp";
     }
 
     /*评论控制器*/
     @RequestMapping("/comments")
     public  String comments(HttpServletRequest request){
         System.out.println("执行评论控制器");
-        String comments= request.getParameter("Comments");
-        System.out.println("评论内容："+comments);
+        String username = request.getParameter("username");
+        String comments= request.getParameter("comments");
+        String comcuisine= request.getParameter("comcuisine");
+        System.out.println(comcuisine+","+username+",评论内容："+comments);
+        com.setComusername(username);
         com.setComments(comments);
-
-        cd.save(com);
-        return "redirect:/index.jsp";
+        com.setComcuisine(comcuisine);
+        com.setComdate(new Date());
+        if(cd.save(com)   ){
+            System.out.println("保存成功，返回true");
+        }
+       // cd.save(com);
+        return "yue/阿一鲍鱼";
     }
 
     /*评论控制器*/
     @RequestMapping("/return_index")
     public  String returnindex(HttpServletRequest request){
-        System.out.println("验证码错误，返回主页");
+        System.out.println("验证码正确，返回主页");
         return "redirect:/index.jsp";
     }
 

@@ -24,13 +24,12 @@ public class UserDao {
     @Autowired
     private  User user;
 
-    String sql = "INSERT INTO user(name,userName,passwork,address,mobilePhone) VALUE (? , ? , ? , ? , ?)";
+    String sql = "INSERT INTO user(name,username,password,address,mobilePhone) VALUE (? , ? , ? , ? , ?)";
     String query = "SELECT * FROM user WHERE username=?";
 
-    List list = new ArrayList();
     public int save(User u) throws DaoException {
         try {
-            int i = jdbcTemplate.update(sql, u.getName(), u.getUserName(), u.getPassword(), u.getAddress(), u.getPhoneNum());
+            int i = jdbcTemplate.update(sql, u.getName(), u.getUsername(), u.getPassword(), u.getAddress(), u.getMobilePhone());
             if (i != 0) {
                 System.out.println("返回的数值" + i);
             }
@@ -43,10 +42,11 @@ public class UserDao {
 
     public User findByName(String username){
 
-        System.out.println("执行查找DAO");
+        System.out.println("执行查找DAO，查找用户"+username);
         try {
             User  user  = jdbcTemplate.queryForObject("SELECT * FROM user WHERE username=?", new User(), new Object[] { username });
-            System.out.println(user.getUserName());
+            System.out.println(user);
+           // System.out.println("用户："+user.getUserName()+"，存在,密码："+user.getPassword());
             return user;
         }catch (Exception  E){
             return null;

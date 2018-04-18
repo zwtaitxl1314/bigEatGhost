@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
+<%@ page isELIgnored="false" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,16 +20,17 @@
     <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
         <div class="head_img">
             <img src="${pageContext.request.contextPath}/image/粤菜/阿一鲍鱼.jpg">
+            <p class="cuisinename" id="cuisinename">${comcuisine}</p>
             <fieldset class="benefits ">
                 <legend>功效</legend>
                 <ul>
                     <li>
-                        <p>鲍鱼含有丰富的蛋白质，还有较多的钙，铁，碘和维生素A，等营养元素；</p>
-                        <p>鲍鱼营养价值极高，富含丰富的球蛋白；鲍鱼的肉中还含有一种被称为“鲍素”的成分，能够破坏癌细胞必需的代谢物质</p>
-                        <p>鲍鱼能养阴、平肝、固肾，可调整 肾上腺分泌，具有双向性调节血压的作用</p>
-                        <p>鲍鱼有调经、润燥利肠之效，可治月经不调、大便秘结等疾患</p>
-                        <p>鲍鱼具有滋阴补阳功效，并是一种补而不燥的海产，吃后没有牙痛、流鼻血等副作用，多吃也无妨</p>
-                        <p>鲍鱼的营养是澳大利亚核桃的7倍。</p>
+                        <p>1.鲍鱼含有丰富的蛋白质，还有较多的钙，铁，碘和维生素A，等营养元素；</p>
+                        <p>2.鲍鱼营养价值极高，富含丰富的球蛋白；鲍鱼的肉中还含有一种被称为“鲍素”的成分，能够破坏癌细胞必需的代谢物质</p>
+                        <p>3.鲍鱼能养阴、平肝、固肾，可调整 肾上腺分泌，具有双向性调节血压的作用</p>
+                        <p>4.鲍鱼有调经、润燥利肠之效，可治月经不调、大便秘结等疾患</p>
+                        <p>5.鲍鱼具有滋阴补阳功效，并是一种补而不燥的海产，吃后没有牙痛、流鼻血等副作用，多吃也无妨</p>
+                        <p>6.鲍鱼的营养是澳大利亚核桃的7倍。</p>
                     </li>
                 </ul>
             </fieldset>
@@ -70,7 +72,7 @@
                 <li>清水</li>
                 <li>鸡油</li>
                 <li>旧装蚝</li>
-                <li>李锦】</li>
+                <li>李锦</li>
             </ul>
         </fieldset>
 
@@ -119,35 +121,44 @@
             </embed>
         </div>
 
-        <form method="post"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do">
-        <div id="content" style="width: 700px; height: auto;margin : 40px auto 0 auto;">
-            <div class="wrap">
-                <div class="comment">
-                    <div class="head-face">
-                        <img src="${pageContext.request.contextPath}/image/1.jpg">
-                        <p>评论人</p>
-                    </div>
-                    <div class="content">
-                        <div class="cont-box">
-                            <textarea class="text"name="comments" placeholder="请输入..."></textarea>
+        <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >
+            <div id="content" style="width: 700px; height: auto;margin : 40px auto 0 auto;">
+                <div class="wrap">
+                    <div class="comment">
+                        <div class="head-face">
+                            <img src="${pageContext.request.contextPath}/image/1.jpg">
+                            <a >${user.username}</a>
+                            <input type="hidden" name="username" value="${user.username}">
+                            <input type="hidden" name="comcuisine" value="${comcuisine}">
                         </div>
-                        <div class="tools-box">
-                            <div class="operator-box-btn"><span class="face-icon"  >☺</span></div>
-                            <button  class="submit-btn"><input type="button"  value="提交评论" /></button>
+                        <div class="content">
+                            <div class="cont-box">
+                                <textarea class="text"name="comments" id="comments" placeholder="请输入..."></textarea>
+                            </div>
+                            <div class="tools-box">
+                                <div class="operator-box-btn"><span class="face-icon"  >☺</span></div>
+                                <button  class="submit-btn" ><input type="button"  value="提交评论" ;/></button>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div id="info-show">
-                    <ul></ul>
+                    <div id="info-show">
+                        <ul>
+                            <li>
+                                <div class="head-face">
+                                    <img src="${pageContext.request.contextPath}/image/1.jpg">
+                                </div>
+                                <div class="reply-cont">
+                                   <p class="username">小小红色飞机</p>
+                                    <p class="comment-body">'+content+'</p>
+                                    <p class="comment-footer">2017年4月11日　回复</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-
-
-
+        </form>
     </div>
-
-    <jsp:include page="${pageContext.request.contextPath}/WEB-INF/page/foot.jsp" flush="true"/>
 
     <script type="text/javascript" src="${pageContext.request.contextPath}/js/main.js"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath}/js/sinaFaceAndEffec.js"></script>
@@ -161,22 +172,9 @@
             var inputText = $('.text').val();
             $('#info-show ul').append(reply(AnalyticEmotion(inputText)));
         }
-        /*
-        var html;
-        function reply(content){
-            html  = '<li>';
-            html += '<div class="head-face">';
-            html += '<img src="images/1.jpg" / >';
-            html += '</div>';
-            html += '<div class="reply-cont">';
-            html += '<p class="username">小小红色飞机</p>';
-            html += '<p class="comment-body">'+content+'</p>';
-            html += '<p class="comment-footer">2017年4月11日　回复</p>';
-            html += '</div>';
-            html += '</li>';
-            return html;
-        }*/
+
     </script>
 
 </body>
+<jsp:include page="${pageContext.request.contextPath}/WEB-INF/page/foot.jsp" flush="true"/>
 </html>
