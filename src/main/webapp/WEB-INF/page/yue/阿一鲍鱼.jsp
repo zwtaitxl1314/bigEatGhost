@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
 <%@ page isELIgnored="false" %>
@@ -112,7 +113,7 @@
             制作成品鲍鱼，用胡萝卜熬制色素，走的时候加蚝油，味精，鸡粉，益鲜素，肉宝王，鲍鱼打欠。
         </div>
 
-        <p class="topic">阿一鲍鱼的教学视频</p>
+        <p class="topic">阿一鲍鱼的教学视频${ commentlist }</p>
 
         <div class="video">
             <embed src="http://player.video.qiyi.com/98f4080341cd68f68f36a84bc82f142b/0/0/w_19rrl7ndp1.swf-albumId=436639609-tvId=436639609-isPurchase=0-cnId=27"
@@ -141,20 +142,24 @@
                             </div>
                         </div>
                     </div>
-                    <div id="info-show">
-                        <ul>
-                            <li>
-                                <div class="head-face">
-                                    <img src="${pageContext.request.contextPath}/image/1.jpg">
-                                </div>
-                                <div class="reply-cont">
-                                   <p class="username">小小红色飞机</p>
-                                    <p class="comment-body">'+content+'</p>
-                                    <p class="comment-footer">2017年4月11日　回复</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+
+                    <c:forEach  items="${ commentlist }" var="com">
+                        <div id="info-show">
+                            <ul>
+                                <li>
+                                    <div class="head-face">
+                                        <img src="${pageContext.request.contextPath}/image/1.jpg">
+                                        <p class="username">${com.comusername}</p>
+                                    </div>
+                                    <div class="reply-cont">
+                                        <p class="comment-body">${com.comments}</p>
+                                        <p class="comment-date">评论时间：${com.comdate}</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </c:forEach>
+
                 </div>
             </div>
         </form>

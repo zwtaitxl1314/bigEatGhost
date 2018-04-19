@@ -19,12 +19,12 @@ p,ul,li{margin: 0; padding: 0; list-style: none;}
 
 /* 回复信息 */
 #info-show{float: left;  width: 100%; margin-top: 20px;}
-#info-show li{ width: 100%; height: auto; padding: 10px 0 20px 0; border-bottom: 1px dashed #c0c0c0; float: left;}
+#info-show li{ width: 100%; height: auto; padding: 10px 0 10px 0; border-bottom: 1px dashed #c0c0c0; float: left;}
 #info-show .head-face{width: 10%;  float: left; text-align: center;}
 #info-show .head-face img{width: 50px; height: 50px; border-radius: 50%; box-shadow: 0 0 8px #c0c0c0;}
 
 #info-show .reply-cont{ width: 89%; padding-right: 1%; float: right;}
 #info-show .reply-cont  p{ min-height: 20px; line-height: 20px;  font-family: "微软雅黑"; font-size: 14px;}
-#info-show .reply-cont .username{ color: #ffa500; margin-bottom: 5px;}
-#info-show .reply-cont .comment-body{ color: #999; height: auto;}
-#info-show .reply-cont .comment-footer{font-size: 12px; color: #c0c0c0; margin-top: 10px;}
+.username{ color: #ffa500; margin-bottom: 5px;display: inline-block}
+#info-show .reply-cont .comment-body{ color: #999; height:auto;width: 100%;word-wrap : break-word}
+#info-show .reply-cont .comment-date{font-size: 12px; color: gray; position: relative;top: 20px}

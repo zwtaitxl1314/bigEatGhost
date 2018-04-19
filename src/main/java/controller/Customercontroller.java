@@ -14,7 +14,12 @@ import util.StringHelper;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
+
+import static util.DateHelper.dateFormat;
+import static util.DateHelper.datetime;
 
 @Controller
 @RequestMapping( "/customer/**")
@@ -128,18 +133,17 @@ public class Customercontroller {
         if(cd.save(com)   ){
             System.out.println("保存成功，返回true");
         }
-       // cd.save(com);
+
+        List list = new ArrayList();
+        list = cd.find(comcuisine);
+
+        //System.out.println(comusername + "," + comcuisine + "," + comments + "," + comdate);
+        HttpSession session = request.getSession();
+        //session.setAttribute("comdate", list);
+        System.out.println("list"+list);
+        session.setAttribute("commentlist", list);
         return "yue/阿一鲍鱼";
     }
-
-    /*评论控制器*/
-    @RequestMapping("/return_index")
-    public  String returnindex(HttpServletRequest request){
-        System.out.println("验证码正确，返回主页");
-        return "redirect:/index.jsp";
-    }
-
-
 
     private boolean validateRegist(String name,String username, String password, String confirm, HttpSession session) {
 

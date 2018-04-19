@@ -7,6 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import util.DateHelper;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class CommentDao {
 
     @Autowired
@@ -36,13 +39,14 @@ public class CommentDao {
 
 
     /*查找评论*/
-    public Comments find(String comcuisine) throws DaoException {
+    public List find(String comcuisine) throws DaoException {
         System.out.println("执行查找DAO评论，查找菜品" + comcuisine);
+
+        List list = new ArrayList();
         try {
-            Comments comments = jdbcTemplate.queryForObject("SELECT * FROM user WHERE comcuisine=?", new Comments(), new Object[]{comcuisine});
-            System.out.println(comments);
-            // System.out.println("用户："+user.getUserName()+"，存在,密码："+user.getPassword());
-            return comments;
+            list = jdbcTemplate.queryForList(("SELECT * FROM user WHERE comcuisine=?", new Comments(), new Object[]{comcuisine});
+            System.out.println("list"+list);
+            return list;
         } catch (Exception E) {
             return null;
         }
