@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/font-awesome-4.7.0/css/font-awesome.css" >
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/regist.css" type="text/css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/buttons.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/foot.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/head.css">
 </head>
 <body>
 

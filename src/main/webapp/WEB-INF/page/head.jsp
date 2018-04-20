@@ -2,20 +2,14 @@
 <%@ page language="java" pageEncoding="UTF-8" %>
 <%@ page contentType="text/html;charset=UTF-8" isELIgnored="false" %>
 <%@ page isELIgnored="false" %>
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Title</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/head.css">
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/js/bootstrap-3.3.7-dist/css/bootstrap.css">
-</head>
+
 <script type="text/javascript">
     function logout(){
         location.href="${pageContext.request.contextPath}/customer/unlogin.do" ;
     }
 </script>
-<body>
+
+
 <div class="header">
     <div class="navigation">
         <a href="${pageContext.request.contextPath}/index.jsp"  class="hd-logo" title="美食餐厅" ><img src="${pageContext.request.contextPath}/image/index/logo1.png"></a>
@@ -47,5 +41,3 @@
     </div>
 </div>
 
-</body>
-</html>

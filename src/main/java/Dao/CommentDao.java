@@ -44,7 +44,7 @@ public class CommentDao {
 
         List list = new ArrayList();
         try {
-            list = jdbcTemplate.queryForList(("SELECT * FROM user WHERE comcuisine=?", new Comments(), new Object[]{comcuisine});
+            list = jdbcTemplate.queryForList("SELECT * FROM user WHERE comcuisine=?", new Comments(), new Object[]{comcuisine});
             System.out.println("list"+list);
             return list;
         } catch (Exception E) {

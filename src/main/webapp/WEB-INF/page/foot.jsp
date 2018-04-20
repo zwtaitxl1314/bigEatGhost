@@ -1,14 +1,7 @@
 <%@ page language="java" pageEncoding="UTF-8" %>
 <%@ page contentType="text/html;charset=UTF-8" %>
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Title</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/foot.css">
-</head>
-<body>
+
 <!--页脚-->
 <div class="food-foot">
     <ul>
@@ -31,5 +24,3 @@
         <li></li>
     </ul>
 </div>
-</body>
-</html>

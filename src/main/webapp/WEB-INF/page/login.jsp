@@ -6,7 +6,10 @@
 <head>
     <title>登录</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/foot.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/head.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/login.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/js/bootstrap-3.3.7-dist/css/bootstrap.css">
     <script language="javascript" type="text/javascript">
 
         var code;

@@ -8,14 +8,16 @@
 <head>
     <title>首页</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="js/bootstrap-3.3.7-dist/css/bootstrap.css">
-
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/index.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/js/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/foot.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/head.css">
 </head>
 
-<body>
 
-    <jsp:include page="${pageContext.request.contextPath}/WEB-INF/page/head.jsp" flush="true"/>
+<body>
+<jsp:include page="${pageContext.request.contextPath}/WEB-INF/page/head.jsp" flush="true"/>
+
 
 
     <div id="myCarousel" class="carousel slide">
@@ -235,7 +237,7 @@
     </div>
 
 
-    <jsp:include page="${pageContext.request.contextPath}/WEB-INF/page/foot.jsp" flush="true"/>
+
 
     <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
     <script src="js/jquery.js"></script>
@@ -243,7 +245,10 @@
     <script src="js/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     <!-- Buttons 库的核心文件 -->
     <link rel="stylesheet" href="css/buttons.css">
+<jsp:include page="${pageContext.request.contextPath}/WEB-INF/page/foot.jsp" flush="true"/>
 </body>
+
+
 <style>
 
     .header {
