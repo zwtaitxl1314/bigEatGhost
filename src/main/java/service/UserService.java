@@ -10,6 +10,7 @@ import util.StringHelper;
 public class UserService {
     private UserDao userdao;
 
+    /*保存用户信息*/
     public boolean save( User u){
         System.out.println("准备到dao");
 

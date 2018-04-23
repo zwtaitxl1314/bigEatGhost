@@ -31,8 +31,7 @@
                 checkCode.innerHTML = code;
             }
         }
-        function validateCode()
-        {
+        function validateCode() {
             var inputCode = document.getElementById("inputCode").value;
             if (inputCode.length <= 0)
             {
@@ -49,6 +48,8 @@
                 window.location.href="login.do?username="+username+"&password"+password;
             }
         }
+
+
     </script>
 </head>
 <body onload="createCode()">

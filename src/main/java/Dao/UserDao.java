@@ -48,7 +48,6 @@ public class UserDao {
         try {
             User  user  = jdbcTemplate.queryForObject("SELECT * FROM user WHERE username=?", new User(), new Object[] { username });
             System.out.println(user);
-           // System.out.println("用户："+user.getUserName()+"，存在,密码："+user.getPassword());
             return user;
         }catch (Exception  E){
             return null;

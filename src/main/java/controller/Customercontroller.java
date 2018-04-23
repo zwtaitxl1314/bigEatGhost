@@ -1,6 +1,7 @@
 package controller;
 
 import Dao.CommentDao;
+import Dao.UserDao;
 import entity.Comments;
 import entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +15,8 @@ import util.StringHelper;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -29,6 +32,9 @@ public class Customercontroller {
     private  User user;
     @Autowired
     private  UserService us;
+
+    @Autowired
+    private UserDao userdao;
 
     @Autowired
     private CommentDao cd;
@@ -76,6 +82,22 @@ public class Customercontroller {
         }else {
             System.out.println("注册失败");
             return  "regist";
+        }
+    }
+
+    /*检查用户名*/
+    @RequestMapping("/check")
+    public void check(HttpServletRequest request,HttpServletResponse response) throws IOException {
+
+        response.setContentType("text/html;charset=utf-8");
+        PrintWriter out = response.getWriter();
+
+        String username = request.getParameter("username");
+        System.out.println("检查用户名:"+username);
+        User user = userdao.findByName(username);
+        if(user != null) {
+            System.out.println("用户名存在:"+username);
+            out.println("用户代码已经存在");
         }
     }
 
@@ -214,5 +236,29 @@ public class Customercontroller {
 
     public void setUs(UserService us) {
         this.us = us;
+    }
+
+    public UserDao getUd() {
+        return userdao;
+    }
+
+    public void setUd(UserDao userdao) {
+        this.userdao = userdao;
+    }
+
+    public CommentDao getCd() {
+        return cd;
+    }
+
+    public void setCd(CommentDao cd) {
+        this.cd = cd;
+    }
+
+    public Comments getCom() {
+        return com;
+    }
+
+    public void setCom(Comments com) {
+        this.com = com;
     }
 }
