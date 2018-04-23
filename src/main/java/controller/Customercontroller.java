@@ -135,6 +135,7 @@ public class Customercontroller {
         }
 
         List list = new ArrayList();
+        System.out.println(comcuisine+"..............");
         list = cd.find(comcuisine);
 
         //System.out.println(comusername + "," + comcuisine + "," + comments + "," + comdate);

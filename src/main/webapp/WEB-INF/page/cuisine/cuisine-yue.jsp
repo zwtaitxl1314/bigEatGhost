@@ -7,6 +7,8 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/cuisine.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/js/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/foot.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/head.css">
 </head>
 <body>
     <jsp:include page="${pageContext.request.contextPath}/WEB-INF/page/head.jsp" flush="true"/>

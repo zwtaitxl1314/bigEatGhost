@@ -9,6 +9,8 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/lu.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/js/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/foot.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/head.css">
     <link  rel="stylesheet" href="${pageContext.request.contextPath}/css/main.css" />
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/sinaFaceAndEffec.css" />
 
@@ -113,7 +115,7 @@
             制作成品鲍鱼，用胡萝卜熬制色素，走的时候加蚝油，味精，鸡粉，益鲜素，肉宝王，鲍鱼打欠。
         </div>
 
-        <p class="topic">阿一鲍鱼的教学视频${ commentlist }</p>
+        <p class="topic">阿一鲍鱼的教学视频</p>
 
         <div class="video">
             <embed src="http://player.video.qiyi.com/98f4080341cd68f68f36a84bc82f142b/0/0/w_19rrl7ndp1.swf-albumId=436639609-tvId=436639609-isPurchase=0-cnId=27"
@@ -137,27 +139,29 @@
                                 <textarea class="text"name="comments" id="comments" placeholder="请输入..."></textarea>
                             </div>
                             <div class="tools-box">
-                                <div class="operator-box-btn"><span class="face-icon"  >☺</span></div>
+                                <div class="operator-box-btn"><span class="face-icon" onclick="out()" >☺</span></div>
                                 <button  class="submit-btn" ><input type="button"  value="提交评论" ;/></button>
                             </div>
                         </div>
                     </div>
 
                     <c:forEach  items="${ commentlist }" var="com">
-                        <div id="info-show">
-                            <ul>
-                                <li>
-                                    <div class="head-face">
-                                        <img src="${pageContext.request.contextPath}/image/1.jpg">
-                                        <p class="username">${com.comusername}</p>
-                                    </div>
-                                    <div class="reply-cont">
-                                        <p class="comment-body">${com.comments}</p>
-                                        <p class="comment-date">评论时间：${com.comdate}</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
+                        <c:if test="${com.comcuisine== '阿一鲍鱼'}" >
+                            <div id="info-show">
+                                <ul>
+                                    <li>
+                                        <div class="head-face">
+                                            <img src="${pageContext.request.contextPath}/image/1.jpg">
+                                            <p class="username">${com.comusername}</p>
+                                        </div>
+                                        <div class="reply-cont">
+                                            <p class="comment-body">${com.comcontent}</p>
+                                            <p class="comment-date">评论时间：${com.createDate}</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </c:if>
                     </c:forEach>
 
                 </div>

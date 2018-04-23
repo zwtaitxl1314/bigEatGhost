@@ -40,11 +40,10 @@ public class CommentDao {
 
     /*查找评论*/
     public List find(String comcuisine) throws DaoException {
-        System.out.println("执行查找DAO评论，查找菜品" + comcuisine);
-
+        System.out.println("执行查找DAO评论，查找菜品：" + comcuisine);
         List list = new ArrayList();
         try {
-            list = jdbcTemplate.queryForList("SELECT * FROM user WHERE comcuisine=?", new Comments(), new Object[]{comcuisine});
+            list = jdbcTemplate.queryForList("SELECT * FROM comments ");
             System.out.println("list"+list);
             return list;
         } catch (Exception E) {

@@ -27,6 +27,7 @@ public class UserDao {
     String sql = "INSERT INTO user(name,username,password,address,mobilePhone) VALUE (? , ? , ? , ? , ?)";
     String query = "SELECT * FROM user WHERE username=?";
 
+    /*保存用户资料*/
     public int save(User u) throws DaoException {
         try {
             int i = jdbcTemplate.update(sql, u.getName(), u.getUsername(), u.getPassword(), u.getAddress(), u.getMobilePhone());
@@ -40,6 +41,7 @@ public class UserDao {
         }
     }
 
+    /*用户登录*/
     public User findByName(String username){
 
         System.out.println("执行查找DAO，查找用户"+username);
