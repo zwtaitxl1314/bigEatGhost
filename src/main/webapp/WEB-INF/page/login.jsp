@@ -67,7 +67,7 @@
                 <form action="${pageContext.request.contextPath}/customer/login.do" id="form1" runat="server" onsubmit="validateCode()" method="post">
                     <div class="reg-box">
                         <input id="username"  class="textbox" name="username" placeholder="请输入用户名" type="text">
-                        <input id="password" class="textbox" name="password" placeholder="请输入密码" type="password">
+                        <input id="password" class="textbox" name="password" placeholder="请输入密码" type="password" >
 
                             <div class="verify">
                             <table border="0" cellspacing="5" cellpadding="5" >

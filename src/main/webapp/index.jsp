@@ -16,7 +16,7 @@
 
 
 <body>
-<jsp:include page="${pageContext.request.contextPath}/WEB-INF/page/head.jsp" flush="true"/>
+<jsp:include page="${pageContext.request.contextPath}/goto/head.do"/>
 
 
 
@@ -245,7 +245,7 @@
     <script src="js/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     <!-- Buttons 库的核心文件 -->
     <link rel="stylesheet" href="css/buttons.css">
-<jsp:include page="${pageContext.request.contextPath}/WEB-INF/page/foot.jsp" flush="true"/>
+<jsp:include page="${pageContext.request.contextPath}/goto/foot.do" />
 </body>
 
 

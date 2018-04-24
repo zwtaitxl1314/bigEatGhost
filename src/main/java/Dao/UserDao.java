@@ -27,6 +27,7 @@ public class UserDao {
     String sql = "INSERT INTO user(name,username,password,address,mobilePhone) VALUE (? , ? , ? , ? , ?)";
     String query = "SELECT * FROM user WHERE username=?";
 
+
     /*保存用户资料*/
     public int save(User u) throws DaoException {
         try {
@@ -46,11 +47,28 @@ public class UserDao {
 
         System.out.println("执行查找DAO，查找用户"+username);
         try {
-            User  user  = jdbcTemplate.queryForObject("SELECT * FROM user WHERE username=?", new User(), new Object[] { username });
+            User  user  = jdbcTemplate.queryForObject(query, new User(), new Object[] { username });
             System.out.println(user);
             return user;
         }catch (Exception  E){
             return null;
+        }
+    }
+
+    /*用户资料更新*/
+    public int update(User u ) throws DaoException {
+        try {
+            String name = u.getName();
+            String username = u.getUsername();
+            String add = u.getAddress();
+            String phone = u.getMobilePhone();
+            System.out.println("传到DAO中的内容："+name+","+username+","+add);
+            int i = jdbcTemplate.update("UPDATE user SET name=?,address=?,mobilePhone=? WHERE username=?" , new Object[] {name,add,phone,username});
+                System.out.println("返回的数值" + i);
+            return i;
+        }catch (DataAccessException dae){
+            System.out.println("保存失败");
+            throw new DaoException( "保存失败" , dae );
         }
     }
 

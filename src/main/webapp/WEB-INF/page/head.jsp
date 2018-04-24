@@ -2,10 +2,17 @@
 <%@ page language="java" pageEncoding="UTF-8" %>
 <%@ page contentType="text/html;charset=UTF-8" isELIgnored="false" %>
 <%@ page isELIgnored="false" %>
+<script type="text/javascript" src="${pageContext.request.contextPath}/css/jquery-3.3.1/jquery-3.3.1.js"></script>
 
 <script type="text/javascript">
     function logout(){
         location.href="${pageContext.request.contextPath}/customer/unlogin.do" ;
+    }
+
+    function goto(){
+        var username =document.getElementById('username').innerText;
+        console.log(username);
+        console.log(window.location.href="/goto/message.do?username="+username);
     }
 </script>
 
@@ -29,7 +36,7 @@
             </c:if>
             <c:if  test="${ not empty user }">
                 <li class="user">
-                    欢迎您：<a href="">${user.username}</a>
+                    欢迎您：<a  onclick="goto()" id='username'>${user.username}</a>
                 </li>
                 <li class="nav_showUserMessage_logout">
                     <a href="javascript:void(0)" onclick="logout()">

@@ -85,7 +85,7 @@ public class Customercontroller {
         }
     }
 
-    /*检查用户名*/
+    /*注册时检查用户名*/
     @RequestMapping("/check")
     public void check(HttpServletRequest request,HttpServletResponse response) throws IOException {
 
@@ -97,7 +97,7 @@ public class Customercontroller {
         User user = userdao.findByName(username);
         if(user != null) {
             System.out.println("用户名存在:"+username);
-            out.println("用户代码已经存在");
+            out.println("用户名被注册了");
         }
     }
 
@@ -166,6 +166,26 @@ public class Customercontroller {
         System.out.println("list"+list);
         session.setAttribute("commentlist", list);
         return "yue/阿一鲍鱼";
+    }
+
+    /*用户信息控制器*/
+    @RequestMapping("/message")
+    public  String message(HttpServletRequest request){
+
+        String name = request.getParameter("name");
+        String username = request.getParameter("username");
+        String add  = request.getParameter("add");
+        String phone  = request.getParameter("phone");
+
+        user.setName(name);
+        user.setUsername(username);
+        user.setAddress(add);
+        user.setMobilePhone(phone);
+
+        userdao.update(user);
+
+
+        return null;
     }
 
     private boolean validateRegist(String name,String username, String password, String confirm, HttpSession session) {
