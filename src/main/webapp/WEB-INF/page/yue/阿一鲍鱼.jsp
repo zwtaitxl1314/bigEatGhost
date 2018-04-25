@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>鲁菜</title>
+    <title>${comcuisine}</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/lu.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/js/bootstrap-3.3.7-dist/css/bootstrap.css">
@@ -22,7 +22,7 @@
 
     <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
         <div class="head_img">
-            <img src="${pageContext.request.contextPath}/image/粤菜/阿一鲍鱼.jpg">
+            <img src="${pageContext.request.contextPath}/image/粤菜/${comcuisine}.jpg">
             <p class="cuisinename" id="cuisinename">${comcuisine}</p>
             <fieldset class="benefits ">
                 <legend>功效</legend>
@@ -79,7 +79,7 @@
             </ul>
         </fieldset>
 
-        <p class="topic">阿一鲍鱼的做法步骤</p>
+        <p class="topic">${comcuisine}的做法步骤</p>
         <div class="practice">
             <div class="recipeStep_num">1</div>
             选择原料，酒店做的鲍鱼一般是8头，10头，12头的
@@ -115,7 +115,7 @@
             制作成品鲍鱼，用胡萝卜熬制色素，走的时候加蚝油，味精，鸡粉，益鲜素，肉宝王，鲍鱼打欠。
         </div>
 
-        <p class="topic">阿一鲍鱼的教学视频</p>
+        <p class="topic">${comcuisine}的教学视频</p>
 
         <div class="video">
             <embed src="http://player.video.qiyi.com/98f4080341cd68f68f36a84bc82f142b/0/0/w_19rrl7ndp1.swf-albumId=436639609-tvId=436639609-isPurchase=0-cnId=27"
@@ -146,7 +146,7 @@
                     </div>
 
                     <c:forEach  items="${ commentlist }" var="com">
-                        <c:if test="${com.comcuisine== '阿一鲍鱼'}" >
+                        <c:if test="${com.comcuisine== comcuisine}" >
                             <div id="info-show">
                                 <ul>
                                     <li>

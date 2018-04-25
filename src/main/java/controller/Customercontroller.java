@@ -165,7 +165,7 @@ public class Customercontroller {
         //session.setAttribute("comdate", list);
         System.out.println("list"+list);
         session.setAttribute("commentlist", list);
-        return "yue/阿一鲍鱼";
+        return "yue/"+comcuisine;
     }
 
     /*用户信息控制器*/

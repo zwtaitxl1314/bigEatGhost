@@ -21,11 +21,8 @@ public class YueController {
     @Autowired
     private CommentDao cd;
 
-    @Autowired
-    private Comments com;
-
     @RequestMapping("/ayi")
-    public String more(HttpServletRequest request){
+    public String ayi(HttpServletRequest request){
         String name="阿一鲍鱼";
         HttpSession session = request.getSession();
         session.setAttribute("comcuisine",name);
@@ -38,6 +35,22 @@ public class YueController {
         System.out.println("list"+list);
         session.setAttribute("commentlist", list);
         return "yue/阿一鲍鱼";
+    }
+
+    @RequestMapping("/to")
+    public String to(HttpServletRequest request){
+        String cuisine = request.getParameter("cuisine");
+        HttpSession session = request.getSession();
+        session.setAttribute("comcuisine",cuisine);
+        System.out.println("跳转到"+cuisine+"界面");
+
+        List list = new ArrayList();
+        list = cd.find(cuisine);
+
+        System.out.println("list"+list);
+        session.setAttribute("commentlist", list);
+
+        return "yue/"+cuisine;
     }
 
 }
