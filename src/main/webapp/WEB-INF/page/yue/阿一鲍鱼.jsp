@@ -18,7 +18,7 @@
 
 </head>
 <body>
-    <jsp:include page="${pageContext.request.contextPath}/WEB-INF/page/head.jsp" flush="true"/>
+    <jsp:include page="/WEB-INF/page/head.jsp" flush="true"/>
 
     <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
         <div class="head_img">
@@ -185,5 +185,5 @@
     </script>
 
 </body>
-<jsp:include page="${pageContext.request.contextPath}/WEB-INF/page/foot.jsp" flush="true"/>
+<jsp:include page="/WEB-INF/page/foot.jsp" flush="true"/>
 </html>

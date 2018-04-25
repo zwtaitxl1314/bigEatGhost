@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/head.css">
 </head>
 <body>
-    <jsp:include page="${pageContext.request.contextPath}/WEB-INF/page/head.jsp" flush="true"/>
+    <jsp:include page="/WEB-INF/page/head.jsp" flush="true"/>
 
 <div class="appreciate-text">
     <img src="${pageContext.request.contextPath}/image/粤.jpg">
@@ -113,7 +113,7 @@
 
     </div>
 
-    <jsp:include page="${pageContext.request.contextPath}/WEB-INF/page/foot.jsp" flush="true"/>
+    <jsp:include page="/WEB-INF/page/foot.jsp" flush="true"/>
 
 
 </body>

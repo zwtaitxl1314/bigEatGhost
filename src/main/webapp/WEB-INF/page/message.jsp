@@ -11,69 +11,71 @@
 </head>
 
 <body>
-<script >
+    <script >
 
-    //页面加载时将input框和保存和取消隐藏
-    $(document).ready(function(){
-        $("input[name='Modify1']").hide();
-        $("input[name='Modify2']").hide();
-        $("input[name='Modify3']").hide();
-        $("input[name='Modify4']").hide();
-        $("div[class='btn2']").hide();
-        $("div[class='btn3']").hide();
-    });
+        //页面加载时将input框和保存和取消隐藏
+        $(document).ready(function(){
+            $("input[name='Modify1']").hide();
+            $("input[name='Modify2']").hide();
+            $("input[name='Modify3']").hide();
+            $("input[name='Modify4']").hide();
+            $("div[class='btn2']").hide();
+            $("div[class='btn3']").hide();
+        });
 
-    //点击编辑显示input框，隐藏编辑，显示保存和取消
-    $(function(){
-        $("a[rel='edit']").click(function () {
-            $(this).parent().parent().find("div[class='btn1']").hide();
-            $(this).parent().parent().find("div[class='btn2']").show();
-            $(this).parent().parent().find("div[class='btn3']").show();
+        //点击编辑显示input框，隐藏编辑，显示保存和取消
+        $(function(){
+            $("a[rel='edit']").click(function () {
+                $(this).parent().parent().find("div[class='btn1']").hide();
+                $(this).parent().parent().find("div[class='btn2']").show();
+                $(this).parent().parent().find("div[class='btn3']").show();
 
-            $(this).parent().parent().find("span[class='right_text']").hide();
-            $(this).parent().parent().find("span[class='username']").show();
-            $(this).parent().parent().find("input[name='Modify1']").show();
-            $(this).parent().parent().find("input[name='Modify3']").show();
-            $(this).parent().parent().find("input[name='Modify4']").show();
-        })
-    });
+                $(this).parent().parent().find("span[class='right_text']").hide();
+                $(this).parent().parent().find("span[class='username']").show();
+                $(this).parent().parent().find("input[name='Modify1']").show();
+                $(this).parent().parent().find("input[name='Modify3']").show();
+                $(this).parent().parent().find("input[name='Modify4']").show();
+            })
+        });
 
-    //点击保存后获取input框的值，用ajax发送到后台进行数据库更改操作
-    $(function () {
-        $("a[rel='update']").click(function () {
-            var name = $(this).parent().parent().find("input[name='Modify1']").val();
-            var username = $(this).parent().parent().find("input[name='Modify2']").val();
-            var add = $(this).parent().parent().find("input[name='Modify3']").val();
-            var phone = $(this).parent().parent().find("input[name='Modify4']").val();
-            $.ajax({
-                type: "post",
-                url: "${pageContext.request.contextPath}/customer/message.do",
-                data: {name: name, username: username,add:add,phone:phone},
-            }).done(function (data) {
-                if (data == "1") {
-                    alert("保存成功！");
-                    window.location.reload();
-                }
-                else
-                    alert("保存失败！");
-            });
-        })
-    });
+        //点击保存后获取input框的值，用ajax发送到后台进行数据库更改操作
+        $(function () {
+            $("a[rel='update']").click(function () {
+                var name = $(this).parent().parent().find("input[name='Modify1']").val();
+                var username = $(this).parent().parent().find("input[name='Modify2']").val();
+                var add = $(this).parent().parent().find("input[name='Modify3']").val();
+                var phone = $(this).parent().parent().find("input[name='Modify4']").val();
+                $.ajax({
+                    type: "post",
+                    url: "${pageContext.request.contextPath}/customer/message.do",
+                    data: {name: name, username: username,add:add,phone:phone},
+                }).done(function (data) {
+                    if (data == "1") {
+                        alert("保存成功！");
+                        window.location.reload();
+                    }
+                    else
+                        alert("保存失败！");
+                });
+            })
+        });
 
-    //点击取消将input框隐藏和保存和取消隐藏，将编辑显示出来
-    $(function () {
-        $("a[rel='cancel']").click(function () {
-            $(this).parent().parent().find("div[class='btn1']").show();
-            $(this).parent().parent().find("span[class='right_text']").show();
-            $(this).parent().parent().find("div[class='btn2']").hide();
-            $(this).parent().parent().find("div[class='btn3']").hide();
-            $(this).parent().parent().find("input[name='Modify1']").hide();
-            $(this).parent().parent().find("input[name='Modify2']").hide();
-            $(this).parent().parent().find("input[name='Modify3']").hide();
-            $(this).parent().parent().find("input[name='Modify4']").hide();
-        })
-    });
-</script>
+        //点击取消将input框隐藏和保存和取消隐藏，将编辑显示出来
+        $(function () {
+            $("a[rel='cancel']").click(function () {
+                $(this).parent().parent().find("div[class='btn1']").show();
+                $(this).parent().parent().find("span[class='right_text']").show();
+                $(this).parent().parent().find("div[class='btn2']").hide();
+                $(this).parent().parent().find("div[class='btn3']").hide();
+                $(this).parent().parent().find("input[name='Modify1']").hide();
+                $(this).parent().parent().find("input[name='Modify2']").hide();
+                $(this).parent().parent().find("input[name='Modify3']").hide();
+                $(this).parent().parent().find("input[name='Modify4']").hide();
+            })
+        });
+    </script>
+
+    <jsp:include page="/WEB-INF/page/head.jsp" flush="true"/>
 
     <div class="row col-lg-6 col-lg-offset-3 col-xs-8 col-xs-offset-2 distance">
 
@@ -138,6 +140,8 @@
 
 
     </div>
+
+    <jsp:include page="/WEB-INF/page/foot.jsp" flush="true"/>
 
 </body>
 </html>
