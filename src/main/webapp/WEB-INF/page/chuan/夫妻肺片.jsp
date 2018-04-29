@@ -22,18 +22,13 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/粤菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/川菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>夫妻肺片（英文名：Sliced Beef and Ox Tongue in Chilli Sauce；Mr and Mrs Smith）是一道四川成都名菜，由郭朝华、张田政夫妻创制而成。通常以牛头皮、牛心、牛舌、牛肚、牛肉为主料，进行卤制，而后切片。再配以辣椒油、花椒面等辅料制成红油浇在上面。其制作精细，色泽美观，质嫩味鲜，麻辣浓香，非常适口。</p>
                 </li>
             </ul>
         </fieldset>
@@ -44,59 +39,82 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li>三黄鸡 <p>750克 </p></li>
+            <li>卤猪肘 <p>1/2个 </p></li>
+            <li>卤猪舌 <p>1个 </p></li>
+            <li>卤猪心 <p>1个 </p></li>
+            <li>卤猪耳 <p>1个 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li>姜 <p>50克 </p></li>
-            <li>花生油  <p>60克 </p></li>
-            <li>精盐  <p>5克 </p></li>
+            <li>白芝麻 <p>10克 </p></li>
+            <li>花生仁 <p>20克 </p></li>
+            <li>小葱 <p>5克 </p></li>
         </ul>
     </fieldset>
 
     <fieldset class="ingredients">
-        <legend>口味</legend>
+        <legend>味汁</legend>
         <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
+            <li>辣椒油 <p>10克 </p></li>
+            <li>花椒 <p>5克 </p></li>
+        </ul>
+    </fieldset>
+
+    <fieldset class="ingredients">
+        <legend>辣椒油材料</legend>
+        <ul>
+            <li>干辣椒 <p>150克 </p></li>
+            <li>花椒 <p>10克 </p></li>
+            <li>小辣椒 <p>30克 </p></li>
+            <li>紫草 <p>3克 </p></li>
+            <li>白芝麻 <p>50克 </p></li>
+            <li>小葱 <p>5克 </p></li>
+            <li>香叶 <p>3片 </p></li>
+            <li>姜 <p>5克 </p></li>
+            <li>桂皮 <p>1块 </p></li>
+            <li>草果 <p>1个 </p></li>
+            <li>姜植物油 <p>200毫升5克 </p></li>
         </ul>
     </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-        鸡清洗干净，去鸡爪，买的时候注意选择750克左右的，这样容易成熟，肉质也非常细嫩。在清理鸡的内脏时，注意将鸡肺彻底清洗干净。
+        准备干辣椒150克和小辣椒30克
+        辣椒非常的辣，所以一定要少放，除非特别能吃辣的，可以多放一些
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-        煮锅放到火上，加入清水，大火烧开，用手提起鸡头，将鸡身放入水中浸烫，3秒钟后提起，将鸡翅和鸡腿用手整理一下，再次放入水中浸烫，如此反复浸烫三次，使鸡的腹腔内外温度保持一致，注意每次浸烫的时间不要太长。
+        两种辣椒剪开到处籽，籽留好，籽还是比较辣比较香的，所以尽量留下
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-        之后用煮鸡的水，将整只鸡放入锅中浸泡，盖上锅盖，注意水一定要没过整个鸡身，浸泡20——30分钟捞出。也可以用虾眼水小火煮15分钟。之后去除鸡的头颈。
+        锅烧微热，倒一点植物油中小火，煸剪好的辣椒，两种辣椒分开煸，煸出香辣气和水气，大约一分钟就差不多了，最后辣椒快煸好的时候把辣椒籽放进去煸几十秒就出来，因为籽非常容易糊
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-        将煮熟的鸡立刻放入冷水中浸泡，如果想效果更好可以用冰水来浸泡鸡身，10分钟后凉透捞出（注意一定要凉透，可以多浸泡一会儿）。之后将鸡身控干，可以用毛巾将鸡的全身表皮上的水分擦拭干净。
+        炒完的辣椒晾凉后，放入打碎机，也就是五秒钟就这么细了
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-        姜去皮，用刀剁成碎末，最好能用搅打器搅打一下，这样姜蓉会更加细腻，加入精盐装入小碗中备用。如果喜欢也可以自制酱油调料或者红油调料。
+        把辣椒粉、芝麻、辣椒籽、花椒和紫草放进一个盆里
+        准备浇油，植物油和三种香料（香叶、桂皮和草果）下锅浇至八成热，把葱段姜片下去炸金黄后和香料一起捞出，然后把油分次浇在辣椒粉里面，要快速搅拌，大约用一半油后，剩下的一半油晾一会，在倒筋盆里就可以了
     </div>
     <div class="practice">
         <div class="recipeStep_num">6</div>
-        把鸡切成大小均匀的切件，如果想让鸡的品相更好一点，也可以捞出控干后，在鸡身外面涂抹一层芝麻油，这样整只鸡看上去更加润泽、颜色也更黄嫩。
+        准备主料：卤猪肘30克、卤猪舌1个、卤猪心1个、卤猪耳1个
+        花生用热水把皮泡涨，去皮炸酥备用，芝麻炒熟，花椒炒香辗末备用
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">7</div>
+        切点黄瓜垫底，吃起来比较清爽，不会太油腻，猪肘，猪舌、猪心切片、猪耳切丝、码在黄瓜丝上，把调好的味汁浇在上边撒芝麻、花生碎和香葱即可
     </div>
 
-
     <p class="topic">${comcuisine}的教学视频</p>
-
     <div class="video">
-        <embed src="http://player.video.qiyi.com/b96a20c6bd0380a454363d6cbd067e0d/0/0/v_19rrn3yu6s.swf-albumId=322943800-tvId=322943800-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+        <embed src="http://player.video.qiyi.com/665adf13b7bece107199529e2eec099b/0/0/w_19rt50r2mp.swf-albumId=5736394109-tvId=5736394109-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

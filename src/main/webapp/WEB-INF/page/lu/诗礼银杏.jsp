@@ -22,18 +22,13 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/粤菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/鲁菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>诗礼银杏是一道地方传统名菜，属于鲁菜-孔府菜。在鲁菜中，用白果做的诗礼银杏是孔府最上等名菜之一。此菜清香甜美，柔韧筋道，可解酒止咳。</p>
                 </li>
             </ul>
         </fieldset>
@@ -44,60 +39,49 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li>三黄鸡 <p>750克 </p></li>
+            <li>白果(干) <p>200克 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li>姜 <p>50克 </p></li>
-            <li>花生油  <p>60克 </p></li>
-            <li>精盐  <p>5克 </p></li>
+            <li>冰糖 <p>50克 </p></li>
+            <li>白糖 <p>30克 </p></li>
+            <li>糖桂花 <p>20克 </p></li>
+            <li>蜂蜜 <p>20克 </p></li>
+            <li>猪油(板油) <p>20克 </p></li>
+            <li>陈皮 <p>3克 </p></li>
+            <li>水 <p>60克 </p></li>
         </ul>
     </fieldset>
 
     <fieldset class="ingredients">
-        <legend>口味</legend>
+        <legend>菜品特色</legend>
         <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
+            <li>1、在鲁菜中，用白果做的“诗礼银杏”是孔府传统名菜之一。 </li>
+            <li>2、此菜清香甜美，柔韧筋道，可解酒止咳，是孔府宴中的独具特色的菜。成菜色如琥珀，清新淡鲜，酥烂甘馥，十分宜人，是孔府中的名肴珍品。 </li>
+            <li>3、相传，孔子教子孔鲤学诗礼曰：“不学诗，无以言，不学礼，无以立。”嗣后传为美谈。其后裔自称为“诗礼世家”。 </li>
+            <li>4、53代“衍圣公”孔治建“诗礼堂”，堂前有两株银杏，种子硕大丰满。以后孔府请客，总要用此银杏的种子做一道甜菜，用以缅怀孔老夫子的教导，便美其名曰：诗礼银杏。 </li>
         </ul>
     </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-        鸡清洗干净，去鸡爪，买的时候注意选择750克左右的，这样容易成熟，肉质也非常细嫩。在清理鸡的内脏时，注意将鸡肺彻底清洗干净。
+        先将银杏果仁入锅煮酥取出。
+        锅放入猪大油，烧到5成熟时，放入冰糖炒制成银红色时
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-        煮锅放到火上，加入清水，大火烧开，用手提起鸡头，将鸡身放入水中浸烫，3秒钟后提起，将鸡翅和鸡腿用手整理一下，再次放入水中浸烫，如此反复浸烫三次，使鸡的腹腔内外温度保持一致，注意每次浸烫的时间不要太长。
+        然后加清水60克、白糖、蜂蜜、陈皮煮开
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-        之后用煮鸡的水，将整只鸡放入锅中浸泡，盖上锅盖，注意水一定要没过整个鸡身，浸泡20——30分钟捞出。也可以用虾眼水小火煮15分钟。之后去除鸡的头颈。
+        倒入白果，煮至汁浓，调入糖桂花即可
     </div>
-    <div class="practice">
-        <div class="recipeStep_num">4</div>
-        将煮熟的鸡立刻放入冷水中浸泡，如果想效果更好可以用冰水来浸泡鸡身，10分钟后凉透捞出（注意一定要凉透，可以多浸泡一会儿）。之后将鸡身控干，可以用毛巾将鸡的全身表皮上的水分擦拭干净。
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">5</div>
-        姜去皮，用刀剁成碎末，最好能用搅打器搅打一下，这样姜蓉会更加细腻，加入精盐装入小碗中备用。如果喜欢也可以自制酱油调料或者红油调料。
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">6</div>
-        把鸡切成大小均匀的切件，如果想让鸡的品相更好一点，也可以捞出控干后，在鸡身外面涂抹一层芝麻油，这样整只鸡看上去更加润泽、颜色也更黄嫩。
-    </div>
-
-
     <p class="topic">${comcuisine}的教学视频</p>
-
+    <embed src="http://player.video.qiyi.com/9b601897a84108cad549eee2118c52d9/0/0/w_19rs0win1p.swf-albumId=3312812609-tvId=3312812609-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     <div class="video">
-        <embed src="http://player.video.qiyi.com/b96a20c6bd0380a454363d6cbd067e0d/0/0/v_19rrn3yu6s.swf-albumId=322943800-tvId=322943800-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
-    </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >
         <div id="content" style="width: 700px; height: auto;margin : 40px auto 0 auto;">

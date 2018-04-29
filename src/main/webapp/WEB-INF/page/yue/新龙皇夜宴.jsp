@@ -44,22 +44,27 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>龙虾 <p>700克 </p></li>
+            <li>石斑 <p>30克 </p></li>
+            <li>带子 <p>30克 </p></li>
+            <li>螺片 <p>30克 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>蒜耳 <p>15克 </p></li>
+            <li>味精 <p>1克 </p></li>
+            <li>胡椒粉 <p>1克 </p></li>
+            <li>生油 <p>100克 </p></li>
+            <li>糖 <p>5克 </p></li>
+            <li>料酒 <p>5克 </p></li>
+            <li>香油 <p>5克 </p></li>
+            <li>日本芥末 <p>5克 </p></li>
+            <li>精盐 <p>3克 </p></li>
+            <li>姜末 <p>10克 </p></li>
+            <li>酱油 <p>10克 </p></li>
+
         </ul>
     </fieldset>
 
@@ -76,28 +81,20 @@
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        龙虾入沸水煮5分钟，取肉留头、尾；
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        将龙虾肉、石斑肉、螺片、带子用味精、糖、料酒、胡椒粉略腌；
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        用七成热油炒虾肉1分钟后加姜末、蒜耳，稍后取出；
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        虾肉连同虾头、尾，依次摆放盘中，淋明油并佐以芥末和酱油伴食。
     </div>
-    <div class="practice">
-        <div class="recipeStep_num">5</div>
-
-    </div>
-
-    <p class="topic">${comcuisine}的教学视频</p>
-
-    <div class="video">
 
     </div>
 

@@ -22,7 +22,7 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/粤菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/川菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
             <legend>功效</legend>
@@ -44,15 +44,20 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li>三黄鸡 <p>750克 </p></li>
+            <li>栗子(鲜)<p>适量  </p></li>
+            <li>鸡腿 <p>1个 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li>姜 <p>50克 </p></li>
-            <li>花生油  <p>60克 </p></li>
-            <li>精盐  <p>5克 </p></li>
+            <li>色拉油 <p>适量 </p></li>
+            <li>食盐 <p>适量 </p></li>
+            <li>酱油 <p>适量 </p></li>
+            <li>姜 <p>适量 </p></li>
+            <li>料酒 <p>适量 </p></li>
+            <li>小葱 <p>适量 </p></li>
+            <li>白糖 <p>适量 </p></li>
         </ul>
     </fieldset>
 
@@ -69,34 +74,28 @@
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-        鸡清洗干净，去鸡爪，买的时候注意选择750克左右的，这样容易成熟，肉质也非常细嫩。在清理鸡的内脏时，注意将鸡肺彻底清洗干净。
+        去壳的板栗入锅煮4分钟左右捞出沥干水备用
+        锅中放油，油的量可以稍多点，放入板栗炒到表面变色后捞出备用
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-        煮锅放到火上，加入清水，大火烧开，用手提起鸡头，将鸡身放入水中浸烫，3秒钟后提起，将鸡翅和鸡腿用手整理一下，再次放入水中浸烫，如此反复浸烫三次，使鸡的腹腔内外温度保持一致，注意每次浸烫的时间不要太长。
+        余油再次烧热，放入葱姜片爆香，倒入鸡块翻炒
+        鸡块表面微黄后调入料酒，酱油，盐，少许白糖加入板栗
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-        之后用煮鸡的水，将整只鸡放入锅中浸泡，盖上锅盖，注意水一定要没过整个鸡身，浸泡20——30分钟捞出。也可以用虾眼水小火煮15分钟。之后去除鸡的头颈。
+        倒入开水，大火烧开后转小火盖上盖，煮20分钟左右
+        再大火收干水份，撒入葱段即可
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-        将煮熟的鸡立刻放入冷水中浸泡，如果想效果更好可以用冰水来浸泡鸡身，10分钟后凉透捞出（注意一定要凉透，可以多浸泡一会儿）。之后将鸡身控干，可以用毛巾将鸡的全身表皮上的水分擦拭干净。
+        烧栗子之前先把它焯水煮个3、4分钟，再过油炸一下，再烧就好了，又容易烧透又容易入味，不信你试试～
     </div>
-    <div class="practice">
-        <div class="recipeStep_num">5</div>
-        姜去皮，用刀剁成碎末，最好能用搅打器搅打一下，这样姜蓉会更加细腻，加入精盐装入小碗中备用。如果喜欢也可以自制酱油调料或者红油调料。
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">6</div>
-        把鸡切成大小均匀的切件，如果想让鸡的品相更好一点，也可以捞出控干后，在鸡身外面涂抹一层芝麻油，这样整只鸡看上去更加润泽、颜色也更黄嫩。
-    </div>
-
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-        <embed src="http://player.video.qiyi.com/b96a20c6bd0380a454363d6cbd067e0d/0/0/v_19rrn3yu6s.swf-albumId=322943800-tvId=322943800-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+        <embed src="http://player.video.qiyi.com/d1f3f76868716d565fb96b1c35fb2905/0/0/w_19rr031pjd.swf-albumId=1310977509-tvId=1310977509-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

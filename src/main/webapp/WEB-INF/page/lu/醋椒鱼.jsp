@@ -22,7 +22,7 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/粤菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/鲁菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
             <legend>功效</legend>
@@ -44,15 +44,26 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li>三黄鸡 <p>750克 </p></li>
+            <li>小金鱼<p>300克  </p></li>
         </ul>
     </fieldset>
+
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li>姜 <p>50克 </p></li>
-            <li>花生油  <p>60克 </p></li>
-            <li>精盐  <p>5克 </p></li>
+            <li>白胡椒粉 <p>少许 </p></li>
+            <li>料酒 <p>适量 </p></li>
+            <li>白糖<p>3勺 </p></li>
+            <li>醋 <p>3勺 </p></li>
+            <li>酱油 <p>2勺 </p></li>
+            <li>葱花 <p>适量 </p></li>
+            <li>盐<p>少量  </p></li>
+            <li>蒜未 <p>适量 </p></li>
+            <li>姜丝 <p>思量 </p></li>
+            <li>干辣椒 <p>七个 </p></li>
+            <li>番茄酱 <p>一勺半 </p></li>
+            <li>花椒<p>九颗  </p></li>
+            <li>淀粉 <p>一勺 </p></li>
         </ul>
     </fieldset>
 
@@ -69,34 +80,34 @@
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-        鸡清洗干净，去鸡爪，买的时候注意选择750克左右的，这样容易成熟，肉质也非常细嫩。在清理鸡的内脏时，注意将鸡肺彻底清洗干净。
+        鱼，洗净备用
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-        煮锅放到火上，加入清水，大火烧开，用手提起鸡头，将鸡身放入水中浸烫，3秒钟后提起，将鸡翅和鸡腿用手整理一下，再次放入水中浸烫，如此反复浸烫三次，使鸡的腹腔内外温度保持一致，注意每次浸烫的时间不要太长。
+        切好备料
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-        之后用煮鸡的水，将整只鸡放入锅中浸泡，盖上锅盖，注意水一定要没过整个鸡身，浸泡20——30分钟捞出。也可以用虾眼水小火煮15分钟。之后去除鸡的头颈。
+        锅内放入油，花椒烧至八成热下入鱼
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-        将煮熟的鸡立刻放入冷水中浸泡，如果想效果更好可以用冰水来浸泡鸡身，10分钟后凉透捞出（注意一定要凉透，可以多浸泡一会儿）。之后将鸡身控干，可以用毛巾将鸡的全身表皮上的水分擦拭干净。
+        炸至金黄，也可以炸两遍
+
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-        姜去皮，用刀剁成碎末，最好能用搅打器搅打一下，这样姜蓉会更加细腻，加入精盐装入小碗中备用。如果喜欢也可以自制酱油调料或者红油调料。
+        锅内留底油，放入辣椒番茄酱煸炒
     </div>
+
     <div class="practice">
         <div class="recipeStep_num">6</div>
-        把鸡切成大小均匀的切件，如果想让鸡的品相更好一点，也可以捞出控干后，在鸡身外面涂抹一层芝麻油，这样整只鸡看上去更加润泽、颜色也更黄嫩。
+        倒入伴好的调料，和鱼， 搅拌均匀，出锅。
     </div>
-
-
     <p class="topic">${comcuisine}的教学视频</p>
-
+    <embed id='v_player_cctv' width='960' height='540' flashvars='adCalls=http%3A//galaxy.bjcathay.com/s%3Fz%3Dcathay%26c%3D265%26op%3D1%26_page_group%3Ddianbo%26_subsite%3Dtv%26_CHANNEL%3D1%26_sorts%3D1%26_maima1%3D23%26_maima2%3D02%26_maima3%3D01%26_maima4%3D00%26_pindao%3DzCCTV-1_E9_AB_98_E6_B8_85%26_shipinji%3Dz_E5_A4_A9_E5_A4_A9_E9_A5_AE_E9_A3_9F%26_shichang%3D4%26videoid%3D1568e2a9f3cd4b41b11ac0d7148959aa%7B%21@%23%7Dhttp%3A//galaxy.bjcathay.com/s%3Fz%3Dcathay%26c%3D266%26op%3D1%26_page_group%3Ddianbo%26_subsite%3Dtv%26_CHANNEL%3D1%26_sorts%3D1%26_maima1%3D23%26_maima2%3D02%26_maima3%3D01%26_maima4%3D00%26_pindao%3DzCCTV-1_E9_AB_98_E6_B8_85%26_shipinji%3Dz_E5_A4_A9_E5_A4_A9_E9_A5_AE_E9_A3_9F%26_shichang%3D4%26videoid%3D1568e2a9f3cd4b41b11ac0d7148959aa%7B%21@%23%7Dhttp%3A//galaxy.bjcathay.com/s%3Fz%3Dcathay%26c%3D267%26op%3D1%26_page_group%3Ddianbo%26_subsite%3Dtv%26_CHANNEL%3D1%26_sorts%3D1%26_maima1%3D23%26_maima2%3D02%26_maima3%3D01%26_maima4%3D00%26_pindao%3DzCCTV-1_E9_AB_98_E6_B8_85%26_shipinji%3Dz_E5_A4_A9_E5_A4_A9_E9_A5_AE_E9_A3_9F%26_shichang%3D4%26videoid%3D1568e2a9f3cd4b41b11ac0d7148959aa%7B%21@%23%7Dhttp%3A//galaxy.bjcathay.com/s%3Fz%3Dcathay%26c%3D268%26op%3D1%26_page_group%3Ddianbo%26_subsite%3Dtv%26_CHANNEL%3D1%26_sorts%3D1%26_maima1%3D23%26_maima2%3D02%26_maima3%3D01%26_maima4%3D00%26_pindao%3DzCCTV-1_E9_AB_98_E6_B8_85%26_shipinji%3Dz_E5_A4_A9_E5_A4_A9_E9_A5_AE_E9_A3_9F%26_shichang%3D4%26videoid%3D1568e2a9f3cd4b41b11ac0d7148959aa&adAfter=http%3A//galaxy.bjcathay.com/s%3Fz%3Dcathay%26c%3D271%26op%3D1%26_page_group%3Ddianbo%26_subsite%3Dtv%26_CHANNEL%3D1%26_sorts%3D1%26_maima1%3D23%26_maima2%3D02%26_maima3%3D01%26_maima4%3D00%26_pindao%3DzCCTV-1_E9_AB_98_E6_B8_85%26_shipinji%3Dz_E5_A4_A9_E5_A4_A9_E9_A5_AE_E9_A3_9F%26_shichang%3D4%26videoid%3D1568e2a9f3cd4b41b11ac0d7148959aa&adPause=http%3A//galaxy.bjcathay.com/s%3Fz%3Dcathay%26c%3D274%26op%3D1%26_page_group%3Ddianbo%26_subsite%3Dtv%26_CHANNEL%3D1%26_sorts%3D1%26_maima1%3D23%26_maima2%3D02%26_maima3%3D01%26_maima4%3D00%26_pindao%3DzCCTV-1_E9_AB_98_E6_B8_85%26_shipinji%3Dz_E5_A4_A9_E5_A4_A9_E9_A5_AE_E9_A3_9F%26_shichang%3D4%26videoid%3D1568e2a9f3cd4b41b11ac0d7148959aa&adBanner=http%3A//galaxy.bjcathay.com/s%3Fz%3Dcathay%26c%3D276%26op%3D1%26_page_group%3Ddianbo%26_subsite%3Dtv%26_CHANNEL%3D1%26_sorts%3D1%26_maima1%3D23%26_maima2%3D02%26_maima3%3D01%26_maima4%3D00%26_pindao%3DzCCTV-1_E9_AB_98_E6_B8_85%26_shipinji%3Dz_E5_A4_A9_E5_A4_A9_E9_A5_AE_E9_A3_9F%26_shichang%3D4%26videoid%3D1568e2a9f3cd4b41b11ac0d7148959aa&videoId=VIDE100193841442&filePath=&isAutoPlay=true&url=http://tv.cntv.cn/video/C10405/1568e2a9f3cd4b41b11ac0d7148959aa&tai=tv&configPath=http://js.player.cntv.cn/xml/config/outside.xml&widgetsConfig=http://js.player.cntv.cn/xml/widgetsConfig/common.xml&languageConfig=&hour24DataURL=VodCycleData.xml&outsideChannelId=channelBugu&videoCenterId=1568e2a9f3cd4b41b11ac0d7148959aa' allowscriptaccess='always' allowfullscreen='true' menu='false' quality='best' bgcolor='#000000' name='v_player_cctv' src='http://player.cntv.cn/standard/cntvOutSidePlayer.swf' type='application/x-shockwave-flash' lk_mediaid='lk_juiceapp_mediaPopup_1257416656250' lk_media='yes'/>
     <div class="video">
-        <embed src="http://player.video.qiyi.com/b96a20c6bd0380a454363d6cbd067e0d/0/0/v_19rrn3yu6s.swf-albumId=322943800-tvId=322943800-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

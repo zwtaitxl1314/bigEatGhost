@@ -22,18 +22,13 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/粤菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/鲁菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>糖醋里脊是经典传统名菜之一，以猪里脊肉为主材，配以面粉、淀粉、醋等佐料，酸甜可口，让人食欲大开。在浙菜、鲁菜、川菜、淮扬菜、粤菜里均有此菜。</p>
                 </li>
             </ul>
         </fieldset>
@@ -44,15 +39,22 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li>三黄鸡 <p>750克 </p></li>
+            <li>里脊肉<p>250克 </p></li>
+            <li>食用油 <p>500克（实耗50克） </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li>姜 <p>50克 </p></li>
-            <li>花生油  <p>60克 </p></li>
-            <li>精盐  <p>5克 </p></li>
+            <li> <p> </p></li>
+            <li> <p> </p></li>
+            <li> <p> </p></li>
+            <li> <p> </p></li>
+            <li> <p> </p></li>
+            <li> <p> </p></li>
+            <li> <p> </p></li>
+            <li> <p> </p></li>
+            <li> <p> </p></li>
         </ul>
     </fieldset>
 
@@ -69,34 +71,33 @@
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-        鸡清洗干净，去鸡爪，买的时候注意选择750克左右的，这样容易成熟，肉质也非常细嫩。在清理鸡的内脏时，注意将鸡肺彻底清洗干净。
+        鸡蛋打入碗内；
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-        煮锅放到火上，加入清水，大火烧开，用手提起鸡头，将鸡身放入水中浸烫，3秒钟后提起，将鸡翅和鸡腿用手整理一下，再次放入水中浸烫，如此反复浸烫三次，使鸡的腹腔内外温度保持一致，注意每次浸烫的时间不要太长。
+        肉洗净切片，放入鸡蛋液中，加水、淀粉、面粉抓匀；
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-        之后用煮鸡的水，将整只鸡放入锅中浸泡，盖上锅盖，注意水一定要没过整个鸡身，浸泡20——30分钟捞出。也可以用虾眼水小火煮15分钟。之后去除鸡的头颈。
+        葱、姜洗净切末；
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-        将煮熟的鸡立刻放入冷水中浸泡，如果想效果更好可以用冰水来浸泡鸡身，10分钟后凉透捞出（注意一定要凉透，可以多浸泡一会儿）。之后将鸡身控干，可以用毛巾将鸡的全身表皮上的水分擦拭干净。
+        碗内放料酒、 糖、香醋、盐、葱、姜、淀粉、高汤兑成芡汁；
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-        姜去皮，用刀剁成碎末，最好能用搅打器搅打一下，这样姜蓉会更加细腻，加入精盐装入小碗中备用。如果喜欢也可以自制酱油调料或者红油调料。
+        锅内放油，烧至五成热，下入肉片，炸至焦脆，捞出沥油；
     </div>
+
     <div class="practice">
         <div class="recipeStep_num">6</div>
-        把鸡切成大小均匀的切件，如果想让鸡的品相更好一点，也可以捞出控干后，在鸡身外面涂抹一层芝麻油，这样整只鸡看上去更加润泽、颜色也更黄嫩。
+        锅内留底油，烹入芡汁，倒入肉片，炒匀，淋香油即可。
     </div>
-
-
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-        <embed src="http://player.video.qiyi.com/b96a20c6bd0380a454363d6cbd067e0d/0/0/v_19rrn3yu6s.swf-albumId=322943800-tvId=322943800-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+        <embed src="http://player.video.qiyi.com/38b3e99ae674fd5ce99597c88aacc364/0/0/v_19rrncqvsc.swf-albumId=308198400-tvId=308198400-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

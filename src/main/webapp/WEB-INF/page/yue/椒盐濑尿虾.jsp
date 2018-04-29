@@ -44,22 +44,17 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>濑尿虾（也称皮皮虾） <p>500g </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>红尖椒 <p>2个 </p></li>
+            <li>大蒜<p>2瓣  </p></li>
+            <li>椒盐粉 <p>2茶匙（10g） </p></li>
+            <li>绍酒 <p>1汤匙（15ml） </p></li>
+            <li>油 <p>20ml </p></li>
         </ul>
     </fieldset>
 
@@ -76,27 +71,27 @@
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        将濑尿虾虾头尖角及虾足剪去，剔除杂物，用流动的水冲洗干净。红尖椒和大蒜洗净后分别剁碎。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        大火烧开煮锅中的水，放入濑尿虾煮约3分钟，至五成熟，捞起，沥干水分待用。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        大火烧热炒锅中的油（5ml）至七成热，放入红尖椒碎和大蒜碎爆出香味，盛出待用。
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        炒锅重新入油(15ml)，烧至七成热，放入焯煮过的濑尿虾，翻炒4分钟，调入绍酒，继续翻炒，炒到虾身干透，再加入炒好的辣椒碎和大蒜碎及椒盐粉，继续翻炒2分钟盛出即可。
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-
+        小诀窍：濑尿虾一定要炒干后再加入调味料，这样吃起来才酥脆。另外，椒盐也可以自己制作，将花椒用平底锅小火焙香后研磨成花椒粉，与盐混合就行了。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
-
+    <embed src="https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&v=20161117&vid=g0330sgikfw&auto=0" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     <div class="video">
 
     </div>

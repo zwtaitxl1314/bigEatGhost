@@ -44,22 +44,31 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>净乳猪 <p>1只(约5-6千克) </p></li>
+           姜汁酒50克、米醋500克，大红浙醋100克，麦芽糖50克，高度白酒150克，植物油100克
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>大葱丝 <p>50克 </p></li>
+            <li>薄饼 <p>500克 </p></li>
+            <li>柱侯酱 <p>1/2瓶 </p></li>
+            <li>海鲜酱 <p>1/2瓶 </p></li>
+            <li>白芝麻酱 <p>1/3瓶 </p></li>
+            <li>花生酱 <p>1/3瓶 </p></li>
+            <li>沙茶酱 <p>1/3瓶 </p></li>
+            <li>南乳 <p>2小块 </p></li>
+            <li>盐 <p>4茶匙 </p></li>
+            <li>糖<p>100克 </p></li>
+            <li>五香粉 <p>1/5茶匙 </p></li>
+            <li>蒜茸汁 <p>5茶匙 </p></li>
+            <li>姜汁酒 <p>50克 </p></li>
+            <li>米醋<p>500克  </p></li>
+            <li>大红浙醋 <p>100克 </p></li>
+            <li>麦芽糖 <p>50克</p></li>
+            <li>高度白酒 <p>150克</p></li>
+            <li>植物油 <p>100克</p></li>
         </ul>
     </fieldset>
 
@@ -76,28 +85,32 @@
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        将猪宰杀，去毛，洗净，开大膛，去骨，内脏，丛腔内将骨劈开使之能平摊起来，去脑。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        .取掉第三根肋骨和扇骨，在臀部内侧肉厚处划上若干刀以方便入味。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        .用五香粉，八角，盐，糖均匀涂抹内脏，将内脏在通风处晾干，再将豆酱，红豆腐乳，芝麻酱，汾酒，蒜泥，白糖调匀，涂抹内膛。
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        上铁叉，先清水，后沸水洗净猪皮上的油污，再用麦芽糖，白醋，熏醋，糯米酒调匀烧溶的糖醋汁涂一次。
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-
+        将腌制好的小猪放入长形木炭炉内，先烤内膛半熟，将前后腿的内膛用木条横着撑开，并再烤，顺序是先烤头，臂，烤红后涂抹花生油慢慢烤的大红为止。
     </div>
-
-    <p class="topic">${comcuisine}的教学视频</p>
-
-    <div class="video">
+    <div class="practice">
+        <div class="recipeStep_num">6</div>
+        烤好后，从耳背后和尾部划一刀，再从横切口两端从前到后各划一刀，使其形成一长方形的皮。
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">7</div>
+        再把长方形的皮顺划三刀，使其成为四个等份的长条，然后逐条篇下来。每条横切8块，共32块。上席时配以千层饼，酸菜，甜面酱。
+    </div>
 
     </div>
 

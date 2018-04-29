@@ -28,12 +28,12 @@
             <legend>功效</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>1.补肺养阴、止肺虚性咳嗽、减少肺气病变。包括肺阴虚之哮喘、气促、久咳、痰中带血、咳血、咯 血、支气管炎、出汗、低潮热。  </p>
+                    <p>2. 补虚养胃、止胃寒性、呕吐。胃阴虚引起之反胃、干呕、肠鸣声。 </p>
+                    <p>3.凡病后虚弱、痨伤、中气亏损各症，配合官燕作食，能滋阴调中。  </p>
+                    <p>4.止汗、气虚、脾虚之多汗、小便频繁、夜尿。  </p>
+                    <p>5.使人皮肤光滑、有弹性和光泽，从而减少皱纹。  </p>
+                    <p>6.官燕含多种氨基酸，婴幼儿和儿童常吃能长智慧、增加思维、抗敏感、补其先后天之不足。  </p>
                 </li>
             </ul>
         </fieldset>
@@ -44,22 +44,30 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>水发燕窝 <p> 100克</p></li>
+            <li>水发刺参 <p>50克 </p></li>
+            <li>鱼肚 <p> 50克</p></li>
+            <li>鱼皮 <p> 50克</p></li>
+            <li>裙边 <p> 50克</p></li>
+            <li>干贝 <p> 50克</p></li>
+            <li>鲍鱼 <p>适量 </p></li>
+            <li>散翅 <p>适量 </p></li>
+            <li>大枣 <p>适量 </p></li>
+            <li>笋片 <p>适量 </p></li>
+            <li>竹笙 <p>适量</p></li>
+            <li>菜心 <p>适量 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>浓汤 <p>适量</p></li>
+            <li>高汤 <p>适量</p></li>
+            <li>盐   <p>适量</p></li>
+            <li>味精 <p>适量</p></li>
+            <li>鸡粉 <p>适量</p></li>
+            <li>料酒 <p>适量</p></li>
+            <li>葱油 <p>适量</p></li>
         </ul>
     </fieldset>
 
@@ -76,27 +84,43 @@
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        浸发：把温水注入盛燕窝之碗中，待碗中之燕窝发大至通透即可。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        清洁：把刚发好之燕窝再过水二到三次，使其干净卫生。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        炖调：将清洗好只燕窝与适量冰糖放入炖盅中，
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        再注入温水（大约两钱官燕一碗水量），再慢火烹炖，一般印尼官燕一小时，泰国洞燕二至四小时。
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-
+        把各种配料切好，用高汤氽出备用。
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">6</div>
+        锅内加浓汤，加上所有配料，调好口味，淋上葱油，盛入大康顺煲内。
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">7</div>
+        把发好的燕窝用水烫热，单独放一圆盘内，连同康顺煲内的料一块上桌即成。
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">8</div>
+        小诀窍:
+        制作关键
+        燕窝要发好，毛要去净。
+        各种配料要处理好，刀工要整齐。
+        上汤质量要好。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
-
+        <p>教学视频暂无</p>
     <div class="video">
 
     </div>

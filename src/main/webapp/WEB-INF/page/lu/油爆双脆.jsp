@@ -22,18 +22,13 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/粤菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/鲁菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>油爆双脆属鲁菜，是山东，山东地区特色传统名菜。烹饪以爆菜油爆为主油。正宗的油爆双脆的做法极难，对火候的要求极为苛刻，欠一秒钟则不熟，过一秒钟则不脆，是中餐里制作难度最大的菜肴之一。色、香、味、形兼备的特色美食。在袁枚的《随园食单》和梁实秋的《雅舍谈吃》中对此菜均有高度赞誉。 </p>
                 </li>
             </ul>
         </fieldset>
@@ -44,15 +39,24 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li>三黄鸡 <p>750克 </p></li>
+            <li>猪肚<p> 200克</p></li>
+            <li>猪腰子 <p>250克 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li>姜 <p>50克 </p></li>
-            <li>花生油  <p>60克 </p></li>
-            <li>精盐  <p>5克 </p></li>
+            () ()() () ()()()() ()() ()
+            <li>大葱 <p>10克 </p></li>
+            <li>大蒜 <p>5克 </p></li>
+            <li>生抽 <p>5克 </p></li>
+            <li>白砂糖 <p> 10克</p></li>
+            <li>醋 <p>20克 </p></li>
+            <li>淀粉 <p>10克 </p></li>
+            <li>味精 <p>3克  </p></li>
+            <li> 香油<p>10克 </p></li>
+            <li> 花椒<p> 3克</p></li>
+            <li> 花生油<p>50克 </p></li>
         </ul>
     </fieldset>
 
@@ -69,34 +73,29 @@
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-        鸡清洗干净，去鸡爪，买的时候注意选择750克左右的，这样容易成熟，肉质也非常细嫩。在清理鸡的内脏时，注意将鸡肺彻底清洗干净。
+        猪肚尖剔净油、内膜，剞十字花刀，每只肚尖切6 块，猪腰剖2片割去筋膜，放清水中加花椒浸泡1 小时去臊昧后剞十字花刀，每三刀切1 块；
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-        煮锅放到火上，加入清水，大火烧开，用手提起鸡头，将鸡身放入水中浸烫，3秒钟后提起，将鸡翅和鸡腿用手整理一下，再次放入水中浸烫，如此反复浸烫三次，使鸡的腹腔内外温度保持一致，注意每次浸烫的时间不要太长。
+        锅置旺火上，下花生油烧八成热时，肚尖用少许干淀粉抓匀一下，下油锅过油，再腰花过油，迅速倒入漏勺沥干油；
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-        之后用煮鸡的水，将整只鸡放入锅中浸泡，盖上锅盖，注意水一定要没过整个鸡身，浸泡20——30分钟捞出。也可以用虾眼水小火煮15分钟。之后去除鸡的头颈。
+
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-        将煮熟的鸡立刻放入冷水中浸泡，如果想效果更好可以用冰水来浸泡鸡身，10分钟后凉透捞出（注意一定要凉透，可以多浸泡一会儿）。之后将鸡身控干，可以用毛巾将鸡的全身表皮上的水分擦拭干净。
+        酱油、白糖、米醋、香油、味精、湿淀粉调匀成卤汁；
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-        姜去皮，用刀剁成碎末，最好能用搅打器搅打一下，这样姜蓉会更加细腻，加入精盐装入小碗中备用。如果喜欢也可以自制酱油调料或者红油调料。
+        锅留余油，回置旺火上，先用葱段、蒜米煸出香味，倒入卤汁，烧沸后，倒入肚尖、猪腰，翻颠二下即成。
     </div>
-    <div class="practice">
-        <div class="recipeStep_num">6</div>
-        把鸡切成大小均匀的切件，如果想让鸡的品相更好一点，也可以捞出控干后，在鸡身外面涂抹一层芝麻油，这样整只鸡看上去更加润泽、颜色也更黄嫩。
-    </div>
-
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-        <embed src="http://player.video.qiyi.com/b96a20c6bd0380a454363d6cbd067e0d/0/0/v_19rrn3yu6s.swf-albumId=322943800-tvId=322943800-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+        <embed src="http://player.video.qiyi.com/9ec939fb9f3b7233620e61170f71145b/0/0/w_19rruhyktx.swf-albumId=4255027609-tvId=4255027609-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

@@ -44,8 +44,7 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>东星斑鱼 <p>1条 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
@@ -76,23 +75,76 @@
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        将东星斑鱼化冻刮去鱼鳞去除内脏清洗干净
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        将东星斑鱼化冻刮去鱼鳞去除内脏清洗干净
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        在切开的部位抹上盐
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        再将老酒涂抹全身（这一步是去除腥味）
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
+        将大葱切段姜切片
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">6</div>
+        放入鱼肚子里
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">7</div>
+        再用保鲜膜包裹住放至30分钟以上
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">8</div>
+        用25克蚝油和生抽及半勺豆豉调匀
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">9</div>
+        葱白和姜切成细丝
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">10</div>
+        将包裹鱼的保鲜膜去除
+    </div>
+    <div class="practice">
 
+        <div class="recipeStep_num">11</div>
+        将葱姜丝放在鱼身上，入开水锅中
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">12</div>
+        大火蒸15分钟
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">13</div>
+        整盘取出来，鱼身上的葱姜去掉不要
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">14</div>
+        将鱼盘中的汤汁倒入一空碗里
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">15</div>
+        再将汤汁倒入调汁碗内
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">16</div>
+        调匀备用
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">17</div>
+        将调好的汤汁入炒锅，开锅离火
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">18</div>
+        将汁浇在鱼身上即可
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>

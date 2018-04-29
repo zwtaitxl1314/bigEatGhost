@@ -44,61 +44,80 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>光黑棕鹅 <p>1只 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>砂糖 <p>500克 </p></li>
+            <li>盐 <p>350克 </p></li>
+            <li>味精 <p>50克 </p></li>
+            <li>黑椒粉 <p>15克 </p></li>
+            <li>五香粉 <p>30克 </p></li>
+            <li>甘草粉 <p>20克 </p></li>
+            <li>八角粉 <p>20克 </p></li>
+            <li>沙姜粉 <p>20克 </p></li>
+            <li>桂皮粉 <p>20克 </p></li>
+            <li>香菜粉 <p>20克 </p></li>
+            <li>蒜蓉粉 <p>20克</p></li>
         </ul>
     </fieldset>
 
     <fieldset class="ingredients">
-        <legend>口味</legend>
+        <legend>特点</legend>
         <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
+            <li> 色泽紫红,皮脆肉嫩,甘香味浓,蘸甜酱食,具有潮汕风味。</li>
         </ul>
     </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        将8到10斤重的鹅宰杀干净。（一般去市场杀。）准备鹅尾针1支，烧鹅勾一只。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        将鹅盐、味料倒入鹅腔内，均匀插内腔。厚部位居多。再放入鹅酱。放入其他料头和料酒。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        用鹅尾针将鹅屁股入料口封住。以免酱汁外流。
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        从鹅颈放血处插入充气管。将鹅体充气。至鹅身表皮发张，鹅表皮变白色即可。（充气，不要充太满以免造成破裂）
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
+        烧锅下水煮开，放入胀气的鹅，稍烫皮，鹅表皮收缩即可。（切勿让皮出油，否则你会后悔的（出油不上色的，作用是利用热水所毛孔收缩不给气流出去。））
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">6</div>
+        取出烫皮的鹅体，投入冷水中，稍过冷河。取出用烧腊勾挂起待沥干水分。
 
+        用烧腊勾从鹅体亦下处部位勾入鹅腔，将鹅头转过来夹在烧腊勾中。夹住鹅颈以免漏气。
+        9
+
+        取糖皮水（脆皮水）由鹅头淋下，淋全身。取一张白纸垫在鹅颈处，避免污血流下影响表皮。
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">7</div>
+        将鹅挂于通风透凉处或空调房，用牛角扇风干表皮。热天的时候一定要注意通风，否则会臭掉的，最好放空调房）皮越干烧制出来就越脆。
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">8</div>
+        点火预温。当炉温温度达到内内温250的时候就可以下炉烧了。先烧被部，一定要把鹅放置中线，否则表皮颜色不一致（温度要看鹅的只数，天气而定）
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">9</div>
+        将风干的鹅挂入预温的烧炉中。盖上盖子烧鹅,烧至鹅身红色，鹅眼突出，鹅体中间起缝。变轻即可。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="http://player.video.qiyi.com/5ae2f5891b63ab184f5678c165491776/0/0/w_19rts9uukh.swf-albumId=8474097709-tvId=8474097709-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

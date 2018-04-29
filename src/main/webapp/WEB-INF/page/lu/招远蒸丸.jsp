@@ -22,18 +22,13 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/粤菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/鲁菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p> 相传，招远蒸丸已有百余年历史，主要流行于招远北部乡村。招远蒸丸的主料是猪肉，比例为肥、瘦各半。做法是瘦肉剁成泥，肥肉切薄片，两面剞直刀，成筷子头大小的丁。辅料有鸡蛋、白菜心、葱、香菜及精盐、味精、胡椒粉等调料。与其他丸子的辅料不同的是，招远蒸丸的辅料中一定要有两种海味：鹿角菜（一种状似鹿角的海藻）和海米，大概主要是为了解腻和口感。除了瘦肉成茸，肥肉切丁外，其余辅料均切碎剁细，加调味品后放入容器内，顺一个方向搅合，以便使丸子上浆、有劲。然后挤成核桃大小的丸子码放盘中，入锅，大火蒸10分钟左右即可。火大肉老，影响口感。丸子蒸好后盛入大汤碗，然后做汤。锅里加清汤烧开，撇去浮末，然后加精盐、醋、味精、胡椒粉调味，将汤浇入碗中，然后加葱丝、香菜段，淋香油后即可上桌。</p>
                 </li>
             </ul>
         </fieldset>
@@ -44,15 +39,26 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li>三黄鸡 <p>750克 </p></li>
+            <li>瘦猪肉<p>300克 </p></li>
+            <li>肥膘肉 <p>300克 </p></li>
+            <li>海米 <p>8克 </p></li>
+            <li> 水发冬菇<p>8克 </p></li>
+            <li>白菜心 <p>150克 </p></li>
+            <li>香菜 <p>75克 </p></li>
+            <li>鸡蛋 <p>3个 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li>姜 <p>50克 </p></li>
-            <li>花生油  <p>60克 </p></li>
-            <li>精盐  <p>5克 </p></li>
+            <li>香油 <p> 10克</p></li>
+            <li>胡椒面 <p>1克 </p></li>
+            <li>精盐<p>13克  </p></li>
+            <li>味精 <p>3克 </p></li>
+            <li>醋 <p>4克 </p></li>
+            <li>葱 <p>60克 </p></li>
+            <li>姜 <p>20克 </p></li>
+            <li>鸡汤 <p>450克 </p></li>
         </ul>
     </fieldset>
 
@@ -69,34 +75,29 @@
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-        鸡清洗干净，去鸡爪，买的时候注意选择750克左右的，这样容易成熟，肉质也非常细嫩。在清理鸡的内脏时，注意将鸡肺彻底清洗干净。
+        将瘦肉剁碎成泥，放入小盆内，加入鸡蛋搅匀。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-        煮锅放到火上，加入清水，大火烧开，用手提起鸡头，将鸡身放入水中浸烫，3秒钟后提起，将鸡翅和鸡腿用手整理一下，再次放入水中浸烫，如此反复浸烫三次，使鸡的腹腔内外温度保持一致，注意每次浸烫的时间不要太长。
+        肥膘肉切成厚0.2厘米的片，两面交叉打上刀纹，再切成0.3厘米见方的丁。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-        之后用煮鸡的水，将整只鸡放入锅中浸泡，盖上锅盖，注意水一定要没过整个鸡身，浸泡20——30分钟捞出。也可以用虾眼水小火煮15分钟。之后去除鸡的头颈。
+        海米、白菜心、水发冬菇、姜均切成末。 葱30克切末、30克切丝，得菜一半切段、一半切末。
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-        将煮熟的鸡立刻放入冷水中浸泡，如果想效果更好可以用冰水来浸泡鸡身，10分钟后凉透捞出（注意一定要凉透，可以多浸泡一会儿）。之后将鸡身控干，可以用毛巾将鸡的全身表皮上的水分擦拭干净。
+        将肥肉丁与配料末、葱姜末、味精、精盐、胡椒面放入瘦肉泥盆内搅匀，做成直径1.5厘米大小的丸子，分别装入10个小汤盘内，上笼蒸熟取出。
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-        姜去皮，用刀剁成碎末，最好能用搅打器搅打一下，这样姜蓉会更加细腻，加入精盐装入小碗中备用。如果喜欢也可以自制酱油调料或者红油调料。
+        将鸡汤倒入锅内，加精盐、醋，烧开撇去浮沫，淋上香油，撒上葱丝、香菜段，倒入盛丸子的盘内即成。
     </div>
     <div class="practice">
         <div class="recipeStep_num">6</div>
-        把鸡切成大小均匀的切件，如果想让鸡的品相更好一点，也可以捞出控干后，在鸡身外面涂抹一层芝麻油，这样整只鸡看上去更加润泽、颜色也更黄嫩。
+        制作关键：丸子上笼蒸时，注意不要蒸老，以保持丸子的鲜嫩特点。
     </div>
 
-
-    <p class="topic">${comcuisine}的教学视频</p>
-
-    <div class="video">
-        <embed src="http://player.video.qiyi.com/b96a20c6bd0380a454363d6cbd067e0d/0/0/v_19rrn3yu6s.swf-albumId=322943800-tvId=322943800-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

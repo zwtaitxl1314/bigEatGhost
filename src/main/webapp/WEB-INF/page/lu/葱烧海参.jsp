@@ -22,18 +22,13 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/粤菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/鲁菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>葱烧海参是中华特色美食，鲁菜经典名菜。从山东源入，以水发海参和大葱为主料，海参清鲜，柔软香滑，葱段香浓，食后无余汁。是“古今八珍”之一，葱香味醇，营养丰富，滋肺补肾。</p>
                 </li>
             </ul>
         </fieldset>
@@ -44,59 +39,87 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li>三黄鸡 <p>750克 </p></li>
+            <li>干海参 <p>3根 </p></li>
+            <li>纯净水<p>若干  </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li>姜 <p>50克 </p></li>
-            <li>花生油  <p>60克 </p></li>
-            <li>精盐  <p>5克 </p></li>
+            <li>葱白 <p>8段 </p></li>
+            <li>油 <p>20克 </p></li>
+            <li>蚝油 <p>10克 </p></li>
+            <li>生抽 <p>15克 </p></li>
+            <li>糖 <p>8克 </p></li>
+            <li>料酒 <p>15克 </p></li>
+            <li>胡椒粉 <p>少许 </p></li>
+            <li>鸡精 <p>少许 </p></li>
+            <li>水 <p>40克 </p></li>
+            <li>淀粉水(淀粉+水调开) <p>50克 </p></li>
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </fieldset>
+
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-        鸡清洗干净，去鸡爪，买的时候注意选择750克左右的，这样容易成熟，肉质也非常细嫩。在清理鸡的内脏时，注意将鸡肺彻底清洗干净。
+        首先将要泡发的海参放入容器中,加入纯净水,纯净水需完全没过海参.
+        将海参常温下泡发24个小时.
+        TIPS:必须使用纯净水,不要使用自来水.
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-        煮锅放到火上，加入清水，大火烧开，用手提起鸡头，将鸡身放入水中浸烫，3秒钟后提起，将鸡翅和鸡腿用手整理一下，再次放入水中浸烫，如此反复浸烫三次，使鸡的腹腔内外温度保持一致，注意每次浸烫的时间不要太长。
+        锅中加入新的纯净水,将海参放入锅内,中火煮开.水开后即可关火,静置放至常温.待海参晾凉至常温后,在容器中加入新的纯净水.锅中的水不要,只将锅中的海参全部放入碗中.
+        放在冰箱内,冷藏泡发24小时.
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-        之后用煮鸡的水，将整只鸡放入锅中浸泡，盖上锅盖，注意水一定要没过整个鸡身，浸泡20——30分钟捞出。也可以用虾眼水小火煮15分钟。之后去除鸡的头颈。
+        海参一共泡发6天,共重复5次煮开晾凉,放入冰箱冷藏泡发的步骤.
+        直到海参完全泡发,捏起来很有弹性.试一下海参的软度,用手指掐一小块海参,可以轻松掐断.这时海参就泡发好了.
+        TIPS:不同种类的海参可能泡发时间不同,可自行调整泡发的天数.
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-        将煮熟的鸡立刻放入冷水中浸泡，如果想效果更好可以用冰水来浸泡鸡身，10分钟后凉透捞出（注意一定要凉透，可以多浸泡一会儿）。之后将鸡身控干，可以用毛巾将鸡的全身表皮上的水分擦拭干净。
+        准备葱烧海参的材料:
+        葱烧海参的葱,只用葱白的部分,且越靠后的葱白越好.
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-        姜去皮，用刀剁成碎末，最好能用搅打器搅打一下，这样姜蓉会更加细腻，加入精盐装入小碗中备用。如果喜欢也可以自制酱油调料或者红油调料。
+        锅中放入20克油,将5段葱白放入锅中,小火慢慢的焙葱油.
     </div>
     <div class="practice">
         <div class="recipeStep_num">6</div>
-        把鸡切成大小均匀的切件，如果想让鸡的品相更好一点，也可以捞出控干后，在鸡身外面涂抹一层芝麻油，这样整只鸡看上去更加润泽、颜色也更黄嫩。
+        一定小火慢慢的煎葱段,直到葱段煸软,称焦黄乃至黑色.此步骤大概需要7分钟左右.
     </div>
-
+    <div class="practice">
+        <div class="recipeStep_num">6</div>
+        将变黑的葱段捞出,扔掉不用.葱油留在锅中,继续加入新的三段葱白,继续小火煎葱段.
+        此次葱段煎到焦黄即可出锅,不要把葱段煎黑.将葱段盛出放在盘中备用.
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">8</div>
+        葱油继续留在锅中,在锅中放入蚝油10克,生抽15克,糖8克,料酒15克,胡椒粉少许,鸡精少许,水40克,煮开.
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">9</div>
+        将海参放入锅中,煮3分钟，
+        随后将海参盛出来,放在一边备用.
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">10</div>
+        锅中加入淀粉水(淀粉+水调开)勾芡,淀粉水共调50克,加入锅时可一勺一勺的添加,边添加边观察状态,不要一次性加入.
+        当汤汁粘稠到可以微微挂在勺子上一层的时候,这时候勾芡就做好了.
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">11</div>
+        将海参和葱段摆盘,可在旁放上少许绿色青菜点缀，将勾好的芡汁淋在海参上面,就完成了
+    </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-        <embed src="http://player.video.qiyi.com/b96a20c6bd0380a454363d6cbd067e0d/0/0/v_19rrn3yu6s.swf-albumId=322943800-tvId=322943800-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+        <embed src="http://player.video.qiyi.com/a3231fc9812b3d488487be795b4c2e71/0/0/w_19rrb6b9a5.swf-albumId=641344209-tvId=641344209-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >
