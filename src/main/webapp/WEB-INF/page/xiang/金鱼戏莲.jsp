@@ -22,18 +22,13 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/徽菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/湘菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>金鱼戏莲是湖南长沙特色传统名菜，属于湘菜系。</p>
                 </li>
             </ul>
         </fieldset>
@@ -44,64 +39,51 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>干鱿鱼 <p> </p></li>
+            <li>虾料子 <p> </p></li>
+            <li>鲜红椒 <p> </p></li>
+            <li>醋 <p> </p></li>
+            <li>泡菜 <p> </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>鸡蛋清 <p> </p></li>
+            <li>肉末 <p> </p></li>
+            <li>精盐 <p> </p></li>
+            <li>水发香菇 <p> </p></li>
+            <li>味精 <p> </p></li>
+            <li>香菜 <p> </p></li>
+            <li>干淀粉 <p> </p></li>
+            <li>青豆 <p> </p></li>
+            <li>蒜瓣 <p> </p></li>
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        将干鱿鱼去须，碱发好，漂洗干净，在正面的一边剞上十字花刀，另一边切0.3厘米粗的丝，不要切断，再切成4厘米的片，即成金鱼形，置于盘中，加精盐0.5克、干淀粉25克拌匀！将鲜红椒、泡菜、蒜瓣、水发香菇切成米粒丁；味精、干淀粉25克、醋、清水10克兑成汁。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        鸡蛋清搅匀，拌入虾料子内。取小酒杯12个，逐个抹上熟猪油，将鸡蛋清、虾
+        料子放入杯内，周围镶入5粒青豆，中间放一粒青豆，上笼蒸2分钟，即成莲蓬，入笼内保温。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
-    </div>
+        炒锅置旺火 ，放入熟猪油烧至八成热，下鱿鱼氽一下，滑熘至剞刀处卷起捞出。    </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">5</div>
-
+        锅内留油50克，放入红椒、泡菜、蒜瓣、水发香菇、肉末、精盐4.5克煸炒入味，下入鱿鱼卷炒匀，倒入兑好的汁子，持锅颠几下，淋入芝麻油出锅，用筷子夹起鱼卷，头朝一个方向摆在盘子的一边，再将制好的莲蓬取出，摆在盘子的一另一边，周围拼上香菜即成！
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="http://player.video.qiyi.com/f27e374d517ddb5f6ace92ad3a085d90/0/0/v_19rrm7xq70.swf-albumId=204255001-tvId=510170800-isPurchase=0-cnId=12" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

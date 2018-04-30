@@ -25,7 +25,7 @@
     </script>
 </head>
 <body>
-    <jsp:include page="${pageContext.request.contextPath}/WEB-INF/page/head.jsp" flush="true"/>
+    <jsp:include page="/WEB-INF/page/head.jsp" flush="true"/>
 
     <div class="appreciate-text">
         <img src="${pageContext.request.contextPath}/image/鲁.jpg">

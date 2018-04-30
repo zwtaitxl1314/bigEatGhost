@@ -22,18 +22,14 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/徽菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/闽菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>化米粉（兴化平话字：bî-heông；兴化语城里腔：pi˧ h-ɔŋ˦˥˧），由大米和水制成，是福建莆田传统的特色名点。微黄色，细如丝，干脆可贮藏。
+                        它是莆田（古代称兴化军、兴化府）的著名土特产，又是中国最早的快餐之一（汤煮只需30秒），价廉物美，名扬海内外，尤为海外侨胞所喜爱。米粉产地以莆田市黄石镇西洪和清江两村为主。米粉以上等黄尖米制作最好，制作须经过9道工序。正宗兴化米粉的特点，久煮易碎、细至1毫米、色泽微黄、煮炒易熟、饮食便利，独具一种风味。 </p>
                 </li>
             </ul>
         </fieldset>
@@ -44,25 +40,21 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>米粉 <p>400g </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>瘦肉 <p>适量</p></li>
+            <li>香菇 <p>适量 </p></li>
+            <li>虾仁 <p>适量 </p></li>
+            <li>干贝 <p>适量 </p></li>
+            <li>蛏干 <p>适量 </p></li>
+            <li>小油菜 <p>适量 </p></li>
+            <li>娃娃菜 <p>适量 </p></li>
+            <li>韭菜 <p>适量 </p></li>
+            <li>胡萝卜 <p>适量 </p></li>
         </ul>
     </fieldset>
 
@@ -79,30 +71,25 @@
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        锅里加油先煸炒瘦肉
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        接着把虾仁、干贝、蛏干、加进去煸炒
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        最后把香菇和那些菜杆加进去炒，放少许的水和调料（盐、耗油、鸡精）一起煮上2分钟
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        尝好味道 把菜叶子加进去煮，最后把米粉加进去浸湿就可以炒了
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-
+        全部翻炒一下就可以了
     </div>
 
-    <p class="topic">${comcuisine}的教学视频</p>
-
-    <div class="video">
-
-    </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >
         <div id="content" style="width: 700px; height: auto;margin : 40px auto 0 auto;">

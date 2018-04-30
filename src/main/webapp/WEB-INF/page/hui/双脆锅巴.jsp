@@ -25,15 +25,10 @@
         <img src="${pageContext.request.contextPath}/image/徽菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>双脆锅巴是一道传统的特色名菜，属于徽菜。猪肚头及鸭肫,切花刀,放入香菇、笋、火腿片等汤中烧开;另将锅巴在油中炸黄,浇汤而成。酥香味美。 </p>
                 </li>
             </ul>
         </fieldset>
@@ -44,64 +39,42 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>锅巴 <p>200克 </p></li>
+            <li>猪肚 <p>50克 </p></li>
+            <li>鸭胗 <p>50克 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-        </ul>
-    </fieldset>
-
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
+            <li>葱<p>1根  </p></li>
+            <li>姜 <p>1块 </p></li>
+            <li>香菇丁 <p>1大匙 </p></li>
+            <li>冬笋粒 <p> </p></li>
+            <li>火腿粒 <p>1大匙 </p></li>
+            <li>碱少许调味料鸡汤 <p>200克 </p></li>
+            <li>盐 <p>适量 </p></li>
         </ul>
     </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        猪肚和鸭胗均剞成十字刀花，切成小块，用碱、葱、姜配制的冷水泡软。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        用清水漂净猪肚和鸭胗的碱味；汤锅烧热，入鸡汤、香菇、冬笋、火腿和猪肚、鸭胗煲制熟后加盐，装入汤碗。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">4</div>
-
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">5</div>
-
+        锅巴在八成热的油锅中炸至金黄，装盘后与汤碗一起上桌，趁热将汤倒入锅巴中食用即可。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="http://player.video.qiyi.com/fa0a54b4a7dad811809d3247b5c33f69/0/0/v_19rrn6y5uk.swf-albumId=334111600-tvId=334111600-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

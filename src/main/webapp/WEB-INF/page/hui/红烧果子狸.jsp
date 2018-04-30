@@ -25,15 +25,10 @@
         <img src="${pageContext.request.contextPath}/image/徽菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>红烧果子狸是安徽地区特色传统名菜，属徽州菜系，咸甜味，狸肉酥烂醇香，色金红，汤汁稠亮，咸鲜口味中有甜味，十分可口。其中的辅料梨，不能与与螃蟹和鹅肉同食，否则会引起胃肠不适。</p>
                 </li>
             </ul>
         </fieldset>
@@ -44,65 +39,46 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>果子狸 <p>500克 </p></li>
+            <li>梨 <p>150克 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>小葱 <p> 10克</p></li>
+            <li>黄酒 <p>10克 </p></li>
+            <li>姜 <p>15克 </p></li>
+            <li>冰糖 <p>15克 </p></li>
+            <li>酱油 <p>50克 </p></li>
+            <li>猪油（炼制） <p>30克 </p></li>
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </fieldset>
+
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        将果子狸宰杀治净，狸肉用温水泡软，洗净，剁成4厘米见方的块；
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        狸子肉块放入盛有第2遍淘米水(不经过淘米水煮，肉不易烂)的锅中，大火煮滚后，捞出滤干水；
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        梨洗净切成桔瓣块；
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        烧热锅下油，至六成熟时，放入狸肉炒透，加水与肉平，再加冰糖、黄酒、酱油、盐、葱结、姜块(拍松)，同煮；
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-
+        待煮滚后改用小火烧至八成烂时，拣去葱结、姜块，放入梨块，至梨酥烂时，转用大火烧至汤汁粘稠，出锅装盘即可。
     </div>
 
-    <p class="topic">${comcuisine}的教学视频</p>
-
-    <div class="video">
-
-    </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >
         <div id="content" style="width: 700px; height: auto;margin : 40px auto 0 auto;">

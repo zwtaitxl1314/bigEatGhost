@@ -22,18 +22,13 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/徽菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/湘菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>腌白豆腐是山西泡菜的一种，人们喜欢腌制白豆腐存储起来，在炒菜的时候加入腌制好的豆腐可适当的提味。</p>
                 </li>
             </ul>
         </fieldset>
@@ -44,64 +39,53 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>豆腐 <p>1000克 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
-        <legend>配料</legend>
+        <legend>调料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>盐 <p>125克 </p></li>
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        选择品种比较好的白豆腐；
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        上锅中火蒸15分钟，晾凉；
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        切成块；
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        取1只碗，放食盐；
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-
+        将每块豆腐均匀沾盐；
     </div>
-
-    <p class="topic">${comcuisine}的教学视频</p>
-
-    <div class="video">
-
+    <div class="practice">
+        <div class="recipeStep_num">6</div>
+        在缸内铺一层厚度大约为3厘米的白豆腐垫底，撒一层精盐，然后继续平铺白豆腐，直至装完；
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">7</div>
+        最后添足适量的盐水封缸，放在阴凉处，以防起白膜；
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">8</div>
+        密封腌制48小时；
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">9</div>
+        以1:1的量放入酱油、醋，便可以随时食用；
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

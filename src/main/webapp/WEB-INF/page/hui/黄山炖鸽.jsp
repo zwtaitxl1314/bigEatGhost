@@ -25,15 +25,10 @@
         <img src="${pageContext.request.contextPath}/image/徽菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>黄山炖鸽是安徽黄山特色传统名菜，取黄山菜鸽与黄山山药隔水炖制而成。汤清味鲜，鸽肉酥烂，山药清香爽口。此菜鸽肉滋味鲜美，营养丰富，易于消化，有补脑健肾、增强记忆力的食疗功效。山药肉松软细腻，略甜，富含淀粉，常被人们视作为滋补蔬菜食用。此菜又是一道滋补健身的佳肴。</p>
                 </li>
             </ul>
         </fieldset>
@@ -44,64 +39,40 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>鸽肉 <p>500克 </p></li>
+            <li>山药 <p> 100克</p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>冰糖 <p>少许 </p></li>
+            <li>料酒 <p>1汤匙 </p></li>
+            <li>小葱 <p> 适量</p></li>
+            <li>高汤 <p>适量 </p></li>
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        将黄山药削去外皮洗净，切成薄片，放滚水中略烫片刻捞起。将鸽子从腹部(接近肛门附近)开一小口，掏出内脏(留肝)洗净。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        将鸽子下滚水中烫过，捞起再清洗一次放在汤碗内，加入山药片、葱结、姜(拍松)、盐、冰糖、绍酒和上汤(浸过面)
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">4</div>
-
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">5</div>
+        用一个大碟盖在汤碗上，放锅内用大火蒸2小时左右，取出淋上香油即可.
 
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="http://player.video.qiyi.com/111facf7ff4885cc2a8c431aae4dc322/0/0/v_19rr9mnibk.swf-albumId=204885201-tvId=550085100-isPurchase=0-cnId=12" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

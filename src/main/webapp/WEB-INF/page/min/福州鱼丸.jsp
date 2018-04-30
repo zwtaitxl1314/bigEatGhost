@@ -22,18 +22,14 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/徽菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/闽菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>福州鱼丸是富有福州地方特色的小吃之一。具有天然、营养、保健的美食特色。口感好，筋力佳，久煮不变质，松涨率好，色泽洁白玲珑晶亮，质嫩滑润清脆，富有弹性，味道鲜美，具有特殊的海鲜风味。 </p>
+                    <p>产品含有丰富的蛋白质、钙、磷、碘、铁与多种维生素。做汤，热炒。</p>
                 </li>
             </ul>
         </fieldset>
@@ -44,64 +40,42 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-        </ul>
-    </fieldset>
-    <fieldset class="ingredients">
-        <legend>配料</legend>
-        <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-        </ul>
-    </fieldset>
-
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
+            <li>鱼肉 <p> </p></li>
+            <li>生粉 <p> </p></li>
+            <li>猪肉 <p> </p></li>
         </ul>
     </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        鱼肉先用刀剁碎，然后加精盐，少量味精，少量水，鸡蛋清。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        朝一个方向一直打到粘稠，也就是变成胶状，加少量生粉，这个第一次最好慢慢来，先少加做一个尝试下。粉多了，没那么多鱼味，口感也不好。粉太少，包起来实在很困难，太稀。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        猪肉加少量葱花，酱油，蛋清，味精，花椒面，精盐，料酒，老抽搅拌均匀。
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        搓成一个个小圆球，其实我搓的很小，拍出来有点大，呵呵，然后表面撒一层生粉。
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-
+        手上拿少许鱼胶，大拇指上下移动搓成圆球，把肉丸从旁边塞进去，搓2下，用汤匙取下，入烧热水的锅中煮。
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">6</div>
+        煮好后放入碗中，加点精盐，撒上葱花即可。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&v=20161117&vid=k0532dfk9q6&auto=0" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

@@ -22,18 +22,16 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/徽菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/浙菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
             <legend>功效</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>
+                        西湖醋鱼，别名为叔嫂传珍，宋嫂鱼，是浙江杭州饭店的一道传统地方风味名菜 。
+                    </p>
+                    <p>西湖醋鱼通常选用草鱼作为原料，烹制而成。烧好后，浇上一层平滑油亮的糖醋，胸鳍竖起，鱼肉嫩美，带有蟹味，鲜嫩酸甜。 </p>
                 </li>
             </ul>
         </fieldset>
@@ -44,8 +42,8 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>草鱼 <p>900克 </p></li>
+            <li>醋<p>50克  </p></li>
             <li> <p> </p></li>
             <li> <p> </p></li>
             <li> <p> </p></li>
@@ -54,54 +52,46 @@
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>黄酒 <p>25克 </p></li>
+            <li>酱油 <p>75克 </p></li>
+            <li>白糖 <p>60克 </p></li>
+            <li>姜 <p>1块 </p></li>
+            <li> 葱<p>适量 </p></li>
+            <li>水淀粉 <p> 50克</p></li>
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        把姜去皮切成碎末，去掉的姜片不要丢掉，准备好醋、酱油、黄酒、水淀粉和白糖。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        草鱼去鳞去膛洗净，把鱼的一面划上5刀，翻面从尾部入到，沿脊骨向头部劈近，对切分为2半，斩去鱼牙不用，去掉鱼头的淤血，在没有脊骨的身上长划一刀。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        锅中放入葱姜片和清水，烧开后，捞出葱姜，下入鱼用筷子把鱼鳍支起来，让鱼成型，煮上3分钟，撇去血末，打入凉水2次。
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        倒出汤汁，锅内加入少许的原汤和适量的酱油、绍酒和姜末。捞出鱼，码放在盘中。
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-
+        锅中的原汁加入白糖、米醋和剩下的酱油。烧开后加入湿淀粉烧至汤汁浓缩。
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">6</div>
+        把制作好的汤汁均匀的撒在鱼的身上，再撒上剩余的姜末即可。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="http://player.video.qiyi.com/2229888a2acfe8a7da0a69989bbc6235/0/0/w_19rslajei9.swf-albumId=2633001309-tvId=2633001309-isPurchase=0-cnId=12" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

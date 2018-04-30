@@ -22,18 +22,13 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/徽菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/湘菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>姜辣蛇是湖南岳阳的特色菜品。姜辣蛇主要是以乌梢蛇，配以大量老姜大火烹制，口感非常鲜美，营养全面，适合了湖南气候比较潮湿的特征。</p>
                 </li>
             </ul>
         </fieldset>
@@ -44,64 +39,50 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>养殖花蛇 <p>1千克 </p></li>
+            <li>尖红椒 <p>500克 </p></li>
+            <li>五花肉各 <p>500克 </p></li>
+            <li>生姜 <p>300克 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            、 ，、 15 克，、 ， 。
+            <li>豆瓣酱 <p>10克 </p></li>
+            <li>辣酱 <p>10克 </p></li>
+            <li>盐 <p>15 克 </p></li>
+            <li>花生辣酱 <p>15 克 </p></li>
+            <li>味精 <p>5 克 </p></li>
+            <li>香油 <p>5 克 </p></li>
+            <li>水 <p> 600 克</p></li>
+            <li>色拉油 <p>50 克 </p></li>
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        将蛇宰杀，与皮一起斩成 3 厘米长的段，五花肉切成 2 厘米的片。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        下油将五花肉炒香，然后把五花肉挑出，加入生姜、花蛇、下入盐、味精、豆瓣酱、辣酱、花生辣酱入高压锅压 4 分钟。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        锅内放入色拉油烧至 5 成热，放入尖红椒和压好的花蛇，旺火炒 3 钟，淋香油即可。
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">5</div>
-
+        锅内放入色拉油烧至 5 成热，放入尖红椒和压好的花蛇，旺火炒 3 钟，淋香油即可。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="http://player.video.qiyi.com/ce668fb3f98c43499247ce7f323d1e0b/0/0/w_19ruh7iqkp.swf-albumId=6496331109-tvId=6496331109-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

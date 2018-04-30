@@ -22,7 +22,7 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/徽菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/闽菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
             <legend>功效</legend>
@@ -44,25 +44,21 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>大米 <p>300克 </p></li>
+            <li>生蚝<p>100克  </p></li>
+            <li>干香菇 <p>数朵 </p></li>
+            <li>虾米 <p>10克 </p></li>
         </ul>
     </fieldset>
+
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>地瓜淀粉 <p>20克 </p></li>
+            <li>高汤 <p> 1.5升 </p></li>
+            <li>香葱 <p>1小撮 </p></li>
+            <li>食盐 <p>适量 </p></li>
+            <li>食用油 <p>适量 </p></li>
         </ul>
     </fieldset>
 
@@ -79,29 +75,62 @@
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        将大米洗净后，加水以没过米为宜，浸泡一晚上
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        大米经过一夜的浸泡，重量会从300克增加至400克，将浸泡好的大米倒进料理机中，加200克清水，反复研磨成米浆
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        将除大米以外的材料备齐，将干香菇去蒂，洗净，泡发以后切成小丁备用
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        鲜生蚝洗净，加入20克淀粉抓匀。
+        香葱洗净，切末，并区分葱白，葱绿放置在盘中，虾米洗净备用
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-
+        锅内倒入少量食用油
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">6</div>
+        油热以后加入切好的葱白，炒香。待葱白炒出香味，加入虾米继续翻炒，加入香菇丁继续翻炒，加入500毫升的大骨高汤，待锅中汤沸，再煮2-3分钟即可装碗备用，这就是煮好的底汤
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">7</div>
+        将锅洗净，取1/3底汤，倒入锅中。待底汤沸后，再加入300毫升的大骨高汤
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">8</div>
+        待锅中汤再次沸，加入1/3裹好淀粉浆的鲜海蛎
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">9</div>
+        待锅中汤再次沸、用刷子沾取少量食用油刷在锅壁上
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">10</div>
+        勺适量米浆快速、均匀的浇在锅壁上
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">11</div>
+        待面片半熟，面片会呈现与锅壁脱离的状态
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">11</div>
+        轻轻用锅铲刮一下，面片就会轻松落入锅内，反复2次，起锅前加入少量盐调味，装碗后撒上葱绿末即可
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">12</div>
+        装入碗中，搭配虾酥。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="400" height="325"><param name="movie" value="http://v.ifeng.com/include/exterior.swf?guid=276df2c6-e080-453d-b43e-cf560df3b6a1&pageurl=http://www.ifeng.com&fromweb=other&AutoPlay=false" /><param name="quality" value="high" /><param name="allowScriptAccess" value="always" /><embed src="http://v.ifeng.com/include/exterior.swf?guid=276df2c6-e080-453d-b43e-cf560df3b6a1&pageurl=http://www.ifeng.com&fromweb=other&AutoPlay=false" quality="high"  allowScriptAccess="always" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="400" height="325"></embed></object>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

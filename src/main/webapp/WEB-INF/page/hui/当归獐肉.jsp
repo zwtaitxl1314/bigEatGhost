@@ -44,64 +44,40 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li> 獐肉<p>1000克 </p></li>
+            <li>腌雪里蕻 <p>60克 </p></li>
+            <li>当归 <p>10 克 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-        </ul>
-    </fieldset>
-
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
+            <li>葱段 <p> </p></li>
+            <li>姜块 <p> </p></li>
+            <li>酱油 <p> </p></li>
+            <li>精盐 <p> </p></li>
+            <li>味精 <p> </p></li>
+            <li>白糖 <p> </p></li>
+            <li>猪油 <p> </p></li>
         </ul>
     </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        将去皮的獐肉放冷水中泡半小时捞起，再放到冷水锅里烧沸，去尽血
+        水和腥味后，捞出，沥干水后，切成4 厘米方的肉块，将当归浮灰洗净。雪
+        里蕻洗净去根，切成段。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        坐锅，放入熟猪油烧至五成热，下獐肉煸炒少许，加水放入当归、酱
+        油，烧开后再加入姜、葱、盐、白糖，换小火炖。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">4</div>
-
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">5</div>
-
-    </div>
-
-    <p class="topic">${comcuisine}的教学视频</p>
-
-    <div class="video">
-
+        在獐肉炖至七成烂时，另用铁锅放在旺火上，倒入猪油，烧至五成热，
+        下雪里煸炒几下，然后倒在獐肉锅内继续炖至獐肉烂。加味精调好即成。
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

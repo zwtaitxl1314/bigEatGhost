@@ -22,7 +22,7 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/徽菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/浙菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
             <legend>功效</legend>
@@ -44,64 +44,70 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>黄鱼100克 <p> </p></li>
+            <li>蛤蜊200克 <p> </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>鸡蛋 <p>65克 </p></li>
+            <li>火腿 <p>10克 </p></li>
         </ul>
     </fieldset>
 
     <fieldset class="ingredients">
-        <legend>口味</legend>
+        <legend>调料</legend>
         <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
+            <li>花生油 <p>60克 </p></li>
+            <li>食盐 <p>2克 </p></li>
+            <li>味精 <p>2克 </p></li>
+            <li>料酒 <p>10克 </p></li>
+            <li>小葱 <p>8克 </p></li>
+            <li>玉米淀粉 <p>20克 </p></li>
+            <li>高汤 <p>300克 </p></li>
         </ul>
     </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        黄鱼肉整理干净，切成方丁
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        蛤蜊放沸水锅中煮开壳，去壳取肉
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        鸡蛋打入碗中，用筷子搅散备用
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        炒锅置旺火上，下花生油40克烧热，下葱末爆香，放入黄鱼丁炒一下
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-
+        加高汤、料酒、盐、味精烧沸
     </div>
+    <div class="practice">
+        <div class="recipeStep_num">6</div>
+        待鱼肉熟后下湿淀粉推匀，再淋入鸡蛋液，边淋边用勺推动呈丝状
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">7</div>
+        加入剩余花生油略推，盛出装大汤盘内
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">8</div>
+        锅内留少许卤汁，放入蛤蜊肉，置火上略煮后搅开，盛出浇在鱼羹面上，撒上火腿（切末）即可
+    </div>
+
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="http://player.video.qiyi.com/a1670ecd402e88bcac6918c583bac16a/0/0/v_19rr9d5ulc.swf-albumId=565505100-tvId=565505100-isPurchase=0-cnId=32" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

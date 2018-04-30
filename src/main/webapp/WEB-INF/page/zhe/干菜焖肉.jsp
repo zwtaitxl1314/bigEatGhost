@@ -22,7 +22,7 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/徽菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/浙菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
             <legend>功效</legend>
@@ -44,50 +44,34 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>梅干菜 <p> </p></li>
+            <li>五花肉 <p> </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-        </ul>
-    </fieldset>
-
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
+            <li>料酒 <p> </p></li>
+            <li>盐 <p> </p></li>
+            <li>白糖 <p> </p></li>
+            <li>酱油 <p> </p></li>
+            <li>十三香 <p> </p></li>
+            <li>姜 <p> </p></li>
         </ul>
     </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        梅干菜泡1个小时后，洗净到无杂质，水的颜色变清。五花肉洗净去皮切5*5长方块状；
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        锅烧热，下五花肉炒到出油，下料酒、酱油、十三香、姜翻炒后加水盖过五花肉，水沸改小火加盖焖煮40分钟；
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        把洗净的梅干菜倒进焖煮的肉里，大火翻炒2分钟加白糖、盐再加少许水，水沸后改小火焖煮40分钟.
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
@@ -101,7 +85,7 @@
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src='http://player.youku.com/player.php/sid/XMTA1MDM1OTY=/v.swf' allowFullScreen='true' quality='high' width='480' height='400' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

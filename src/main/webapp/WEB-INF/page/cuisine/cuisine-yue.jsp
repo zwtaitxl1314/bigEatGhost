@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Title</title>
+    <title>粤菜</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/cuisine.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/js/bootstrap-3.3.7-dist/css/bootstrap.css">

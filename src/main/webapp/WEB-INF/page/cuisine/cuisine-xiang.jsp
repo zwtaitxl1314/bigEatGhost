@@ -3,36 +3,88 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Title</title>
+    <title>湘菜</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/cuisine.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/js/bootstrap-3.3.7-dist/css/bootstrap.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/foot.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/head.css">
+    <script type="text/javascript" src="${pageContext.request.contextPath}/css/jquery-3.3.1/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $("a").click(function () {
+                var cuisine = $(this).next().html();
+                console.log(cuisine)
+                window.location.href="/xiang/to.do?cuisine="+cuisine;
+            })
+        });
+
+    </script>
 </head>
 <body>
-<div class="header">
-    <div class="navigation">
-        <a href="${pageContext.request.contextPath}/index.jsp" class="hd-logo" title="美食餐厅" ><img src="${pageContext.request.contextPath}/image/index/logo1.png"></a>
-        <ul class="hd-nav">
-            <li><a href="" name="index">网站首页</a></li>
-            <li><a href="" name="about">我们提供 </a></li>
-            <li><a href="" name="productlist">菜式欣赏 </a></li>
-            <li><a href="" name="article">查看更多 </a></li>
-            <li><a href="" name="contact">关于我们 </a></li>
+<jsp:include page="/WEB-INF/page/head.jsp" flush="true"/>
+    <div class="appreciate-text">
+        <img src="${pageContext.request.contextPath}/image/湘.jpg">
+    </div>
+
+    <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
+        <ul>
             <li>
-                <a href="${pageContext.request.contextPath}/customer/login.do">登录</a>
+                <a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/image/湘菜/剁椒鱼头.jpg"></a>
+                <p>剁椒鱼头</p>
             </li>
             <li>
-                <a href="${pageContext.request.contextPath}/customer/registJsp.do">注册</a>
+                <a href="javascript:void(0);" ><img src="${pageContext.request.contextPath}/image/湘菜/东安鸡.jpg"></a>
+                <p>东安鸡</p>
+            </li>
+            <li>
+                <a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/image/湘菜/姊妹团子.jpg"></a>
+                <p>姊妹团子</p>
+            </li>
+            <li>
+                <a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/image/湘菜/牛肉粉.jpg"></a>
+                <p>牛肉粉</p>
             </li>
         </ul>
+        <ul>
+            <li>
+                <a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/image/湘菜/组庵豆腐.jpg"></a>
+                <p>组庵豆腐</p>
+            </li>
+            <li>
+                <a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/image/湘菜/郴州鱼粉.jpg"></a>
+                <p>郴州鱼粉</p>
+            </li>
+            <li>
+                <a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/image/湘菜/金鱼戏莲.jpg"></a>
+                <p>金鱼戏莲</p>
+            </li>
+            <li>
+                <a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/image/湘菜/岳阳姜辣蛇.jpg"></a>
+                <p>岳阳姜辣蛇</p>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/image/湘菜/腊味合蒸.jpg"></a>
+                <p>腊味合蒸</p>
+            </li>
+            <li>
+                <a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/image/湘菜/组庵鱼翅.jpg"></a>
+                <p>组庵鱼翅</p>
+            </li>
+            <li>
+                <a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/image/湘菜/永州血鸭.jpg"></a>
+                <p>永州血鸭</p>
+            </li>
+            <li>
+                <a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/image/湘菜/宁乡口味蛇.jpg"></a>
+                <p>宁乡口味蛇</p>
+            </li>
+        </ul>
+
     </div>
-</div>
 
-<div class="appreciate-text">
-    <img src="${pageContext.request.contextPath}/image/湘.jpg">
-</div>
-
+    <jsp:include page="/WEB-INF/page/foot.jsp" flush="true"/>
 </body>
 </html>

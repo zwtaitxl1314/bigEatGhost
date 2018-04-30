@@ -25,15 +25,10 @@
         <img src="${pageContext.request.contextPath}/image/徽菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>腌鲜鳜（guì)鱼又称屯溪臭桂鱼。是徽州传统风味名菜之一，此菜香鲜透骨，鱼肉酥烂，风味独特。成名已有百多年历史，每至重阳节桂鱼上市，人们都以一尝此鱼为快事。</p>
                 </li>
             </ul>
         </fieldset>
@@ -44,25 +39,25 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>鳜鱼 <p>700克 </p></li>
+            <li>猪肋条肉 <p> 35克</p></li>
+            <li> 青蒜<p> 20克</p></li>
+            <li> 冬笋<p>35克 </p></li>
         </ul>
     </fieldset>
+
+    调料：、 、  、、 、 、
+    制作方法：
+
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li> 酱油<p>30克 </p></li>
+            <li>菱角粉 <p>6克 </p></li>
+            <li>姜<p>15克  </p></li>
+            <li>白砂糖 <p>5克 </p></li>
+            <li>猪油（炼制） <p>70克 </p></li>
+            <li>黄油 <p>10克 </p></li>
         </ul>
     </fieldset>
 
@@ -79,29 +74,41 @@
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        将鳜鱼去鳞、鳃，去内脏洗净，两面刻斜花刀，晾干；
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        冬笋去皮，洗净，煮熟，切片；
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        青蒜择洗干净，切段；
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        将猪肉洗净，切片备用；
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-
+        锅放火上，下猪油用大火烧七成热，将鳜鱼放入炸至呈淡黄色，倒入漏勺沥净油；
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">6</div>
+        锅内留少许底油，将猪肉、笋片放入锅内略煸；
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">7</div>
+        再将鳜鱼放入，加酱油、姜末、酒、糖和鸡汤350毫升烧开，即转小火继续烧；
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">8</div>
+        烧至汤汁将干时，撒入青蒜段，跟着调水菱角粉下锅勾薄芡，淋少许猪油即成。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&v=20161117&vid=b0339k2grgr&auto=0" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

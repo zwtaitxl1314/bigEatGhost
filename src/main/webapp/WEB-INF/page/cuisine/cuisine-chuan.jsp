@@ -24,6 +24,7 @@
     </script>
 </head>
 <body>
+<jsp:include page="/WEB-INF/page/head.jsp" flush="true"/>
     <div class="header">
         <div class="navigation">
             <a href="${pageContext.request.contextPath}/index.jsp" class="hd-logo" title="美食餐厅" ><img src="${pageContext.request.contextPath}/image/index/logo1.png"></a>
@@ -104,5 +105,6 @@
         </ul>
 
     </div>
+    <jsp:include page="/WEB-INF/page/foot.jsp" flush="true"/>
 </body>
 </html>

@@ -22,7 +22,7 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/徽菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/浙菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
             <legend>功效</legend>
@@ -44,65 +44,40 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>鲜活黄鳝 <p>4条 </p></li>
+            <li>滑熟的虾仁 <p>50克 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>面粉30克 <p> </p></li>
+            <li>生粉 <p>20克 </p></li>
+            <li>盐 <p> 3克</p></li>
+            <li>味精 <p>2克 </p></li>
+            <li>啤酒 <p>15克 </p></li>
+            <li>姜末 <p>2克 </p></li>
+            <li>蒜末 <p>8克 </p></li>
+            <li>水淀粉 <p>适量 </p></li>
+            <li>色拉油 <p>适量 </p></li>
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        把黄鳝剔骨治净并改刀成段后，用A料先腌10分钟，再拣出姜葱并控水待用。另把面粉、生粉和匀以后，加盐、味精、啤酒和适量的清水，搅匀便成脆炸糊。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        锅入色拉油烧至五六成热时，把鳝段放入调好的脆炸糊里边稍拌，然后用筷子夹起鳝段并下到热油锅里，炸至定型时才捞起，打去油锅里的碎渣后，再入锅复炸至金黄酥脆时捞出来，沥油后码放在盘里边。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">4</div>
-
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">5</div>
-
+        锅留底油，下蒜末和姜末煸香后，再下入调匀的B料炒匀，待用水淀粉勾芡后，烹入少许滚热的色拉油冲汁（迅速搅匀），然后出锅浇在盘中鳝段上，最后放上滑熟的虾仁，即成。
     </div>
 
-    <p class="topic">${comcuisine}的教学视频</p>
-
-    <div class="video">
-
-    </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >
         <div id="content" style="width: 700px; height: auto;margin : 40px auto 0 auto;">

@@ -22,18 +22,13 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/徽菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/浙菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>“油焖春笋”是一道特色传统风味菜肴，属浙菜系。它选用清明前后出土的嫩春笋，以重油、重糖烹制而成，色泽红亮，鲜嫩爽口，鲜咸而带甜味，百吃不厌。</p>
                 </li>
             </ul>
         </fieldset>
@@ -42,66 +37,50 @@
 
     <p class="topic">食材明细</p>
     <fieldset class="ingredients">
-        <legend>主料</legend>
+        <legend>主料</legend>、、、、、、、
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>春笋 <p> 400克</p></li>
+            <li>里脊肉 <p> 80克</p></li>
+            <li>豆豉<p> 20克 </p></li>
+            <li>大蒜 <p>2瓣 </p></li>
+            <li>葱 <p>1克 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li> 料酒<p>1/2茶匙 </p></li>
+            <li>生抽 <p>1/2茶匙 </p></li>
+            <li>黄豆酱 <p>1汤匙 </p></li>
+            <li>麻油<p>1茶匙 </p></li>
+            <li>油 <p>适量 </p></li>
+            <li>盐 <p>适量 </p></li>
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        里脊肉切丝，用料酒、生抽腌制7分钟。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        春笋剥去外皮，洗净后切丝，焯水备用。大蒜切末，葱切葱花。豆豉洗净备用。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        锅中倒入油，烧至四成热，爆香蒜末和豆豉，放入肉丝翻炒约2分钟。
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">5</div>
-
+        放入春笋丝和黄豆酱翻炒至熟，出锅前加入盐、麻油调味，撒上葱花即可。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="http://player.video.qiyi.com/b82bc55eb0feae8d00ac5fefce87ed0c/0/0/v_19rrh8fx5j.swf-albumId=206624507-tvId=206624507-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

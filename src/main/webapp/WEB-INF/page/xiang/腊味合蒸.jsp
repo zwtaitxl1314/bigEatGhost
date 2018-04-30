@@ -22,18 +22,13 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/徽菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/湘菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>腊味合蒸是湖南地方传统名菜，属湘菜系。是以腊猪肉、腊鸡、腊鱼、鸡汤和调料，下锅清蒸而成。做法简单，其腊香浓重、咸甜适口、柔韧不腻 [1]  ，有开胃祛寒、消食等功效。</p>
                 </li>
             </ul>
         </fieldset>
@@ -44,64 +39,39 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>腊猪肉<p>200克  </p></li>
+            <li>肉清汤<p>25克  </p></li>
+            <li>腊鸡肉 <p>200克 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-        </ul>
-    </fieldset>
-
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
+            <li>味精 <p>0.5克 </p></li>
+            <li>腊鲤鱼 <p>200克 </p></li>
+            <li>熟猪油 <p>25克 </p></li>
+            <li>白糖 <p>5克 </p></li>
         </ul>
     </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        将腊肉、腊鸡、腊鱼用温水洗净，盛入钵瓦内上笼蒸熟取出
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        腊鸡去骨，腊肉去皮，腊鱼去鳞；腊肉切4厘米长、0.7厘米厚的片，腊鸡、腊鱼切成大小略同的条。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">4</div>
-
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">5</div>
-
+        取瓷菜碗一只，将腊肉、腊鸡、腊鱼分别皮朝下整齐排放碗内，再放入熟猪油、白糖和调好味的肉清汤上笼蒸烂，取出翻扣在大瓷盘中即成。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&v=20161117&vid=c0129x8pz1b&auto=0" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

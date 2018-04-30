@@ -22,18 +22,16 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/徽菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/浙菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>
+                        龙井虾仁因选用清明节前后的龙井茶配以虾仁制作而得名，是一道具有浓厚地方风味的杭州名菜。 [1]
+                        成菜后，虾仁白嫩、茶叶翠绿，色泽淡雅，味美清口。
+                    </p>
                 </li>
             </ul>
         </fieldset>
@@ -44,25 +42,17 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>活河虾 <p>600克 </p></li>
+            <li>龙井新茶 <p>5克 </p></li>
+            <li>鸡蛋 <p>1个 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>淀粉 <p>10克 </p></li>
+            <li>黄酒<p> 适量</p></li>
+            <li>盐 <p> 适量</p></li>
         </ul>
     </fieldset>
 
@@ -79,29 +69,26 @@
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        将河虾挤出虾肉，用清水反复清洗，至雪白，沥干水分。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        盛到碟中，放入盐和蛋清，用筷子搅拌至有粘性，加入淀粉，腌制1小时。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        茶用开水泡开，备用。热锅放入油，滑开虾仁后盛出。
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        用葱炝锅，放入虾仁，再加入黄酒、茶叶和茶水，迅速颠炒半分钟即可出锅。
     </div>
-    <div class="practice">
-        <div class="recipeStep_num">5</div>
-
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="http://player.video.qiyi.com/79861e5991e7fa8158ad2db552485d65/0/0/v_19rrnxqg1k.swf-albumId=339257300-tvId=339257300-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

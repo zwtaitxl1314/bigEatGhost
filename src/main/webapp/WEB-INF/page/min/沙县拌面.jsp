@@ -22,18 +22,13 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/徽菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/闽菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>沙县拌面是一道色香味俱全的名点，属于闽菜系沙县小吃的一道招牌菜，一般与沙县扁肉搭配成餐，具有香味浓，色泽鲜，原料简单，烹饪方式易掌握的特点。 </p>
                 </li>
             </ul>
         </fieldset>
@@ -44,25 +39,20 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>面条 <p>500克左右 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>花生酱 <p> 50克</p></li>
+            <li>时鲜青菜 <p>若干 </p></li>
+            <li>酸菜 <p> 适量</p></li>
+            <li>盐 <p> 适量</p></li>
+            <li>味精（鸡精） <p> 适量</p></li>
+            <li>香油 <p>适量 </p></li>
+            <li>醋 <p> 适量</p></li>
+            <li>蒜泥 <p>适量 </p></li>
         </ul>
     </fieldset>
 
@@ -79,29 +69,29 @@
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        把面条下入开水锅内，煮熟，冷开水过凉，捞到碗里。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        用现成的鸡汤煮面条。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        另用油锅，爆葱段，加入酱油适量烧热关火。
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        面熟后捞出放入碗中，倒入葱段和油，加少许盐、鸡精，撒上葱花把面拌匀。
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-
+        将青菜放在面条上。调好的花生酱放精盐，味精，香油，蒜泥，加入面条中搅拌，配上一碗清汤就可以享用了。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="http://player.video.qiyi.com/0b15a8e23681c1cebc2664391355071f/0/0/w_19rubk1mw9.swf-albumId=7459114309-tvId=7459114309-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

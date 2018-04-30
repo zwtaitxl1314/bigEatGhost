@@ -22,18 +22,13 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/徽菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/湘菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>栖凤渡鱼粉是湖南郴州的著名小吃，属于湘菜系。发源地在湖南省郴州市苏仙区栖凤渡这个古镇。“走千里路、万里路，舍不得栖凤渡！”这句流传千百年的古话说的不仅是栖凤渡的地方好，更是夸她的独树一帜的传统小吃栖凤渡鱼粉。一说起栖凤渡鱼粉，只要是郴州人，应该都会下意识咂一下嘴巴，咽咽口水，于是，一股浓烈的鱼香和着辛辣味便回味在你嘴里了。</p>
                 </li>
             </ul>
         </fieldset>
@@ -44,64 +39,46 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>鲢鱼 <p> </p></li>
+            <li>豆膏 <p> </p></li>
+            <li>茶油 <p> </p></li>
+            <li>五爪朝天红椒 <p> </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-        </ul>
-    </fieldset>
-
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
+            <li>蒜 <p> </p></li>
+            <li>姜 <p> </p></li>
         </ul>
     </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        准备好上列食材，河鲢鱼宰杀切大块、老姜切厚片、干五爪朝天红椒整个不用切碎、大蒜子拍开
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        放1.5两左右茶油入锅，油热后放三块老姜先入锅，接着放入鱼块，煎2分钟左右，翻一面再煎2分钟之后，放入剩余老姜片、大蒜子，干五爪朝天红椒继续炸1分钟，期间不要随意翻动鱼块，最后放水入锅，水量是锅子的4/5左右，大火煮沸5—8分钟后改小火，盖上锅盖慢慢熬至少1个小时以上
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        期间进行油淋辣椒粉的制作：放茶油入锅待油热后，关火，油温至七成热时，倒入辣椒粉，盐翻炒爆香出锅
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        待鱼汤熬制1小时以上，关火，放入油淋辣椒粉、盐、豆油、酱油（少量）、味精、撒一把葱花，用汤勺把调料拌匀，一锅香气四溢的鲢鱼汤就熬好了……
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-
+        用另一锅子烧开水后，放入米粉，待米粉熟后捞出，盛入碗内，舀几勺鲢鱼汤入碗，一碗热气腾腾的栖凤渡鱼粉就做好了
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="http://player.video.qiyi.com/7ae3194e4feb01048e293c0870f7d1f5/0/0/w_19ru23nhnp.swf-albumId=7963272009-tvId=7963272009-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

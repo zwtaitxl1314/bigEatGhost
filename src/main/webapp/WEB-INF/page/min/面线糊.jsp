@@ -22,18 +22,13 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/徽菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/闽菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>面线糊起源于福建泉州，是福建闽南地区和台湾地区的风味小吃，呈糊状，是由细面线、地瓜粉制作成。先将水煮开，放入番薯粉和调料、面线。一般为早餐食用，也可以当做点心和夜宵，就着油条跟马蹄酥吃。味道鲜美，清甜爽滑，具有闽南地方风味。</p>
                 </li>
             </ul>
         </fieldset>
@@ -44,64 +39,47 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>精制面线 <p>75克 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>虾糠 <p>150克 </p></li>
+            <li>猪骨汤 <p>1000克 </p></li>
+            <li>熟鱼肉 <p>200克 </p></li>
+            <li>精盐 <p>15克 </p></li>
+            <li>味精 <p> 6克</p></li>
+            <li>淀粉<p>50克  </p></li>
+            <li>胡椒粉 <p>适量 </p></li>
+            <li>芫荽 <p>适量 </p></li>
+            <li>白酒 <p>适量 </p></li>
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        将虾糠包扎于纱布中放入1000克清水锅中，用中火煮半小时，捞起虾糠后，汤汁过滤待用。把熟鱼肉撕成丝。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        锅置旺火上，倒入猪骨汤和用虾糠煮过的汤汁，浇沸。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        将精制面线稍捻碎放入沸汤锅中，加入精盐、味精调准味。淀粉调水徐徐舀入锅中，并不停推勺至面线浮起，锅中汤汁成糊状即可。
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">5</div>
-
+        用餐前可根据各人的口味，加入卤大肠、小肠以及各种熟食品和油条，食用面线糊时撒上胡椒粉、芹菜末、白酒以及卤汁，味道更美。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src='http://player.youku.com/player.php/sid/XOTUzNzgxNTky/v.swf' allowFullScreen='true' quality='high' width='480' height='400' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

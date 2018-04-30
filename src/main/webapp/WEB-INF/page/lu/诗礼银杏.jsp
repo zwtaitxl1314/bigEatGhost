@@ -55,16 +55,6 @@
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>菜品特色</legend>
-        <ul>
-            <li>1、在鲁菜中，用白果做的“诗礼银杏”是孔府传统名菜之一。 </li>
-            <li>2、此菜清香甜美，柔韧筋道，可解酒止咳，是孔府宴中的独具特色的菜。成菜色如琥珀，清新淡鲜，酥烂甘馥，十分宜人，是孔府中的名肴珍品。 </li>
-            <li>3、相传，孔子教子孔鲤学诗礼曰：“不学诗，无以言，不学礼，无以立。”嗣后传为美谈。其后裔自称为“诗礼世家”。 </li>
-            <li>4、53代“衍圣公”孔治建“诗礼堂”，堂前有两株银杏，种子硕大丰满。以后孔府请客，总要用此银杏的种子做一道甜菜，用以缅怀孔老夫子的教导，便美其名曰：诗礼银杏。 </li>
-        </ul>
-    </fieldset>
-
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
@@ -80,8 +70,10 @@
         倒入白果，煮至汁浓，调入糖桂花即可
     </div>
     <p class="topic">${comcuisine}的教学视频</p>
-    <embed src="http://player.video.qiyi.com/9b601897a84108cad549eee2118c52d9/0/0/w_19rs0win1p.swf-albumId=3312812609-tvId=3312812609-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
-    <div class="video">
+        <div class="video">
+            <embed src="http://player.video.qiyi.com/9b601897a84108cad549eee2118c52d9/0/0/w_19rs0win1p.swf-albumId=3312812609-tvId=3312812609-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+
+        </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >
         <div id="content" style="width: 700px; height: auto;margin : 40px auto 0 auto;">
@@ -126,6 +118,7 @@
             </div>
         </div>
     </form>
+</div>
 </div>
 
 <script type="text/javascript" src="${pageContext.request.contextPath}/js/main.js"></script>

@@ -25,15 +25,10 @@
         <img src="${pageContext.request.contextPath}/image/徽菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>清蒸鹰龟是一道地方传统名菜，属于徽菜系，以鹰嘴龟、火腿、冰糖等为原料制成。龟与火腿共蒸，龟肉中的胶状物质溶入肠中，与火腿之香浓味相交融，使汤汁奶白而浓稠，龟肉鲜嫩且散发异香，是徽州山区珍品菜肴。具有防癌抗癌调理、滋阴调理、补血调理、止血调理等功效</p>
                 </li>
             </ul>
         </fieldset>
@@ -44,64 +39,51 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>乌龟 <p>500克 </p></li>
+            <li>火腿 <p>25克 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-        </ul>
-    </fieldset>
-
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
+            <li>黄酒 <p>10克 </p></li>
+            <li>冰糖 <p>10克 </p></li>
+            <li>姜<p> 10克</p></li>
+            <li> 盐<p>10克 </p></li>
+            <li>鸡油<p>10克 </p></li>
         </ul>
     </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        选用经洗蒸加工好的火腿25 克，切成3 厘米长的象眼片；
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        姜洗净去皮，切成大片备用；
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        选用一只500 克左右的小龟（山鹰龟），将其投入冷水锅中，在旺火上烧开后捞起；
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        用刀后跟从龟的背腹之间剁开剖成两半，除去内脏、冲净血水；
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-
+        龟肉放入开水锅里略氽捞出，再放入冷水中，刮去龟身上的皮膜洗净，剁去脚尖，切成四大块，留头去尾，按原形放入汤盘内；
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">6</div>
+        将火腿片盖在龟肉上，加入姜片、盐、冰糖、黄酒，再加入清汤淹没龟肉，在汤盘上盖一平盘，上笼用旺火蒸90 分钟取出，拣出姜片，淋上鸡油即成。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="http://player.video.qiyi.com/12305cadf42f1b7e0085180e556ee946/0/0/w_19rvfqyl6x.swf-albumId=8853267109-tvId=8853267109-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

@@ -22,18 +22,13 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/徽菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/闽菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
             <legend>功效</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>荔枝肉是福建省福州、莆田等地特色传统名菜，属于闽菜。已有二三百年历史。因原料中有白色的荸荠和切成十字花刀的猪肉，烹调后因外形型似荔枝而得名。</p>
                 </li>
             </ul>
         </fieldset>
@@ -44,64 +39,66 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>猪肉(瘦) <p>300克 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>荸荠<p>100克  </p></li>
         </ul>
     </fieldset>
 
     <fieldset class="ingredients">
-        <legend>口味</legend>
+        <legend>调料</legend>
         <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
+            <li>大葱<p>15克  </p></li>
+            <li>红糟<p>50克  </p></li>
+            <li>白醋<p>10克  </p></li>
+            <li>酱油<p>10克  </p></li>
+            <li>白砂糖<p>15克  </p></li>
+            <li>大蒜<p>5克  </p></li>
+            <li>淀粉(蚕豆)<p>10克  </p></li>
+            <li>味精<p>3克  </p></li>
+            <li>花生油<p>50克  </p></li>
+            <li>香油<p>5克  </p></li>
         </ul>
     </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        将精肉洗净，切成10×5×1 厘米的厚片，再剖上十字花刀，然后再切为3片。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        马蹄（荸荠）切小块，每粒2～3 块。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        马蹄块与肉片一起用湿淀粉和剁细的红糟抓匀。
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        葱去根须，洗净，取葱白切马蹄葱。
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-
+        酱油、白醋、白糖、味精、上汤、湿淀粉调卤汁待用。
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">6</div>
+        锅置旺火上，下花生油八成热时倒入上浆的肉片和马蹄，用勺扒散，待肉剖花成荔枝状时，用漏勺捞起，沥干油。
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">7</div>
+        锅留余油，先下蒜末、葱白，煸一下再入卤汁烧沸，随即倒入荔枝肉和马蹄块翻炒几下即成。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&v=20161117&vid=e0531izyzr2&auto=0" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

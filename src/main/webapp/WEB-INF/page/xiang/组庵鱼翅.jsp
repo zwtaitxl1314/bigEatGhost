@@ -22,18 +22,14 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/徽菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/湘菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>祖庵鱼翅又名细煨鱼翅，由民国国民政府主席谭延闿的家厨曹敬臣所创，是湖南省的地方传统名菜之一，属于湘菜中重要菜系组庵湘菜的名肴。
+                        该菜将红汤煨鱼翅的方法改为与鸡肉、猪肘肉、鱼翅同煨。这样使配料中的蛋白质等营养物质融渗到鱼翅中，改变了传统烹制之汤鲜美而翅寡味的现象，具有软糯柔滑、纯厚鲜美的独特风味</p>
                 </li>
             </ul>
         </fieldset>
@@ -44,9 +40,9 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>发好的鱼翅 <p>500克 </p></li>
+            <li>猪肘肉 <p>500克 </p></li>
+            <li>老母鸡肉 <p>500克 </p></li>
             <li> <p> </p></li>
             <li> <p> </p></li>
         </ul>
@@ -54,48 +50,38 @@
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>干贝 <p>50克 </p></li>
+            <li>葱结 <p>50克 </p></li>
+            <li> 姜片<p>50克 </p></li>
+            <li>料酒 <p> 40克</p></li>
+            <li> 酱油<p>15克 </p></li>
+            <li>精盐 <p>3克 </p></li>
+            <li>味精 <p>0.5克 </p></li>
+            <li>油 <p>50克 </p></li>
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        将母鸡宰杀后，开膛去内脏并洗净，斩成大块；
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        猪肘刮洗干净后也斩成块，和鸡块一起下冷水锅焯水，焯水后捞出洗净血污待用；干贝扳去边上老筋，洗净后放入葱段、姜片、绍酒上笼蒸透待用。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        取大瓦钵一只，用竹篱子垫底，放入用白纱布包好的鱼翅，加入一半鸡块，再加绍酒、葱段、姜片、清水，在旺火上烧开后，撇净浮沫然后转用小火煨煮120分钟左右。
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        从大瓦钵内取出鱼翅包，瓦钵内的所有原料不用，然后再铺上猪肘，加入绍酒、姜片、葱段、另一半鸡块，再加入干贝和干贝汤，重新放入鱼翅包，加盐和清水，用盘盖上，在旺火上烧开，再转用微小火煨约5个小时左右，直至鱼翅软烂、浓香、柔软为止。
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-
+        然后端钵离火，去掉鸡块、猪肘和葱姜，将鱼烧成浓汁，放入鸡粉，调正口味，撒上胡椒粉，浇在鱼翅上即成。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>

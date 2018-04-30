@@ -22,18 +22,16 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/徽菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/闽菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
             <legend>功效</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>
+                        蚵仔煎（闽南语读做ě-ā-jiān，普通话译作“海蛎煎”），是一道常见的家常菜，起源于福建泉州，是闽南，台湾，潮汕等地区经典的传统小吃之一。
+                        关于它的起源，有一则有趣的故事。民间传闻，西元1661年时，荷兰军队占领台南，泉州南安人郑成功从鹿耳门率兵攻入，意欲收复失土，郑军势如破竹大败荷军，荷军在一怒之下，把米粮全都藏匿起来，郑军在缺粮之馀急中生智，索性就地取材将台湾特产蚵仔、番薯粉混合加水和一和煎成饼吃，想不到竟流传后世，成了风靡全省的小吃。
+                    </p>
                 </li>
             </ul>
         </fieldset>
@@ -44,64 +42,65 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>新鲜海蛎 <p>200g </p></li>
+            <li>鸡蛋 <p>4个 </p></li>
             <li> <p> </p></li>
         </ul>
     </fieldset>
+    、
+    配料：、、、
+    调料：、、、、
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>香菜 <p>2棵 </p></li>
+            <li>红薯淀粉<p>50g  </p></li>
+            <li>胡萝卜 <p>1/2根 </p></li>
+            <li>香葱 <p>1根 </p></li>
         </ul>
     </fieldset>
 
     <fieldset class="ingredients">
         <legend>口味</legend>
         <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
+            <li>蒜蓉辣酱 <p>1大勺 </p></li>
+            <li>蚝油 <p>1大勺 </p></li>
+            <li>盐 <p> 1茶匙</p></li>
+            <li> 糖<p>30g </p></li>
+
         </ul>
     </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        鸡蛋打散，香葱切碎，胡萝卜去皮、擦丝；
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        将新鲜海蛎洗净，加入蚝油；抓匀后腌制15分钟；
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        在红薯淀粉中加入适量水；搅拌成均匀面糊；
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        平底锅放入适量油，将腌制好的海蛎放入煎至七分熟；倒入步骤4中的面糊，摊成圆饼；
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-
+        待面糊开始凝固时放入胡萝卜丝；待红薯淀粉完全呈透明状，顺着边缘倒入打好的蛋液；待蛋液将要完全凝固时，撒入葱花和香菜碎，煎至完全凝固；
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">6</div>
+        将蒜蓉辣酱倒入碗中，蘸食即可。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="http://player.video.qiyi.com/354bf9ff6b448c8ccbdf8245f218fb1e/0/0/v_19rrhskjx8.swf-albumId=240449200-tvId=240449200-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

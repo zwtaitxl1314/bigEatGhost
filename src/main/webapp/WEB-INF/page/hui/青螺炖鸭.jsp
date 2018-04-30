@@ -25,15 +25,10 @@
         <img src="${pageContext.request.contextPath}/image/徽菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>青螺炖鸭是一道由鸭、鲜青螺肉、香菇、小葱结、姜片、盐、冰糖等做成的美食。</p>
                 </li>
             </ul>
         </fieldset>
@@ -44,64 +39,49 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>鸭 <p>重约三斤 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+
+            <li>鲜青螺肉 <p>若干 </p></li>
+            <li> 熟火腿肉<p>若干 </p></li>
+            <li>水发香菇 <p>若干 </p></li>
+            <li>小葱结 <p>若干 </p></li>
+            <li>姜片 <p>若干 </p></li>
+            <li>盐 <p>若干 </p></li>
+            <li>冰糖 <p>若干 </p></li>
             <li> <p> </p></li>
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
-    </div>
+        将鸭宰杀去毛后，从脊部抠去内脏，用水洗净沥干，放入冷水锅中煮一开后捞起，放在砂锅中，加水淹没，用旺火烧开，   </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        撇去浮沫，转用小火炖至六成烂时，再加盐、葱姜、冰糖炖至九成烂。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
-    </div>
+        青螺反复换水洗净沙泥，将火腿、香菇切成丁和青螺一起放入砂锅，用旺火烧约10分钟。    </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        将炖烂的鸭子捞出，剔去大骨，保持原形，取大汤碗一只，放大骨垫底，把鸭肉盖在上面。
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-
+        然后将砂锅中葱、姜拣出，将青螺、火腿、香菇捞出放在鸭肉上，浇上鸭汤即成。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&v=20161117&vid=p0516po67lm&auto=0" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

@@ -22,18 +22,13 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/徽菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/湘菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>姊妹团子是湖南省地方特色小吃，属湘菜。用上等糯米磨成细粉，包入鲜肉、香菇、味精、芝麻油等原料和成的肉馅，捻成尖顶平底长型锥体，蒸熟后宛如一座玲珑的白玉小宝塔。外观白净、细腻油润、鲜香爽口。</p>
                 </li>
             </ul>
         </fieldset>
@@ -44,25 +39,23 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>糯米 <p>600克 </p></li>
+            <li>大米 <p>400克 </p></li>
+            <li>猪五花肉 <p>350克 </p></li>
+            <li>北流糖 <p>100克 </p></li>
+            <li>桂花糖 <p>10克 </p></li>
+            <li>红枣 <p>150克 </p></li>
+            <li>水发香菇 <p>15克 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
+        ，，，，，，，，、，。
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>酱油 <p>20克 </p></li>
+            <li>味精 <p>5克 </p></li>
+            <li>精盐<p>5克 </p></li>
+            <li>熟猪油 <p>30克 </p></li>
         </ul>
     </fieldset>
 
@@ -79,19 +72,19 @@
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        将糯米、大米一起淘洗干净，用清水浸泡4小时（冬季约泡7小时），捞出用清水冲洗干净，盛入竹筲箕内沥去水，再加冷水1250克磨成细滑的浆。将浆料灌入布袋内，挤干水分，取出倒入盆内。取米粉150克搓成扁同饼，入笼蒸约30分钟至熟，取出与其他生粉掺和揉匀。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        红枣洗净去核，剁成枣泥，盛入盆内，入笼用旺火蒸约1小时，取出。炒锅加熟猪油烧热，先倒入北流糖拌炒溶化，再倒入枣泥和桂花糖，拌炒均匀，出锅盛入盆内即成糖馅。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        猪五花肉洗净，剁成肉茸，盛入碗内；香菇去蒂，剁碎后与精盐、味精一起倒入肉碗内，先拌两遍，然后加酱油及适量清水拌匀，即成肉馅。
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        和好的粉团搓成条，摘成每个约15克的剂子逐个搓圆，并用手指在中间捏成窝子，分别放入糖馅和肉馅，捏拢收口，糖馅的捏成圆形，肉馅的捏成尖角形或其他形状，以便区别。笼内铺块白布，入笼用沸水旺火蒸约10分钟，取出即成。
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
@@ -101,7 +94,7 @@
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="http://player.video.qiyi.com/1b14b958d5525e0e4ea9a434f4d0c6fe/0/0/w_19rs8cls0x.swf-albumId=2947205709-tvId=2947205709-isPurchase=0-cnId=7" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

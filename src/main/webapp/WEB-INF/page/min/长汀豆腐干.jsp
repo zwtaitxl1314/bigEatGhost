@@ -22,18 +22,13 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/徽菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/闽菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>长汀豆腐干是福建省龙岩市长汀县的传统名菜，属于闽菜系。始于唐朝开元年间，距今已有1200多年的历史。豆腐食品营养丰富，老幼皆宜，已成为中国人民的家常美肴。长汀豆腐的制法与其他地区不同，采用酸浆（酸的豆腐水）作媒介。制作时适当控制火候，用大瓢盛大酸浆往速效中徐徐注入，使豆腐脑缓缓凝结，再经滤压而成。</p>
                 </li>
             </ul>
         </fieldset>
@@ -44,64 +39,35 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            、、、、、，，。
+            <li>大豆 <p> </p></li>
+            <li>大茴 <p> </p></li>
+            <li>小茴 <p> </p></li>
+            <li>甘草 <p> </p></li>
+            <li>肉桂 <p> </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-        </ul>
-    </fieldset>
-
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
+            <li>公丁研成粉末成为五香粉 <p> </p></li>
+            <li>精盐或酱油 <p> </p></li>
+            <li>栀子水 <p> </p></li>
         </ul>
     </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        选择优秀大豆先用石磨干磨，除去豆皮，再通过水浸、磨浆、开水冲浆、过滤、煮沸、点卤，然后将豆腐脑妥入以稀布垫的木方格内，四角复包，压榨至干，成白豆腐干。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        将白豆腐干抹上五香粉和精盐，腌制后，清水洗净，用光滑嫩石将其下面磨至光滑，景干后抹上栀子水染成黄色。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">4</div>
-
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">5</div>
-
-    </div>
-
-    <p class="topic">${comcuisine}的教学视频</p>
-
-    <div class="video">
-
+        将豆腐干放在特制烘笪上，微火烘焙。
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >
