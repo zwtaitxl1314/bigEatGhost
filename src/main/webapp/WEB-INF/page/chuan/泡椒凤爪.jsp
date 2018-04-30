@@ -25,15 +25,10 @@
         <img src="${pageContext.request.contextPath}/image/川菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>泡椒凤爪是起源于重庆的民间独特美食，属渝菜小吃类。以酸辣爽口、皮韧肉香而著称。泡椒凤爪既能登大雅之堂，也为普通老百姓所喜爱。此款美食具有开胃生津、促进血液循环的功效。 </p>
                 </li>
             </ul>
         </fieldset>
@@ -44,64 +39,50 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>鸡爪 <p>2斤 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>料酒 <p> </p></li>
+            <li>花椒 <p> </p></li>
+            <li>大料 <p> </p></li>
+            <li>葱段 <p> </p></li>
+            <li>姜片 <p> </p></li>
+            <li>白醋 <p> </p></li>
+            <li>冰糖 <p> </p></li>
+            <li>小米椒 <p> </p></li>
+            <li>泡椒 <p>1袋 </p></li>
         </ul>
     </fieldset>
 
     <fieldset class="ingredients">
-        <legend>口味</legend>
+        <legend>小诀窍</legend>
         <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
+            <li> 1.有人说这个凤爪煮的时间要短一些，十分钟就够了。我认为还要煮久一点，因为煮好的凤爪马上要捞出来冲凉水，导致凤爪的皮比较紧致，太生硬的话影响口感。  </li>
+            <li>2。冲水的时间愈久，凤爪的颜色愈白。当然为了避免浪费，我建议煮好后可以短时间冲水，然后把凤爪泡好的凤爪泡进冰水里，也能达到长期冲水的效果。 </li>
         </ul>
     </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        把洗好的鸡爪放进锅里，加入料酒，花椒大料，葱段和姜片，大火煮十五分钟，煮到筷子能插进去为止。（鸡爪剪去指甲，清洗干净，剁成两段，以便入味。）
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        捞出来用冷水冲，然后泡到冰水里一段时间。准备白醋，冰糖，小米椒，蒜末，一袋泡椒。泡椒的味道各不相同，我在家乐福没找到瓶装的，这次临时买了升元的，味道也很正。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">4</div>
-
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">5</div>
-
+        将凉开水中加入大蒜、一整袋泡椒连同里面的汁、醋、姜片、盐、小米椒段、冰糖，混匀后把鸡爪泡在里面放在冰箱里浸泡一夜就可以吃了。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="http://player.video.qiyi.com/056e9dc3125b5db4816f9a67428ea69d/0/0/w_19rulw6mkl.swf-albumId=6750244009-tvId=6750244009-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

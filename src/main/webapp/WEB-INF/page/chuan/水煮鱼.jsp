@@ -44,64 +44,61 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-        </ul>
-    </fieldset>
-    <fieldset class="ingredients">
-        <legend>配料</legend>
-        <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>草鱼 <p>1500克 </p></li>
+            <li>豆腐皮 <p>300克 </p></li>
+            <li>油菜 <p>300克 </p></li>
+            <li>郫县豆酱 <p>2大勺 </p></li>
             <li> <p> </p></li>
         </ul>
     </fieldset>
 
     <fieldset class="ingredients">
-        <legend>口味</legend>
+        <legend>配料</legend>
         <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
+            <li>花椒大料桂皮小茴香麻椒 <p>共1勺 </p></li>
+            <li>葱 <p>1根 </p></li>
+            <li>姜蒜 <p>1勺 </p></li>
+            <li>白酒 <p>1勺 </p></li>
+            <li>鸡蛋 <p>1个 </p></li>
+            <li>胡椒粉 <p> </p></li>
+            <li>淀粉 <p>1勺 </p></li>
+            <li>麻油 <p>2大勺 </p></li>
+            <li>红辣椒 <p>50克 </p></li>
+            <li>盐 <p>1勺 </p></li>
         </ul>
     </fieldset>
+
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        草鱼洗干净，沿鱼骨取下肉，切成连刀片。用白酒、蛋清、盐、胡椒粉、淀粉抓匀备用
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        热锅，下麻油，炒香豆皮和油菜，盛在碗中
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        冷锅凉油慢慢炒热郫县豆酱，加入花椒大料桂皮小茴香麻椒、葱姜蒜、辣椒炒香，下入鱼骨和鱼头，炒到变色后
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        添水烧开，转文火煮10分钟
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-
+        下入腌好的鱼片，鱼片变白扶起后，加麻油、盐调味即可。把蒸锅的鱼连同汤一同倒入装豆皮油菜的大碗中
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">6</div>
+        最后用锅子加热100克左右的油，至冒烟，趁热浇在鱼片上
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="http://player.video.qiyi.com/0a38d6680403652014b2a680a9fe589d/0/0/w_19rrlrporh.swf-albumId=470503409-tvId=470503409-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

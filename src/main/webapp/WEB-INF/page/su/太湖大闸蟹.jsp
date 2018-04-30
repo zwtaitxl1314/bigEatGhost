@@ -22,13 +22,13 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/川菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/苏菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
             <legend>简介</legend>
             <ul>
                 <li>
-                    <p>鱼香肉丝，是一道特色传统名菜，以鱼香味调味而得名，属于川菜。相传灵感来自泡椒肉丝，民国年间则是由四川籍厨师创制而成。 </p>
+                    <p>太湖蟹，生长于太湖水域，亦称螃蟹，其背壳坚隆凹纹似虎色青黑，腹青白色，腹下有脐，雄尖雌团，内有硬毛。蟹个大体重，蟹黄肥厚，肉质细嫩，腴美异常，辨别太湖蟹可从“青壳、白肚、金爪、黄毛、体壮”这五个特征入手。</p>
                 </li>
             </ul>
         </fieldset>
@@ -39,91 +39,47 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li>猪里脊肉 <p>300克 </p></li>
-            <li>绿尖椒 <p>1根 </p></li>
-            <li>胡萝卜 <p>1/4根 </p></li>
-            <li>冬笋 <p>1/2根 </p></li>
-            <li> 黑木耳<p> 6朵</p></li>
+            <li>大闸蟹 <p>4只 </p></li>
+            <li>棉纱线 <p>适量 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
-
-        配料：
-
-
-
-        （，，，，），
-
-        ，，，，
-
-        <legend>腌肉调料</legend>
+        <legend>配料</legend>
         <ul>
-            <li>生抽 <p>5ml </p></li>
-            <li>料酒 <p>5m </p></li>
-            <li>水淀粉 <p>20ml </p></li>
+
+            <li>生姜 <p>适量 </p></li>
+            <li>糖 <p>适量 </p></li>
+            <li>香醋 <p>适量 </p></li>
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>鱼香汁</legend>
-        <ul>
-            <li>生抽 <p>5ml </p></li>
-            <li>醋 <p>15ml </p></li>
-            <li>白糖 <p>45克 </p></li>
-            <li>盐<p>1克  </p></li>
-            <li>水淀粉 <p>20ml </p></li>
-        </ul>
-    </fieldset>
-
-    <fieldset class="ingredients">
-        <legend>其他配料</legend>
-        <ul>
-            <li>色拉油 <p>80ml </p></li>
-            <li>葱 <p>适量 </p></li>
-            <li>姜 <p>适量 </p></li>
-            <li>蒜末<p>适量  </p></li>
-            <li>四川泡辣椒 <p>4-5根 </p></li>
-        </ul>
-    </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-        猪里脊肉切细丝，加腌肉调料腌制十几分钟；
+        先把姜切成末
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-        绿尖椒、胡萝卜、冬笋分别切细丝，黑木耳泡软洗净切细丝备用；
+        加入糖（根据个人的喜甜程度调整），加入香醋后搅拌均匀至糖完全融化
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-        调好鱼香汁备用，葱、姜、蒜切末备用，泡辣椒切末备用；
+        把大闸蟹洗净后，用棉线捆绑好。
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-        锅中放足量油，油六七成热时放入肉丝大火快速滑散至变白，盛出备用；
+        水开后大闸蟹入锅蒸7分钟
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-        锅中放少许油，放入葱、姜、蒜末炒香，放入泡辣辣末炒出红油；
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">6</div>
-        放入胡萝卜、冬笋、木耳翻炒2分钟，放入尖椒翻炒均匀；
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">7</div>
-        放入炒好的肉丝迅速翻炒均匀；
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">8</div>
-        倒入鱼香汁快速翻炒均匀即可。
+        虚火焖3分钟后即可出锅，趁热粘着酸甜的姜末即可开吃了。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-        <embed src="http://player.video.qiyi.com/9f1313198d26ea5de929337b8100561c/0/0/w_19rt948xm5.swf-albumId=4868428609-tvId=4868428609-isPurchase=0-cnId=6" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+        <embed src="http://player.video.qiyi.com/3f7a0b1a5d5246f8dbc8fc118e331909/0/0/w_19rqstcyu5.swf-albumId=1684975409-tvId=1684975409-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

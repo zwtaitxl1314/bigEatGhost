@@ -22,13 +22,18 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/川菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/苏菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>简介</legend>
+            <legend>功效</legend>
             <ul>
                 <li>
-                    <p>鱼香肉丝，是一道特色传统名菜，以鱼香味调味而得名，属于川菜。相传灵感来自泡椒肉丝，民国年间则是由四川籍厨师创制而成。 </p>
+                    <p>1. </p>
+                    <p>2. </p>
+                    <p>3. </p>
+                    <p>4. </p>
+                    <p>5. </p>
+                    <p>6. </p>
                 </li>
             </ul>
         </fieldset>
@@ -39,91 +44,70 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li>猪里脊肉 <p>300克 </p></li>
-            <li>绿尖椒 <p>1根 </p></li>
-            <li>胡萝卜 <p>1/4根 </p></li>
-            <li>冬笋 <p>1/2根 </p></li>
-            <li> 黑木耳<p> 6朵</p></li>
+            <li>鸡肉<p>若干  </p></li>
+            <li>干香菇 <p>5-8只 </p></li>
+            <li>红枣 <p>2-4颗 </p></li>
+            <li>大葱 <p> 1-2根</p></li>
+            <li>姜片 <p>少许 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
-
-        配料：
-
-
-
-        （，，，，），
-
-        ，，，，
-
-        <legend>腌肉调料</legend>
+        <legend>配料</legend>
         <ul>
-            <li>生抽 <p>5ml </p></li>
-            <li>料酒 <p>5m </p></li>
-            <li>水淀粉 <p>20ml </p></li>
+            <li>食盐 <p>少许 </p></li>
         </ul>
     </fieldset>
 
     <fieldset class="ingredients">
-        <legend>鱼香汁</legend>
+        <legend>小诀窍</legend>
         <ul>
-            <li>生抽 <p>5ml </p></li>
-            <li>醋 <p>15ml </p></li>
-            <li>白糖 <p>45克 </p></li>
-            <li>盐<p>1克  </p></li>
-            <li>水淀粉 <p>20ml </p></li>
-        </ul>
-    </fieldset>
-
-    <fieldset class="ingredients">
-        <legend>其他配料</legend>
-        <ul>
-            <li>色拉油 <p>80ml </p></li>
-            <li>葱 <p>适量 </p></li>
-            <li>姜 <p>适量 </p></li>
-            <li>蒜末<p>适量  </p></li>
-            <li>四川泡辣椒 <p>4-5根 </p></li>
+            <li>1、香菇一定要用干香菇，品质要好，新鲜香菇香味比干香菇差很多。 </li>
+            <li>2、干香菇发泡之前要反复清洗多次，发泡水底部残渣弃用倒掉，发泡水炖汤味道好。  </li>
+            <li>3、干香菇选择大朵的较好，发泡后的香菇中间切开或在香菇表面打十字刀花。  </li>
+            <li>4、红枣表皮较韧，用剪刀在红枣两侧剪2-3下的小剪口，利于红枣香味出来。 </li>
+            <li>5、调料只用食盐就好，其他炖肉调料不加，鸡精和味精也不加，否则会掩盖鸡汤原味。</li>
         </ul>
     </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-        猪里脊肉切细丝，加腌肉调料腌制十几分钟；
+        干香菇清洗干净后，用温水发泡备用（发泡时间以香菇变软、香味散发为宜）
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-        绿尖椒、胡萝卜、冬笋分别切细丝，黑木耳泡软洗净切细丝备用；
+        泡香菇的水不要倒掉，炖鸡的时候备用。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-        调好鱼香汁备用，葱、姜、蒜切末备用，泡辣椒切末备用；
+        红枣清洗干净后，用剪刀在红枣两侧剪2-3下的小口（表皮较韧，剪开利于香味出来）
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-        锅中放足量油，油六七成热时放入肉丝大火快速滑散至变白，盛出备用；
+        鸡肉切块后，放入锅中用水大火烹煮，待煮出大量血沫后迅速出锅。
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-        锅中放少许油，放入葱、姜、蒜末炒香，放入泡辣辣末炒出红油；
+        用冷水把鸡块上残留血沫冲洗干净后备用。
     </div>
     <div class="practice">
         <div class="recipeStep_num">6</div>
-        放入胡萝卜、冬笋、木耳翻炒2分钟，放入尖椒翻炒均匀；
+        大葱切段后和姜片一起放入干净的锅底，在葱姜上面架鸡块，在鸡块上面架香菇和红枣。
     </div>
     <div class="practice">
         <div class="recipeStep_num">7</div>
-        放入炒好的肉丝迅速翻炒均匀；
+        锅中葱姜、鸡块、香菇红枣三层摆放后，倒入香菇发泡水，水面刚刚淹过香菇为宜。
     </div>
     <div class="practice">
         <div class="recipeStep_num">8</div>
-        倒入鱼香汁快速翻炒均匀即可。
+        加入适量食盐后，小火慢炖1小时以上，待鸡肉炖熟后出锅。
     </div>
+
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-        <embed src="http://player.video.qiyi.com/9f1313198d26ea5de929337b8100561c/0/0/w_19rt948xm5.swf-albumId=4868428609-tvId=4868428609-isPurchase=0-cnId=6" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+        <embed src="http://player.video.qiyi.com/80e88527e0e6d7ed6297317b8260fe37/0/0/w_19rr7e5ldx.swf-albumId=685298409-tvId=685298409-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

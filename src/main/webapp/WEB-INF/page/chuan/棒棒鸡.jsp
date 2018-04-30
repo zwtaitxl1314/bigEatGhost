@@ -25,15 +25,13 @@
         <img src="${pageContext.request.contextPath}/image/川菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>
+                        棒棒鸡，又名“嘉定棒棒鸡”、“乐山棒棒鸡” [1-3]  。此菜起源于乐山汉阳坝（今为眉山市青神县汉阳镇） [2-3]  ，取用良种汉阳鸡，经煮熟后，用木棒将鸡肉捶松后食用。棒棒鸡是四川特色菜肴。属于川菜中的凉菜，主要食材是鸡肉，其味型属于“怪味”，麻、辣、酸、甜、鲜、咸、香全部味道都具备。
+                        它突破传统的小吃瓶颈，适合了现代生活方式的新型餐饮模式，具有口味独特、产品组合新颖、品牌化运营的特点。包融了系列川中熟食经典菜式，集卤、拌、泡等多种烹调手法，有麻辣、五香、泡椒、藤椒、香辣、咸鲜和酱香等系列特色口味，是四川熟食的典型代表。
+                    </p>
                 </li>
             </ul>
         </fieldset>
@@ -44,25 +42,20 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>鸡腿 <p>两只 </p></li>
+
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>香葱 <p>两颗 </p></li>
+            <li>姜片 <p>4片 </p></li>
+            <li>花椒 <p>1/2大匙 </p></li>
+            <li>盐 <p>1茶匙 </p></li>
+            <li>料酒 <p>1大匙 </p></li>
+            <li>生抽 <p>2大匙 </p></li>
+            <li>芝麻酱<p>1大匙  </p></li>
         </ul>
     </fieldset>
 
@@ -79,29 +72,45 @@
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        锅内注入清水，放入姜片，香葱段，花椒，盐，大火煮开。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        放入鸡腿，转小火慢慢煮制20分钟至熟。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        煮好的鸡腿，冲洗干净，用冷水或冰水浸泡十分钟。
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        用木锤或肉锤将鸡肉组织锤散
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-
+        用手分离骨，肉，将鸡肉撕成长条状
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">6</div>
+        在碗内放入调料A，用筷子混合均匀备用
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">7</div>
+        花生放入微波炉中高火叮1分钟，放凉去皮。
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">8</div>
+        用胶袋装好，用擀面棍敲碎。
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">9</div>
+        最后将图6中的调料淋在鸡丝上，洒上炒熟白芝麻，花生碎，及香菜碎即可。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="http://player.video.qiyi.com/02bbcc971f425359eef9bf2ca99fffb3/0/0/v_19rrlzu0b8.swf-albumId=523969400-tvId=523969400-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

@@ -25,15 +25,12 @@
         <img src="${pageContext.request.contextPath}/image/川菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>1.酸辣土豆丝是一道人见人爱的一道家常菜，制作原料有土豆、辣椒、白醋等，虽然价格便宜但是酸辣可口味道味道却是大家喜爱的。无论是家庭餐桌、还是饭馆酒店几乎都能见到它的身影，虽然酸辣土豆丝是一道普通的菜肴，但是能够做好也是很不容易的，如何才能保持土豆丝熟而脆爽是关键，这个和土豆的选择、土豆丝的处理、炒制时的时间火候的把握有着密切的关系。土豆最好选择含水量高的新土豆，土豆丝要过水，炒制时大火快炒勤翻动，掌握了这些窍门相信你也能做出饭店水平。
+                    <p>2.酸辣土豆丝的辣椒要适量，注意不要放太多，太辣容易引起人上火。 </p>
+                    <p>3.做酸辣土豆丝我喜欢用陈醋而不是白醋来烹制，虽然颜色稍深，但是陈醋的香味远比白醋来的醇厚，尽管用白醋来烹制土豆丝的色泽好看，但是白醋的味道感觉太过重，自己吃的菜我会以味道为先来选择食材。 </p></p>
                 </li>
             </ul>
         </fieldset>
@@ -44,25 +41,20 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>土豆 <p>500g </p></li>
+            <li>干辣椒 <p>2个 </p></li>
+            <li>香菜梗 <p>3g </p></li>
         </ul>
     </fieldset>
+
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>大蒜 <p>5g </p></li>
+            <li>盐 <p>3/4小勺 </p></li>
+            <li>大葱 <p>5g </p></li>
+            <li>味精 <p>1/4小勺 </p></li>
+            <li>陈醋 <p>1大勺</p></li>
         </ul>
     </fieldset>
 
@@ -79,29 +71,29 @@
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        土豆丝去皮切成丝，用清水洗净表面的淀粉，再浸泡5分钟。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        葱蒜切片，干辣椒斜切成段，香菜梗切段。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        起油锅，油温升至4成热时放入干辣椒、葱蒜片爆香。
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        放入土豆丝。加入盐，再加入陈醋。
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-
+        开大火快速翻炒，直至土豆丝8成熟关火，放入香菜段和味精快速炒匀出锅。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="http://player.video.qiyi.com/ef35056532301650c5bfdd81497f8347/0/0/w_19rqzr21b5.swf-albumId=1332632909-tvId=1332632909-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

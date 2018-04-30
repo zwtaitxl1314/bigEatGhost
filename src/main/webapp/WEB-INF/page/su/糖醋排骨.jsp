@@ -22,13 +22,18 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/川菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/苏菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>简介</legend>
+            <legend>功效</legend>
             <ul>
                 <li>
-                    <p>鱼香肉丝，是一道特色传统名菜，以鱼香味调味而得名，属于川菜。相传灵感来自泡椒肉丝，民国年间则是由四川籍厨师创制而成。 </p>
+                    <p>1. </p>
+                    <p>2. </p>
+                    <p>3. </p>
+                    <p>4. </p>
+                    <p>5. </p>
+                    <p>6. </p>
                 </li>
             </ul>
         </fieldset>
@@ -39,91 +44,61 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li>猪里脊肉 <p>300克 </p></li>
-            <li>绿尖椒 <p>1根 </p></li>
-            <li>胡萝卜 <p>1/4根 </p></li>
-            <li>冬笋 <p>1/2根 </p></li>
-            <li> 黑木耳<p> 6朵</p></li>
+            <li>排骨<p>500克  </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
-
-        配料：
-
-
-
-        （，，，，），
-
-        ，，，，
-
-        <legend>腌肉调料</legend>
+        <legend>配料</legend>
         <ul>
-            <li>生抽 <p>5ml </p></li>
-            <li>料酒 <p>5m </p></li>
-            <li>水淀粉 <p>20ml </p></li>
+            <li>姜 <p> </p></li>
+            <li>葱 <p> </p></li>
+            <li>料酒 <p> </p></li>
+            <li>酱油 <p> </p></li>
+            <li>糖 <p> </p></li>
+            <li>醋 <p> </p></li>
         </ul>
     </fieldset>
 
     <fieldset class="ingredients">
-        <legend>鱼香汁</legend>
+        <legend>小诀窍</legend>
         <ul>
-            <li>生抽 <p>5ml </p></li>
-            <li>醋 <p>15ml </p></li>
-            <li>白糖 <p>45克 </p></li>
-            <li>盐<p>1克  </p></li>
-            <li>水淀粉 <p>20ml </p></li>
-        </ul>
-    </fieldset>
-
-    <fieldset class="ingredients">
-        <legend>其他配料</legend>
-        <ul>
-            <li>色拉油 <p>80ml </p></li>
-            <li>葱 <p>适量 </p></li>
-            <li>姜 <p>适量 </p></li>
-            <li>蒜末<p>适量  </p></li>
-            <li>四川泡辣椒 <p>4-5根 </p></li>
+            <li>排骨用冷水煮去血沫 </li>
         </ul>
     </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-        猪里脊肉切细丝，加腌肉调料腌制十几分钟；
+        排骨放入锅中，加冷水，煮至水沸，关火
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-        绿尖椒、胡萝卜、冬笋分别切细丝，黑木耳泡软洗净切细丝备用；
+        洗净排骨的血沫和锅
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-        调好鱼香汁备用，葱、姜、蒜切末备用，泡辣椒切末备用；
+        重新加水，姜片，葱白，少许料酒把洗净的排骨重新煮开后关小火继续炖煮1个小时
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-        锅中放足量油，油六七成热时放入肉丝大火快速滑散至变白，盛出备用；
+        炒锅加油，将煮好的排骨煎制表面金黄
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-        锅中放少许油，放入葱、姜、蒜末炒香，放入泡辣辣末炒出红油；
+        加调味料（1勺料酒，1勺生抽，1勺老抽，3勺陈醋，4勺砂糖）与排骨混炒
     </div>
     <div class="practice">
         <div class="recipeStep_num">6</div>
-        放入胡萝卜、冬笋、木耳翻炒2分钟，放入尖椒翻炒均匀；
+        加适量排骨汤盖锅盖炖煮几分钟
     </div>
     <div class="practice">
         <div class="recipeStep_num">7</div>
-        放入炒好的肉丝迅速翻炒均匀；
+        收干汤汁加葱花，出锅
     </div>
-    <div class="practice">
-        <div class="recipeStep_num">8</div>
-        倒入鱼香汁快速翻炒均匀即可。
-    </div>
-
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-        <embed src="http://player.video.qiyi.com/9f1313198d26ea5de929337b8100561c/0/0/w_19rt948xm5.swf-albumId=4868428609-tvId=4868428609-isPurchase=0-cnId=6" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

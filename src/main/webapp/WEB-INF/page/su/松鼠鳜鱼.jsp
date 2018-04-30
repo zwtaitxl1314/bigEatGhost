@@ -22,13 +22,14 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/川菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/苏菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
             <legend>简介</legend>
             <ul>
                 <li>
-                    <p>鱼香肉丝，是一道特色传统名菜，以鱼香味调味而得名，属于川菜。相传灵感来自泡椒肉丝，民国年间则是由四川籍厨师创制而成。 </p>
+                    <p>松鼠桂鱼又名松鼠鳜鱼，是江苏省苏州市地方传统名菜。当炸好的鳜鱼（或桂鱼）上桌时，随即浇上热气腾腾的卤汁，它便吱吱地“叫”起来，因活像一只松鼠而得名。
+                        这道菜成菜后，形如松鼠、外脆里嫩、色泽橘黄，酸甜适口，并有松红香味。</p>
                 </li>
             </ul>
         </fieldset>
@@ -39,91 +40,87 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li>猪里脊肉 <p>300克 </p></li>
-            <li>绿尖椒 <p>1根 </p></li>
-            <li>胡萝卜 <p>1/4根 </p></li>
-            <li>冬笋 <p>1/2根 </p></li>
-            <li> 黑木耳<p> 6朵</p></li>
+            <li>鳜鱼 <p>520g </p></li>
+            <li>菠萝 <p>40g </p></li>
+            <li>豌豆 <p>20g </p></li>
+            <li>甜椒 <p>20g </p></li>
+            <li>鸡蛋 <p>一个 </p></li>
         </ul>
+
     </fieldset>
     <fieldset class="ingredients">
-
-        配料：
-
-
-
-        （，，，，），
-
-        ，，，，
-
-        <legend>腌肉调料</legend>
+        <legend>配料</legend>
         <ul>
-            <li>生抽 <p>5ml </p></li>
-            <li>料酒 <p>5m </p></li>
-            <li>水淀粉 <p>20ml </p></li>
+            <li>番茄酱<p>70g  </p></li>
+            <li>白糖 <p>20g </p></li>
+            <li>醋<p>15g  </p></li>
+            <li>料酒<p>20g  </p></li>
+            <li>盐<p> 适量 </p></li>
+            <li>淀粉 <p>40g </p></li>
+            <li>面粉 <p> 适量</p></li>
         </ul>
     </fieldset>
 
     <fieldset class="ingredients">
-        <legend>鱼香汁</legend>
+        <legend>口味</legend>
         <ul>
-            <li>生抽 <p>5ml </p></li>
-            <li>醋 <p>15ml </p></li>
-            <li>白糖 <p>45克 </p></li>
-            <li>盐<p>1克  </p></li>
-            <li>水淀粉 <p>20ml </p></li>
-        </ul>
-    </fieldset>
-
-    <fieldset class="ingredients">
-        <legend>其他配料</legend>
-        <ul>
-            <li>色拉油 <p>80ml </p></li>
-            <li>葱 <p>适量 </p></li>
-            <li>姜 <p>适量 </p></li>
-            <li>蒜末<p>适量  </p></li>
-            <li>四川泡辣椒 <p>4-5根 </p></li>
+            <li> </li>
+            <li> </li>
+            <li> </li>
+            <li> </li>
         </ul>
     </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-        猪里脊肉切细丝，加腌肉调料腌制十几分钟；
+        准备食材，将鳜鱼处理干净，宰掉鱼头，备用。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-        绿尖椒、胡萝卜、冬笋分别切细丝，黑木耳泡软洗净切细丝备用；
+        沿着鱼脊骨，片出两边鱼肉。
+        宰掉鱼脊骨，保留鱼尾。片掉余留的鱼骨。斜着下刀，不切断鱼皮的情况下，将鱼肉切成菱形纹路。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-        调好鱼香汁备用，葱、姜、蒜切末备用，泡辣椒切末备用；
+        腌鱼。鱼身抹上盐、料酒。腌10分钟。
+        然后均匀地抹上鸡蛋液，和淀粉。
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-        锅中放足量油，油六七成热时放入肉丝大火快速滑散至变白，盛出备用；
+        将鱼头和鱼肉，放入面粉裹一圈，使其沾满面粉。
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-        锅中放少许油，放入葱、姜、蒜末炒香，放入泡辣辣末炒出红油；
+        锅中烧油，七八成熟。放入鱼头，煎至金黄。
+
     </div>
     <div class="practice">
         <div class="recipeStep_num">6</div>
-        放入胡萝卜、冬笋、木耳翻炒2分钟，放入尖椒翻炒均匀；
+        放入鱼身，煎至金黄。
+
     </div>
     <div class="practice">
         <div class="recipeStep_num">7</div>
-        放入炒好的肉丝迅速翻炒均匀；
+        调汁。将番茄酱，白糖，醋，淀粉，水混合。
     </div>
     <div class="practice">
         <div class="recipeStep_num">8</div>
-        倒入鱼香汁快速翻炒均匀即可。
+        将豌豆和甜椒，略炒一下后，倒入酱汁，烹煮至浓稠。
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">9</div>
+        加入菠萝。
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">10</div>
+        将炸好鳜鱼摆好后，将酱汁淋在鱼身上，即可。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-        <embed src="http://player.video.qiyi.com/9f1313198d26ea5de929337b8100561c/0/0/w_19rt948xm5.swf-albumId=4868428609-tvId=4868428609-isPurchase=0-cnId=6" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+        <embed src="http://player.video.qiyi.com/a1e987d1d60ac2d23c6c64d6041f1195/0/0/w_19rr9mvubd.swf-albumId=550490709-tvId=550490709-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

@@ -22,13 +22,13 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/川菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/苏菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
             <legend>简介</legend>
             <ul>
                 <li>
-                    <p>鱼香肉丝，是一道特色传统名菜，以鱼香味调味而得名，属于川菜。相传灵感来自泡椒肉丝，民国年间则是由四川籍厨师创制而成。 </p>
+                    <p>白汁元菜，是苏州传统名菜，久享盛誉，选用初春菜花盛开时节750 克重、青乌背、白玉腹的甲鱼（俗称“菜花甲鱼”）为主料，辅以山药等配料制成。甲鱼，即鳖，亦称团鱼、元鱼、水鱼等。古代神话中称为“守神”。甲鱼肉质佳，味鲜美，具有滋阴、凉血、补虚之功效。《本草备要》认为，甲鱼加冰糖炖服，其脂尤佳，治阴虚诸损。山药与甲鱼性味相合，《神农本草经》列山药为上品。其善补脾肺，且能益肾填精。白汁元菜是一款食补佳肴，亦可窥见苏州人的饮食养生之道。</p>
                 </li>
             </ul>
         </fieldset>
@@ -39,91 +39,63 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li>猪里脊肉 <p>300克 </p></li>
-            <li>绿尖椒 <p>1根 </p></li>
-            <li>胡萝卜 <p>1/4根 </p></li>
-            <li>冬笋 <p>1/2根 </p></li>
-            <li> 黑木耳<p> 6朵</p></li>
+            <li>净甲鱼 <p>500克 </p></li>
+            <li>猪肥膘肉 <p>25克 </p></li>
+            <li>山药 <p> 60克</p></li>
+            <li>春笋<p>50克  </p></li>
+            <li>水发香菇 <p>30克 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
-
-        配料：
-
-
-
-        （，，，，），
-
-        ，，，，
-
-        <legend>腌肉调料</legend>
+         ，，，，，，，，，，，，，，精盐11—12克、，。
+        <legend>配料</legend>
         <ul>
-            <li>生抽 <p>5ml </p></li>
-            <li>料酒 <p>5m </p></li>
-            <li>水淀粉 <p>20ml </p></li>
-        </ul>
-    </fieldset>
-
-    <fieldset class="ingredients">
-        <legend>鱼香汁</legend>
-        <ul>
-            <li>生抽 <p>5ml </p></li>
-            <li>醋 <p>15ml </p></li>
-            <li>白糖 <p>45克 </p></li>
-            <li>盐<p>1克  </p></li>
-            <li>水淀粉 <p>20ml </p></li>
+            <li>绍酒 <p>100克 </p></li>
+            <li>大蒜头 <p>15克 </p></li>
+            <li>香葱 <p>25克 </p></li>
+            <li>姜块 <p>10克 </p></li>
+            <li> 菜油<p> 50克</p></li>
+            <li>熟猪油 <p>40克 </p></li>
+            <li>麻油 <p> 10克</p></li>
+            <li>冰糖屑 <p> 25—30克</p></li>
+            <li>精盐 <p>11—12克 </p></li>
+            <li>猪肉白汤 <p>750克 </p></li>
+            <li>湿淀粉 <p>10克 </p></li>
         </ul>
     </fieldset>
 
     <fieldset class="ingredients">
-        <legend>其他配料</legend>
+        <legend>口味</legend>
         <ul>
-            <li>色拉油 <p>80ml </p></li>
-            <li>葱 <p>适量 </p></li>
-            <li>姜 <p>适量 </p></li>
-            <li>蒜末<p>适量  </p></li>
-            <li>四川泡辣椒 <p>4-5根 </p></li>
+            <li> </li>
+            <li> </li>
+            <li> </li>
+            <li> </li>
         </ul>
     </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-        猪里脊肉切细丝，加腌肉调料腌制十几分钟；
+        净甲鱼揭去壳，斩成6 个股块（前、中、后各2 股），放入锅中，加清水750 克，烧沸即取出，浸入冷水刮洗干净；甲鱼卵洗净置碗内，加葱、姜、盐0.5 克，酒10 克（以10 只卵计），上宠蒸约15 分钟取出，去葱、姜待用。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-        绿尖椒、胡萝卜、冬笋分别切细丝，黑木耳泡软洗净切细丝备用；
+        将甲鱼块置锅垫上，前、中股块腹朝上，后股块裙边朝上，头颈放在最上面，再放上猪肥膘丁。锅置旺火上烧热，加菜油，待油热，入葱结、姜块熬香，捞出葱、姜，将锅垫放在油锅中。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-        调好鱼香汁备用，葱、姜、蒜切末备用，泡辣椒切末备用；
+        葱、姜放在甲鱼上，加酒75 克焖片刻。舀入猪肉白汤，待沸，转文火烧30 分钟左右，加盐10 克及大蒜瓣，续烧15 分钟后加冰糖，再烧90 分钟左右，至甲鱼酥烂，去葱、姜。
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-        锅中放足量油，油六七成热时放入肉丝大火快速滑散至变白，盛出备用；
+        山药（蒸熟去皮）及春笋切滚刀块，香菇去蒂切块。另取炒锅烧热，加猪油少许，下葱段熬香。倒入春笋、山药及香菇，加酒25 克、盐及白糖炒透，入甲鱼卵及甲鱼锅中的甲鱼，汤汁烧透，收稠汤汁加水淀粉增稠，淋猪油、麻油出锅装盘。
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-        锅中放少许油，放入葱、姜、蒜末炒香，放入泡辣辣末炒出红油；
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">6</div>
-        放入胡萝卜、冬笋、木耳翻炒2分钟，放入尖椒翻炒均匀；
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">7</div>
-        放入炒好的肉丝迅速翻炒均匀；
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">8</div>
-        倒入鱼香汁快速翻炒均匀即可。
+        山药及甲鱼头、颈在下，股块腹、裙边朝上，笋、香菇及甲鱼卵最上面。此菜肉烂色白，裙边软糯透明，胶汁滋厚，入口咸中带甜。
     </div>
 
-    <p class="topic">${comcuisine}的教学视频</p>
-
-    <div class="video">
-        <embed src="http://player.video.qiyi.com/9f1313198d26ea5de929337b8100561c/0/0/w_19rt948xm5.swf-albumId=4868428609-tvId=4868428609-isPurchase=0-cnId=6" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

@@ -22,13 +22,14 @@
 
 <div class="row col-lg-8 col-lg-offset-2 col-xs-8 col-xs-offset-2 distance">
     <div class="head_img">
-        <img src="${pageContext.request.contextPath}/image/川菜/${comcuisine}.jpg">
+        <img src="${pageContext.request.contextPath}/image/苏菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
             <legend>简介</legend>
             <ul>
                 <li>
-                    <p>鱼香肉丝，是一道特色传统名菜，以鱼香味调味而得名，属于川菜。相传灵感来自泡椒肉丝，民国年间则是由四川籍厨师创制而成。 </p>
+                    <p>太湖银鱼是淡水鱼，长约七至十厘米，体长略圆，细嫩透明，色泽如银，因而得名。产于长江口的体形略大，俗称“面丈鱼”、“面条鱼”。
+                        与白虾、白水鱼并称“太湖三宝”。 太湖银鱼形如玉簪，细嫩透明，色泽如银，故名银鱼。 </p>
                 </li>
             </ul>
         </fieldset>
@@ -39,91 +40,51 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li>猪里脊肉 <p>300克 </p></li>
-            <li>绿尖椒 <p>1根 </p></li>
-            <li>胡萝卜 <p>1/4根 </p></li>
-            <li>冬笋 <p>1/2根 </p></li>
-            <li> 黑木耳<p> 6朵</p></li>
+            <li>银鱼 <p>200克 </p></li>
+            <li>脆浆粉 <p>100克 </p></li>
+            <li> <p> </p></li>
+            <li> <p> </p></li>
+            <li> <p> </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
-
-        配料：
-
-
-
-        （，，，，），
-
-        ，，，，
-
-        <legend>腌肉调料</legend>
+        <legend>配料</legend>
         <ul>
-            <li>生抽 <p>5ml </p></li>
-            <li>料酒 <p>5m </p></li>
-            <li>水淀粉 <p>20ml </p></li>
+            <li>盐 <p>1/4小匙 </p></li>
+            <li>鸡精粉 <p>1/4小匙 </p></li>
+            <li>白胡椒粉 <p>1/4小匙 </p></li>
+            <li>椒盐粉 <p>1小匙 </p></li>
         </ul>
     </fieldset>
 
     <fieldset class="ingredients">
-        <legend>鱼香汁</legend>
+        <legend>口味</legend>
         <ul>
-            <li>生抽 <p>5ml </p></li>
-            <li>醋 <p>15ml </p></li>
-            <li>白糖 <p>45克 </p></li>
-            <li>盐<p>1克  </p></li>
-            <li>水淀粉 <p>20ml </p></li>
-        </ul>
-    </fieldset>
-
-    <fieldset class="ingredients">
-        <legend>其他配料</legend>
-        <ul>
-            <li>色拉油 <p>80ml </p></li>
-            <li>葱 <p>适量 </p></li>
-            <li>姜 <p>适量 </p></li>
-            <li>蒜末<p>适量  </p></li>
-            <li>四川泡辣椒 <p>4-5根 </p></li>
+            <li> </li>
+            <li> </li>
+            <li> </li>
+            <li> </li>
         </ul>
     </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-        猪里脊肉切细丝，加腌肉调料腌制十几分钟；
+        银鱼洗净沥干，加入调味料A拌匀，备用。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-        绿尖椒、胡萝卜、冬笋分别切细丝，黑木耳泡软洗净切细丝备用；
+        脆浆粉以250㏄水调匀，备用。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-        调好鱼香汁备用，葱、姜、蒜切末备用，泡辣椒切末备用；
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">4</div>
-        锅中放足量油，油六七成热时放入肉丝大火快速滑散至变白，盛出备用；
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">5</div>
-        锅中放少许油，放入葱、姜、蒜末炒香，放入泡辣辣末炒出红油；
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">6</div>
-        放入胡萝卜、冬笋、木耳翻炒2分钟，放入尖椒翻炒均匀；
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">7</div>
-        放入炒好的肉丝迅速翻炒均匀；
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">8</div>
-        倒入鱼香汁快速翻炒均匀即可。
+        热一锅油，油温约150℃，将作法1的银鱼一条一条沾上脆浆粉煳，再放入油锅炸至金黄色，捞起沥干油装盘，食用时沾椒盐粉即可。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-        <embed src="http://player.video.qiyi.com/9f1313198d26ea5de929337b8100561c/0/0/w_19rt948xm5.swf-albumId=4868428609-tvId=4868428609-isPurchase=0-cnId=6" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+        <embed src="http://player.video.qiyi.com/08cc4dbc82f733278ce3650c0e442ac5/0/0/v_19rra8e5jw.swf-albumId=580162800-tvId=580162800-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

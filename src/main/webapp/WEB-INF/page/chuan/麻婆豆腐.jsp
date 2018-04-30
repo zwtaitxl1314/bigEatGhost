@@ -44,64 +44,64 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>嫩豆腐 <p> </p></li>
+            <li>牛绞肉或者猪绞肉 <p> </p></li>
+            <li>豆豉 <p>少许 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>香葱 <p> </p></li>
+            <li>蒜苗 <p> </p></li>
+            <li>姜末 <p> </p></li>
+            <li>蒜末 <p> </p></li>
+            <li>郫县辣豆瓣酱 <p>少许 </p></li>
+            <li> 淀粉水<p> </p></li>
         </ul>
     </fieldset>
 
     <fieldset class="ingredients">
-        <legend>口味</legend>
+        <legend>小诀窍</legend>
         <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
+            <li>炒肉末的时候一定得有耐心，要炒到酥那才好吃呢。做这个菜最好用南豆腐，虽然烹调上比北豆腐要难点，但是那爽滑的口感实在太棒了~ </li>
         </ul>
     </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        葱切小段，姜，蒜切成细末，蒜是姜的2倍量（2：1）。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        豆腐去掉表皮，切成小块，放入凉水锅里(水里要放入少许盐)，中小火加热.水沸腾之前，倒入漏勺沥水。(豆腐过盐水，可以去除豆腥味，逼出水分)
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        煮豆腐的同时，起个新锅，不要加油，直接下绞肉，慢慢炒至肉末变成深棕色，至酥。加入姜蒜末，炒出香气，放入1汤匙辣豆瓣酱，炒出红油。
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        加入几粒豆豉，加入高汤or水，豆腐下锅（高汤or水的量要没过豆腐，），加入一点酒、1汤匙酱油增加颜色，煮5-6分钟，注意火候不要太大，以免豆腐开裂。
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-
+        烧开后用湿淀粉勾芡（一般要分2次加），第1次勾芡后加入葱花，再勾第2次芡。
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">6</div>
+        最后沿锅边加入入少许热油，开大火，等油浮上来就可以了（淋红油会比较红亮)
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">7</div>
+        出锅装盘后再加入花椒粉，不要加太多。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="http://player.video.qiyi.com/914a73e9a8e24069bea7fef2c0f485ac/0/0/v_19rrhbuukv.swf-albumId=201871907-tvId=201871907-isPurchase=0-cnId=27" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >
