@@ -25,15 +25,10 @@
         <img src="${pageContext.request.contextPath}/image/闽菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>鼎边糊又称锅边糊，福建特色著名佳点，风味小吃，与生煎包、油饼等配食，为当地早点佳品，一直流传到海南、台湾等地。凡在福州生长或长期客居福州的人无不爱吃。离乡旅居海外的福州人在异国他乡一听见“鼎边糊”三字，也会感到好象亲眼看到了家乡的“倩影”，成为恋祖爱乡的风味小吃。</p>
                 </li>
             </ul>
         </fieldset>
@@ -62,15 +57,6 @@
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">

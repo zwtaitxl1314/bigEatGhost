@@ -25,15 +25,10 @@
         <img src="${pageContext.request.contextPath}/image/浙菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>嘉兴粽子是浙江嘉兴特色传统名点。以糯而不糊，肥而不腻，香糯可口，咸甜适中而著称。尤以鲜肉粽最为出名，被誉为“粽子之王”。嘉兴粽子因其滋味鲜美，携带、食用方便而备受广大旅游者厚爱，有“东方快餐”之称。</p>
                 </li>
             </ul>
         </fieldset>
@@ -44,64 +39,50 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li> 糯米<p> </p></li>
+            <li>猪后腿肉 <p> </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>糖 <p> </p></li>
+            <li>盐 <p> </p></li>
+            <li>红酱油 <p> </p></li>
+            <li>白酒 <p> </p></li>
         </ul>
     </fieldset>
 
     <fieldset class="ingredients">
-        <legend>口味</legend>
+        <legend>其他</legend>
         <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
+            <li>粽叶 </li>
+            <li> 草绳</li>
         </ul>
     </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        制馅：包制鲜肉粽的馅，用的是肥瘦适中去皮的腿肉，按横丝纹切成长方形的小块，然后放入盆内，不用酱油浸拌，而是加入少量的食盐、白糖、味精、白酒等，用手反复拌搓，直到肉块出现“小白泡”为止。这样的肉馅煮熟后特别香嫩，有火腿风味。如果按直丝纹切割，再用酱油一浸，肉不易煮酥，吃起来还有点酱油味。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        淘米：糯米是包轧粽子的主料，不仅讲究米质好，而且淘米时有诀窍。就是淘得快，洗得净，最后用清水一冲，不再用手去搅拌。如此，过15分钟左右，米中积水就可以沥干了。因为淘过的米吸水量少，用酱油拌米时，咸味就容易吸收进去。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        烧煮：烧煮时也和一般煮法不同，不是用冷水，而是用开水落锅，不使粽子里的味道走失。
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">5</div>
-
+        用上述方法包制出来的鲜肉粽，刚起锅时削开箬壳，放在瓷盆内，用筷子均匀地夹成四块，块块有肉，糯而不烂。吃起来鲜滋滋，油津津，油而不腻，独具风味。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="http://player.video.qiyi.com/decb20f55da63a723c7b85a3ef972092/0/0/w_19rqwmyvq1.swf-albumId=1939336309-tvId=1939336309-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

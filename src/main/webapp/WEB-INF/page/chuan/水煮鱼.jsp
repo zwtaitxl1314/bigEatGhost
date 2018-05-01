@@ -25,15 +25,13 @@
         <img src="${pageContext.request.contextPath}/image/川菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>
+                        水煮鱼也称为江水煮江鱼、水煮鱼片，最早流行于重庆市渝北区翠云乡。
+                        水煮鱼通常由新鲜草鱼、豆芽、辣椒等食材制作而成。“油而不腻、辣而不燥、麻而不苦、肉质滑嫩”是其特色。
+                    </p>
                 </li>
             </ul>
         </fieldset>

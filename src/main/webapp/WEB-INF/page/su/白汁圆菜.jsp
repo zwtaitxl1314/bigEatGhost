@@ -47,7 +47,6 @@
         </ul>
     </fieldset>
     <fieldset class="ingredients">
-         ，，，，，，，，，，，，，，精盐11—12克、，。
         <legend>配料</legend>
         <ul>
             <li>绍酒 <p>100克 </p></li>
@@ -64,15 +63,6 @@
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">

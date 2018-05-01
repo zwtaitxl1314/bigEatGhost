@@ -47,9 +47,6 @@
             <li> <p> </p></li>
         </ul>
     </fieldset>
-    、
-    配料：、、、
-    调料：、、、、
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
@@ -61,7 +58,7 @@
     </fieldset>
 
     <fieldset class="ingredients">
-        <legend>口味</legend>
+        <legend>调味</legend>
         <ul>
             <li>蒜蓉辣酱 <p>1大勺 </p></li>
             <li>蚝油 <p>1大勺 </p></li>

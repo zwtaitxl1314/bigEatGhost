@@ -25,15 +25,10 @@
         <img src="${pageContext.request.contextPath}/image/粤菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>明炉烤乳猪，又名烧乳猪。早在西周时代已列为“八珍”之一，那时称为“炮豚”，即烤乳猪。在《齐民要术》一书中也记有烤乳猪的制作方法，并说它“色同琥珀，又类真金，入口则消，壮若凌雪，含浆膏润，特异凡常也”。清康熙时，曾为宫廷名菜，成为“满汉全席”中的一道主要菜肴。直到民国初期山东还经营此菜。后在广州和上海盛行，成为最著名的广东名菜。现今“烧乳猪”为广州和港澳地区许多著名菜馆的首席名菜，深受中外顾客欢迎。每逢清明时节，必是烤乳猪的畅销季节。皆因广州人喜好在清明节时用烧猪来拜祭先人。 </p>
                 </li>
             </ul>
         </fieldset>
@@ -69,16 +64,6 @@
             <li>麦芽糖 <p>50克</p></li>
             <li>高度白酒 <p>150克</p></li>
             <li>植物油 <p>100克</p></li>
-        </ul>
-    </fieldset>
-
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
         </ul>
     </fieldset>
 

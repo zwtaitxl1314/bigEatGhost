@@ -25,15 +25,13 @@
         <img src="${pageContext.request.contextPath}/image/粤菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>
+                        白切鸡又叫白斩鸡，是粤菜系鸡肴中最普通的一种，属浸鸡类。其特点为制作简易，刚熟不烂，不加配料且保持原味。
+                        白切鸡皮爽肉滑，清淡鲜美，驰名粤港澳。清平鸡也是白切鸡的一种。
+                    </p>
                 </li>
             </ul>
         </fieldset>
@@ -56,15 +54,6 @@
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">

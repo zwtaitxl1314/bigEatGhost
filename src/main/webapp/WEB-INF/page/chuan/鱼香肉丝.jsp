@@ -48,14 +48,6 @@
     </fieldset>
     <fieldset class="ingredients">
 
-        配料：
-
-
-
-        （，，，，），
-
-        ，，，，
-
         <legend>腌肉调料</legend>
         <ul>
             <li>生抽 <p>5ml </p></li>

@@ -25,15 +25,10 @@
         <img src="${pageContext.request.contextPath}/image/湘菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>宁乡口味蛇是一道地方名菜，属于湘菜系。选用高蛋白，低脂肪，肉质细嫩的宁乡本地优良蛇作菜肴，精心研制原料，配制以鲜、香、辣为主要特征的口味。鲜嫩，香辣，酱汁味浓的蛇肉，满盘红艳艳的糊满辣椒，肥肥的蛇段已被浸得通红发亮，蛇肉紧实，泛着透明的油光。 </p>
                 </li>
             </ul>
         </fieldset>
@@ -44,65 +39,51 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>菜花蛇1条 <p>约1000克 </p></li>
+            <li>红尖椒 <p>10只 </p></li>
+            <li>红干椒 <p>一小碗 </p></li>
+            <li>蒜瓣 <p>一小碗 </p></li>
+            <li>八角桂皮香叶 <p>适量 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>茶油 <p> </p></li>
+            <li>盐 <p> </p></li>
+            <li>辣酱 <p> </p></li>
+            <li>高汤 <p> </p></li>
+            <li>水淀粉 <p>少许 </p></li>
+            <li>蚝油 <p>两大勺 </p></li>
+            <li>鸡精 <p> </p></li>
+            <li>香油 <p>一大勺 </p></li>
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </fieldset>
+
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        菜花蛇请商贩剥皮处理干净，蛇肉斩成长约6-7厘米的段，红尖椒切大约5厘米长的段，红干椒随意切小段。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        坐锅烧茶油，下蛇肉爆炒、爆黄，然后盛出，余油下蒜瓣、干红椒、八角、桂皮、香叶炒香，下辣酱炒出红油，再倒入蛇段大火翻炒一会儿，让所有的汁都裹上蛇段，倒入高汤烧开改用中小火煨制七成烂。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        将锅里的八角桂皮香叶拣出不要，把红尖椒下锅，调盐味翻匀，加水淀粉、淋蚝油、撒鸡精大火收汁，最后淋香油即可。
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        蛇肉不要煨太烂，大概七成的时候最好，有点点嚼头，吃肉是一丝丝的。
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-
+        辣酱是湖南的品牌辣椒酱，加干椒段能够更加突出辣味。
     </div>
 
-    <p class="topic">${comcuisine}的教学视频</p>
-
-    <div class="video">
-
-    </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >
         <div id="content" style="width: 700px; height: auto;margin : 40px auto 0 auto;">

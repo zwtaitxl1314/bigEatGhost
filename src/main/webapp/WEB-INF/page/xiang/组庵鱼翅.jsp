@@ -43,8 +43,6 @@
             <li>发好的鱼翅 <p>500克 </p></li>
             <li>猪肘肉 <p>500克 </p></li>
             <li>老母鸡肉 <p>500克 </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
@@ -84,11 +82,6 @@
         然后端钵离火，去掉鸡块、猪肘和葱姜，将鱼烧成浓汁，放入鸡粉，调正口味，撒上胡椒粉，浇在鱼翅上即成。
     </div>
 
-    <p class="topic">${comcuisine}的教学视频</p>
-
-    <div class="video">
-
-    </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >
         <div id="content" style="width: 700px; height: auto;margin : 40px auto 0 auto;">

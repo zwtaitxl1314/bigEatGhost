@@ -25,15 +25,10 @@
         <img src="${pageContext.request.contextPath}/image/鲁菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>漕溜鱼片是一道名菜，属于鲁菜系。漕溜鱼片以石斑鱼为主要材料,烹饪以溜菜为主。石斑鱼主要以天然野生为主，越大肉越嫩，肉细嫩厚实、无肌间刺，味鲜美。常用烧、爆、清蒸、炖汤等方法成菜，也可制肉丸、肉馅等。</p>
                 </li>
             </ul>
         </fieldset>

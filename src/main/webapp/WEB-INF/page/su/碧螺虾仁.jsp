@@ -25,15 +25,10 @@
         <img src="${pageContext.request.contextPath}/image/苏菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>碧螺虾仁是江苏苏州传统名菜，属于苏菜系。主要以虾仁主料，巧用碧螺春作配料，成菜具有茶香味鲜、清淡爽口、色泽素雅的特点。虾仁色如白玉，茶叶缀于其中，入口带有清新的茶香，鲜嫩弹牙，且透着点甘甜。 </p>
                 </li>
             </ul>
         </fieldset>

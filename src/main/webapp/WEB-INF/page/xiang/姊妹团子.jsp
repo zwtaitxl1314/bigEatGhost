@@ -49,23 +49,12 @@
         </ul>
     </fieldset>
     <fieldset class="ingredients">
-        ，，，，，，，，、，。
         <legend>配料</legend>
         <ul>
             <li>酱油 <p>20克 </p></li>
             <li>味精 <p>5克 </p></li>
             <li>精盐<p>5克 </p></li>
             <li>熟猪油 <p>30克 </p></li>
-        </ul>
-    </fieldset>
-
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
         </ul>
     </fieldset>
 

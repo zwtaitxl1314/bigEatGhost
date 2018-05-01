@@ -39,7 +39,6 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            、、、、、，，。
             <li>大豆 <p> </p></li>
             <li>大茴 <p> </p></li>
             <li>小茴 <p> </p></li>

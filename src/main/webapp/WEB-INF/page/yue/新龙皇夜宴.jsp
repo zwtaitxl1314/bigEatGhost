@@ -25,15 +25,10 @@
         <img src="${pageContext.request.contextPath}/image/粤菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>龙王夜宴是广东省传统的特色名菜，属于粤菜系。此菜虾肉嫩爽鲜香,可根据不同调料变化口味。</p>
                 </li>
             </ul>
         </fieldset>
@@ -68,15 +63,7 @@
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </fieldset>
+
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">

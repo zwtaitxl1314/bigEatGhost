@@ -25,15 +25,10 @@
         <img src="${pageContext.request.contextPath}/image/徽菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>当归獐肉为徽州地区传统名菜，是安徽皖南山区特有的传统美味。当归补血调经，活血止痛，润肠通埂；獐肉舒筋通络，健骨轻身。二者同煮，相得益彰。当归挥发出的芳香，能除去獐肉的异腥昧，再以雪里蕻提鲜，成为美不胜收的冬令佳肴。</p>
                 </li>
             </ul>
         </fieldset>

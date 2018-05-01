@@ -25,15 +25,13 @@
         <img src="${pageContext.request.contextPath}/image/川菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>
+                        东坡肘子是中国四川地区经典的地方传统名菜之一，属于川菜系，制作材料有猪肘子、雪山大豆。具有汤汁乳白，猪肘烂软，肉质细嫩、肉味醇香、有嚼头，肥而不腻等优点。
+                        东坡肘子与东坡肉一样，相传是因苏东坡对其的喜爱而出名，之后便成为了人们桌上常见的美食。
+                    </p>
                 </li>
             </ul>
         </fieldset>
@@ -44,8 +42,8 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>猪肘子 <p> </p></li>
+            <li>雪山大豆 <p> </p></li>
             <li> <p> </p></li>
             <li> <p> </p></li>
             <li> <p> </p></li>
@@ -54,54 +52,49 @@
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>葱节 <p> </p></li>
+            <li>绍酒 <p> </p></li>
+            <li> 姜<p> </p></li>
+            <li>川盐 <p> </p></li>
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        猪肘刮洗干净，顺骨缝划切一刀；
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        放入汤锅煮透，捞出剔去肘骨；
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        放入垫有猪骨的砂锅内，放入煮肉原汤；
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        放入大量葱节，姜，绍酒在旺火上烧开；
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-
+        雪豆洗净，下入开沸的砂锅中盖严；
     </div>
+    <div class="practice">
+        <div class="recipeStep_num">6</div>
+        然后移到微火上煨炖约3小时，直至用筷轻轻一戳肉皮即烂为止；
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">7</div>
+        吃时放川盐连汤带豆舀入碗中；
+    </div>
+
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="http://player.video.qiyi.com/9275dac6a605e1bd0fdfd052b4bcfc8a/0/0/v_19rro1upzs.swf-albumId=348272500-tvId=348272500-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

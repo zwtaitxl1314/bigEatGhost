@@ -46,7 +46,6 @@
             <li>熟春笋片 <p>10克 </p></li>
             <li>豌豆苗 <p>5克 </p></li>
             <li>绍酒 <p>25克 </p></li>
-            ，、，、，，， ，、，，。
         </ul>
     </fieldset>
     <fieldset class="ingredients">
@@ -60,15 +59,6 @@
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">

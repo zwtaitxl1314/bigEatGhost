@@ -25,15 +25,10 @@
         <img src="${pageContext.request.contextPath}/image/苏菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>咕咾肉又称咕噜肉，是广东的一道特色传统名菜，属于粤菜，以甜酸汁及猪肉煮成。咕咾肉作为欧美人士最熟悉的中国菜之一，常见于中国以外的唐人街的餐馆。 </p>
                 </li>
             </ul>
         </fieldset>
@@ -44,64 +39,65 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>里肌肉 <p> 150公克</p></li>
+            <li>苹果 <p>1粒 </p></li>
+            <li>青葱 <p> 1支</p></li>
+            <li>大蒜<p> 1粒 </p></li>
+            <li>红辣椒 <p>1/2条 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-        </ul>
-    </fieldset>
-
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
+            <li>姜 <p> 6公克</p></li>
+            <li>太白粉 <p>2大匙 </p></li>
+            <li>盐 <p>1公克 </p></li>
+            <li>料酒 <p> 1/4小匙</p></li>
+            <li>胡椒粉 <p>1/4小匙 </p></li>
+            <li>味精<p>1/4小匙  </p></li>
+            <li>太白粉 <p>1小匙 </p></li>
         </ul>
     </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        里肌肉洗净，去除肉筋后，切成约2公分的方块，用刀背轻轻拍打，备用。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        把调味料A放入碗中搅拌均匀，再将作法1的肉块放入碗中腌约30分钟，备用。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        苹果去皮，切成约2公分的方块，泡盐水备用
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        青葱切小段；大蒜、红辣椒、姜各切小片，备用。
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-
+        太白粉2大匙倒入盘中，将作法2的肉块放入盘中均匀地沾裹上太白粉后，将肉块搓揉成圆柱状。
     </div>
+    <div class="practice">
+        <div class="recipeStep_num">6</div>
+        起一油锅，将油烧热至约130℃，放入作法5的肉块油炸约3分钟后起锅，备用。
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">7</div>
+        另起一锅，放入2大匙油烧热后，放入作法4的材料一起爆香后，加入调味料B拌炒。
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">8</div>
+        待作法7的汤汁煮沸后，再加入作法6的肉块与作法3的苹果块拌炒均匀即完成。
+    </div>
+
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="http://player.video.qiyi.com/8bba60eca3887f0e05b089e213bb66c0/0/0/w_19rrb9i77d.swf-albumId=653033109-tvId=653033109-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

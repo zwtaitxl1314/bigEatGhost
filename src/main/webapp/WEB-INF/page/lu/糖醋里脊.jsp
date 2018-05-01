@@ -40,33 +40,16 @@
         <legend>主料</legend>
         <ul>
             <li>里脊肉<p>250克 </p></li>
-            <li>食用油 <p>500克（实耗50克） </p></li>
+
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>食用油 <p>500克（实耗50克） </p></li>
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">

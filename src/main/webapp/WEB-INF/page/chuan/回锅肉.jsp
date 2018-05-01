@@ -25,15 +25,13 @@
         <img src="${pageContext.request.contextPath}/image/川菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>
+                        回锅肉是一种烹调猪肉的四川传统菜式，属于川菜系。制作原料主要有猪肉、青椒、蒜苗等，口味独特，色泽红亮，肥而不腻，入口浓香。
+                        起源四川农村地区 [1]  。古代时期称作油爆锅；四川地区大部分家庭都能制作。所谓回锅，就是再次烹调的意思。回锅肉在川菜中的地位是非常重要的。回锅肉一直被认为是川菜之首，川菜之化身，提到川菜必然想到回锅肉。它色香味俱全，颜色养眼，是下饭菜之首选。配料各有不同，除了蒜苗（青蒜）还可以用彩椒，洋葱，韭菜，锅盔等来制作回锅肉，每家都有自己的秘方。
+                    </p>
                 </li>
             </ul>
         </fieldset>
@@ -44,64 +42,68 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>二刀肉 <p> </p></li>
+            <li>青蒜 <p> </p></li>
+            <li>葱 <p> </p></li>
+            <li>姜 <p> </p></li>
+            <li>蒜 <p> </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>干红辣椒 <p> </p></li>
+            <li>花椒 <p> </p></li>
+            <li>郫县豆瓣酱 <p> </p></li>
+            <li>糖 <p> </p></li>
+            <li>料酒 <p> </p></li>
+            <li>酱油 <p> </p></li>
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        带皮五花肉冷水下锅加入葱段、姜片，花椒7、8粒，黄酒适量煮开。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        撇净浮沫，煮至八成熟，取出自然冷却（筷子可插入即可）。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        将肉切成薄片，姜、蒜切片，葱切成斜段。
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        将青蒜的白色部分先用刀拍一下，然后全部斜切成段备用。
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-
+        炒锅上火，加很少的油煸香辣椒、花椒及葱姜。
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">6</div>
+        下入肉片煸炒，至肉片颜色变透明，边缘略微卷起。
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">7</div>
+        将肉拨到锅一边，下入郫县豆瓣酱（可以先剁细）炒出红油。
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">8</div>
+        适当的加入少许酱油或甜面酱调色，与肉片一起翻炒均匀。
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">9</div>
+        适当的加入少许酱油或甜面酱调色，与肉片一起翻炒均匀。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="http://player.video.qiyi.com/5836f07a69165ee4275ecbbbd0be0a09/0/0/w_19rr05agsh.swf-albumId=1325232109-tvId=1325232109-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

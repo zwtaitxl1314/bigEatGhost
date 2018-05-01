@@ -48,7 +48,6 @@
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            、 ，、 15 克，、 ， 。
             <li>豆瓣酱 <p>10克 </p></li>
             <li>辣酱 <p>10克 </p></li>
             <li>盐 <p>15 克 </p></li>

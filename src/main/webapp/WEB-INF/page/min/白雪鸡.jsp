@@ -44,9 +44,6 @@
         <ul>
             <li>鸡脯肉  <p> </p></li>
             <li>鸭肥膘肉 <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
@@ -63,16 +60,6 @@
             <li>水淀粉 <p>10克 </p></li>
             <li>白芝麻（焙好） <p>25克 </p></li>
             <li>葱姜水 <p>15克 </p></li>
-        </ul>
-    </fieldset>
-
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
         </ul>
     </fieldset>
 

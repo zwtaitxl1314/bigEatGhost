@@ -25,15 +25,11 @@
         <img src="${pageContext.request.contextPath}/image/湘菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>剁椒鱼头（英文名：Chop bell pepper fish head）是湖南省的传统名菜，属于湘菜系。据传，起源和清代文人黄宗宪有关。
+                        通常以鳙鱼鱼头、剁椒为主料，配以豉油、姜、葱、蒜等辅料蒸制而成。</p>
                 </li>
             </ul>
         </fieldset>
@@ -44,64 +40,67 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>胖头鱼鱼头 <p> 1个</p></li>
+            <li> 剁椒<p> 适量</p></li>
+            <li> 高度白酒<p> 1大匙</p></li>
+            <li> 胡椒粉<p> 少许</p></li>
+            <li> 料酒<p> 1大匙</p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>蒸鱼豉油 <p>1大匙 </p></li>
+            <li>油<p>适量 </p></li>
+            <li>盐<p>适量 </p></li>
+            <li> 姜<p>适量 </p></li>
+            <li>葱 <p>适量 </p></li>
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        将鱼头洗净，从鱼唇正中剖开，在鱼头下面鱼肉较厚的部分斜划几刀。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        将料酒、胡椒粉、盐撒在鱼头上，抹匀，腌制约20分钟。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        将高度白酒倒入剁椒中，拌匀备用。
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        在腌制好的鱼头表面淋上少许油，抹匀。
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-
+        将姜切片、葱切段，铺在碗底。
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">6</div>
+        再放上处理好的鱼头。
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">7</div>
+        然后将步骤3的剁椒铺在鱼头上。
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">8</div>
+        蒸锅内放入适量的水，烧开，然后摆入鱼头，盖盖，大火隔水足汽蒸约10分钟。
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">9</div>
+        将蒸好后的鱼头取出，倒去碗内多余的汤汁，撒上葱花，淋入蒸鱼豉油，然后将适量的油烧热，泼在上面即可。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="http://player.video.qiyi.com/635da6ef0905d5a37d956ecb90b263df/0/0/w_19rsd1lmh9.swf-albumId=3199712609-tvId=3199712609-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

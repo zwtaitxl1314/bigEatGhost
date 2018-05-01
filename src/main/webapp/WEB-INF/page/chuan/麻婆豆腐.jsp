@@ -25,15 +25,13 @@
         <img src="${pageContext.request.contextPath}/image/川菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>
+                        麻婆豆腐（Mapo doufu），是四川省传统名菜之一，属于川菜。主要原料为配料和豆腐，材料主要有豆腐、牛肉末（也可以用猪肉）、辣椒和花椒等。麻来自花椒，辣来自辣椒，这道菜突出了川菜“麻辣”的特点。其口味独特，口感顺滑。
+                        如今，麻婆豆腐远渡重洋，在美国、加拿大、英国、法国、越南、新加坡、马来西亚、日本、澳大利亚等国安家落户，从一味家常小菜一跃而登上大雅之堂，成了国际名菜。
+                    </p>
                 </li>
             </ul>
         </fieldset>
@@ -63,9 +61,9 @@
 
     <fieldset class="ingredients">
         <legend>小诀窍</legend>
-        <ul>
-            <li>炒肉末的时候一定得有耐心，要炒到酥那才好吃呢。做这个菜最好用南豆腐，虽然烹调上比北豆腐要难点，但是那爽滑的口感实在太棒了~ </li>
-        </ul>
+
+            <p>炒肉末的时候一定得有耐心，要炒到酥那才好吃呢。做这个菜最好用南豆腐，虽然烹调上比北豆腐要难点，但是那爽滑的口感实在太棒了~ </p>
+
     </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>

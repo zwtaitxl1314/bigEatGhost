@@ -25,16 +25,10 @@
         <img src="${pageContext.request.contextPath}/image/粤菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
-                </li>
+                    <p>椰汁冰糖燕窝是广东的传统名点，属于粤菜系。清淡香甜，味美可口，色泽诱人，令人垂涎的饭后甜点。</p>                </li>
             </ul>
         </fieldset>
     </div >
@@ -56,15 +50,7 @@
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </fieldset>
+
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">

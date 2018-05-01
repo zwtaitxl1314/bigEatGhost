@@ -25,15 +25,10 @@
         <img src="${pageContext.request.contextPath}/image/粤菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>椒盐濑尿虾是一道美味可口的名菜，主要材料有濑尿虾，辅料有蒜茸、红椒、料酒、姜末、椒盐等，属于粤菜系 。作为一道下酒菜，平时吃的时候，可以连壳一起吃下去。 </p>
                 </li>
             </ul>
         </fieldset>
@@ -58,15 +53,6 @@
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">

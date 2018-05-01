@@ -47,9 +47,6 @@
         </ul>
 
 
-
-
-
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
@@ -65,9 +62,7 @@
 
     <fieldset class="ingredients">
         <legend>小诀窍</legend>
-        <ul>
-            <li>在漳州，都用莲蕉粉好像，不知道哪里可以买到又想吃，尽量用可以代替的东西替代一下，这里最大缺陷就是没有卤料，可惜没有时间做。 </li>
-        </ul>
+            <p>在漳州，都用莲蕉粉好像，不知道哪里可以买到又想吃，尽量用可以代替的东西替代一下，这里最大缺陷就是没有卤料，可惜没有时间做。 </p>
     </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>

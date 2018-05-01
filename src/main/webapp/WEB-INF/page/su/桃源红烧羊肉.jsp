@@ -25,15 +25,10 @@
         <img src="${pageContext.request.contextPath}/image/苏菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p> 桃源红烧羊肉在江南一带极为出名，苏杭一带都将桃源羊肉作为酒桌上的必备菜肴。制作时，将青壮年湖羊肉切成方块，瘦肥相间，层层叠加，用艾草扎成一方，置于陶缸，先用旺火煮开，先后投放八角、桂皮、老姜、红枣、上乘黄酒、优质酱油、糖、味精等10多种佐料，继用文火煨过夜。翌展开缸，撒以姜、蒜、椒末即成。红烧羊肉品质精良，色泽酱红，香味四溢，口感鲜、甜、微辣，肉质细嫩。</p>
                 </li>
             </ul>
         </fieldset>

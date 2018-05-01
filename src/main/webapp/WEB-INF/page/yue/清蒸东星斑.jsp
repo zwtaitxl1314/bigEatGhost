@@ -25,15 +25,11 @@
         <img src="${pageContext.request.contextPath}/image/粤菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>东星斑的外皮光滑，炊熟的鱼皮裂开，见到那雪白的鱼肉，可用油浇在鱼身上，也可原汁原味。
+                        东星斑的肉质异常鲜美，鱼肉入口，劲道弹牙还略有甜滋滋的味道。鱼皮的胶质更是粘的你张不开嘴了。 </p>
                 </li>
             </ul>
         </fieldset>
@@ -50,25 +46,11 @@
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-        </ul>
-    </fieldset>
-
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
+            <li>大葱 <p> </p></li>
+            <li>蚝油<p> </p></li>
+            <li>生抽 <p> </p></li>
+            <li>豆豉 <p> </p></li>
+            <li>葱姜丝 <p> </p></li>
         </ul>
     </fieldset>
 
@@ -150,7 +132,7 @@
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="http://player.video.qiyi.com/0db06f94d0e74a92cabd9a10fecdae95/0/0/w_19ru1973f1.swf-albumId=7947591009-tvId=7947591009-isPurchase=0-cnId=12" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

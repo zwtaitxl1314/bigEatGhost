@@ -25,15 +25,10 @@
         <img src="${pageContext.request.contextPath}/image/湘菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>东安鸡是一道湖南省永州市东安县传统的名菜，属于湘菜系。因产于湖南东安县（今芦洪市镇）而得名。此菜色泽鲜艳，肉质鲜嫩，酸辣爽口，肥而不腻，食多不厌，被列为国宴菜谱之一、八大湘菜之首。有壮腰健肾调理， 贫血调理 ，气血双补调理的功效。</p>
                 </li>
             </ul>
         </fieldset>
@@ -44,64 +39,51 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>母鸡 <p>750克 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>小米辣椒 <p>30克 </p></li>
+            <li>生姜 <p> 80克</p></li>
+            <li>东安米醋 <p>300克 </p></li>
+            <li>味精 <p> 3克</p></li>
+            <li>鸡精 <p> 5克</p></li>
+            <li>花椒 <p> 5克</p></li>
+            <li>鸡油 <p>50克 </p></li>
+            <li>红辣椒 <p>60克 </p></li>
+            <li> 辣椒粉<p>8克 </p></li>
         </ul>
-    </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
     </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        将小母鸡宰杀去内脏后，再将其肉洗净，放入汤锅内约6分钟，至鸡肉七成熟时捞出晾凉。花椒去籽炒香碾碎成花椒粉，生姜切成丝，小米辣椒切碎，红辣椒切片；
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        将鸡肉切成块，三根手指大小；
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        炒锅内倒入鸡油烧热，下入切好的鸡肉、花椒粉、精盐、生姜丝大火翻炒约1分钟
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        倒入米醋、辣椒粉、小米辣椒煮约3分钟。
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-
+        加入鸡汤煮约2分钟，放入红辣椒，待红辣椒9分熟即可出锅。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&v=20161117&vid=t0397l9upay&auto=0" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

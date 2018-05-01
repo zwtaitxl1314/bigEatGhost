@@ -25,15 +25,10 @@
         <img src="${pageContext.request.contextPath}/image/浙菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>蛤蜊黄鱼羹是浙江宁波市的传统名肴，属于浙菜系。在宁波菜中，以黄鱼为主料的菜肴较多，其中以黄鱼肉丁加配料和鲜汤烹制成 的黄鱼羹，口味最鲜美，特别受人欢迎。 </p>
                 </li>
             </ul>
         </fieldset>

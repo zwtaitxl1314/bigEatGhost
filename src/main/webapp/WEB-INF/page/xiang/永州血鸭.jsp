@@ -45,7 +45,6 @@
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            、、、、、、、 、、。
             <li>胡椒粉 <p>1克 </p></li>
             <li>姜 <p>6克 </p></li>
             <li>盐 <p>4克 </p></li>

@@ -25,15 +25,10 @@
         <img src="${pageContext.request.contextPath}/image/鲁菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>醋椒鱼是山东济南地区特色传统名菜之一，处于一道传统鲁菜，另外北京菜中也有此菜。因其颜色素雅、鱼肉鲜嫩、汤味浓郁、微带酸辣，深受百姓喜爱。是平常百姓餐桌上和招待宾朋的美味佳肴。</p>
                 </li>
             </ul>
         </fieldset>
@@ -64,16 +59,6 @@
             <li>番茄酱 <p>一勺半 </p></li>
             <li>花椒<p>九颗  </p></li>
             <li>淀粉 <p>一勺 </p></li>
-        </ul>
-    </fieldset>
-
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
         </ul>
     </fieldset>
 

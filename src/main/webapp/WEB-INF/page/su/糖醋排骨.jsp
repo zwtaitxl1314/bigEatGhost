@@ -25,15 +25,12 @@
         <img src="${pageContext.request.contextPath}/image/苏菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>糖醋排骨，是糖醋味型中具有代表性的一道大众喜爱的特色传统名菜。它选用新鲜猪子排作主料，肉质鲜嫩，成莱色泽红亮油润。
+                        “糖醋”中国各大菜系都拥有的一种口味。它源于江苏的无锡，现 在江苏、浙江、四川菜中广为流传，常用于熘菜。糖醋排骨是糖醋菜中具有代表性的一道大众喜爱的传统菜，它选用新鲜猪子排作料，肉质鲜嫩，成莱色泽红亮油润，口味香脆酸甜，颇受江南一带食者的欢迎。
+                        沪菜用料简单注重的是酸甜的口味里面用到了番茄酱 这也是沪菜的特点，浙菜用料丰富，做法精细，色、香、味具全；川菜即使做糖醋排骨也不忘加葱姜花椒 。 </p>
                 </li>
             </ul>
         </fieldset>
@@ -61,9 +58,7 @@
 
     <fieldset class="ingredients">
         <legend>小诀窍</legend>
-        <ul>
-            <li>排骨用冷水煮去血沫 </li>
-        </ul>
+            <p>排骨用冷水煮去血沫 </p>
     </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>

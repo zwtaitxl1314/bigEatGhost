@@ -46,9 +46,6 @@
         </ul>
     </fieldset>
 
-    调料：、 、  、、 、 、
-    制作方法：
-
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
@@ -61,15 +58,6 @@
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">

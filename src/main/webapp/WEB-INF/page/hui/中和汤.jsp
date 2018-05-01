@@ -25,15 +25,10 @@
         <img src="${pageContext.request.contextPath}/image/徽菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>中和汤是道地的安徽祁门传统名菜，属徽菜系，清澈味香，鲜嫩不腻，稀稠适中，老少皆宜。祁门人每逢置办酒席，都少不了中和汤，而且是上桌的第一道菜。中和原叫作“中河”。中河是发源于祁门流入江西鄱阳县境的一条河。</p>
                 </li>
             </ul>
         </fieldset>
@@ -44,64 +39,50 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>豆腐 <p> </p></li>
+            <li>虾米 <p> </p></li>
+            <li>鲜瘦肉火腿心 <p> </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>鲜冬笋尖 <p> </p></li>
+            <li>食盐 <p>适量 </p></li>
+            <li>鲜板油 <p>适量 </p></li>
+            <li>葱花 <p>适量 </p></li>
+            <li>水发香菇 <p> </p></li>
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </fieldset>
+
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        先将豆腐1斤左右切成0.5至1厘米见方的小丁，焯水捞出待用。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        再将2至3两鲜瘦肉火腿心切成碎丁；1根鲜冬笋剥去外皮，洗净，切成米粒大小切几片火腿肉并水发香菇几个、开洋（虾米）几个，均切成小丁，备用。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        将切好的各种小丁放入砂锅内，加入虾米丁和大半锅鸡汤，用旺火烧沸，撇去浮油，放入精盐，用小火炖半小时至一小时
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        加入豆腐丁、稍微加一些油，再炖十几分钟左右
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-
+        等汤煮透了，再撒上一些葱花、胡椒粉，一款中和汤就烧煮成功了。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="http://player.video.qiyi.com/4a9afc026440000fe74d9ba36bb578bd/0/0/w_19rx6kyye9.swf-albumId=13426588109-tvId=13426588109-isPurchase=0-cnId=3" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

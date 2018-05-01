@@ -25,15 +25,10 @@
         <img src="${pageContext.request.contextPath}/image/浙菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>冰糖甲鱼是浙江宁波地区最著名传统菜肴。冰糖甲鱼的另一别称为“独占鳌头”，则是从甬江状元楼首创的，是宁波十大名菜之一。</p>
                 </li>
             </ul>
         </fieldset>
@@ -44,64 +39,65 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>甲鱼 <p> 750克</p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-        </ul>
-    </fieldset>
-
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
+            <li>酱油<p>30克 </p></li>
+            <li> 小葱<p>10克 </p></li>
+            <li>冰糖 <p>30克 </p></li>
+            <li>姜<p> 5克</p></li>
+            <li> 炼制猪油<p> 40克</p></li>
+            <li> 黄酒<p>25克 </p></li>
+            <li> 花生油<p>35克 </p></li>
+            <li>盐 <p>2克 </p></li>
         </ul>
     </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        甲鱼仰放，待头伸出，迅速用手指掐住其颈，用力拉出，用力齐背壳延颈骨，排尽血后入90℃热水中浸泡；
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        当甲鱼壳上泛起白衣时捞出，在冷水中清除腹部、腿上和裙边的白膜，用洗帚刷掉背壳黑衣；
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        再开肚去内脏，斩去头尾、爪尖，然后均匀地斩成8块；
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        将甲鱼块放入锅中焯水，捞出用清水洗净，并撕掉血筋、备块和黄油；
     </div>
     <div class="practice">
         <div class="recipeStep_num">5</div>
-
+        炒锅烧热，用油滑锅，加入花生油，烧至八成热，放入葱结、姜片爆香，推入甲鱼块（肚朝下），烹入黄酒珈盖稍焖；
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">6</div>
+        再加入清水750毫升，烧开3分钟后，改用小火盖焖25分钟左右；
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">7</div>
+        待鱼块柔软无弹性时，加入红酱油、精盐、冰糖、熟猪油，再加盖焖20分钟左右；
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">8</div>
+        焖至鱼肉和裙边软糯，随即改用旺火收汁，一面晃锅一面舀起卤汁浇在鱼块上；
+    </div>
+    <div class="practice">
+        <div class="recipeStep_num">9</div>
+        待卤汁稠粘浓厚时，淋入熟猪油，再用中火并晃锅使芡油混合，至卤汁呈胶状，淋入熟猪油，晃锅即成。
     </div>
 
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <embed src="http://player.video.qiyi.com/4cd42f65dcaedcb6641ce55b33fd8575/0/0/w_19rsdvg6hl.swf-albumId=3014832309-tvId=3014832309-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

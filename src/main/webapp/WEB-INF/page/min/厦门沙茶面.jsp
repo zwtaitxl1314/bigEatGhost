@@ -25,15 +25,10 @@
         <img src="${pageContext.request.contextPath}/image/闽菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>厦门沙茶面是厦门的著名小吃，属于闽菜小吃。不是粤菜,是东南亚菜系，主要原材料是沙茶酱和高汤，口味咸鲜香辣，有点甜。</p>
                 </li>
             </ul>
         </fieldset>
@@ -44,64 +39,51 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>泉州油面 <p>300克 </p></li>
+            <li>炸豆腐片 <p> 1块</p></li>
+            <li>猪大肠 <p>50克 </p></li>
+            <li>虾仁 <p>重约50克 </p></li>
+            <li>韭菜 <p> 20克</p></li>
+            <li> 沙茶汤<p> </p></li>
+            <li>绿豆芽 <p>30克 </p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+
+            <li>花生油 <p> </p></li>
+            <li>花生酱 <p> </p></li>
+            <li>蒜头 <p> </p></li>
+            <li>葱头 <p> </p></li>
+            <li>红辣椒 <p> </p></li>
+            <li>沙茶粉 <p> </p></li>
+            <li> 糖<p> </p></li>
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        将碱水油面放入沸水中大火氽5分钟，取出控水放入大碗中备用;绿豆芽去头去尾;
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        韭菜洗净，切长3厘米的段;锅内放入沸水，大火沙茶面烧开后放入绿豆芽大火氽1分钟，捞出过凉;韭菜段放入沸水中大火氽0.5分钟，捞出过凉。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
+        猪大肠洗净，放入锅中加盐5克、料酒大火煮30分钟，捞出切成长2厘米的段。
     </div>
     <div class="practice">
         <div class="recipeStep_num">4</div>
-
+        锅内放入沙茶酱、高汤大火烧开，放入盐2克、鸡粉调味后下炸豆腐片、猪大肠、虾仁、绿豆芽、韭菜段大火烧开，出锅浇于碱水油面上即可。
     </div>
-    <div class="practice">
-        <div class="recipeStep_num">5</div>
-
-    </div>
-
     <p class="topic">${comcuisine}的教学视频</p>
 
     <div class="video">
-
+        <object width=1380 height=624><param name="movie" value="http://share.vrs.sohu.com/my/v.swf&topBar=1&id=84737228&autoplay=false&from=page"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><param name="wmode" value="Transparent"></param><embed width=1380 height=624 wmode="Transparent" allowfullscreen="true" allowscriptaccess="always" quality="high" src="http://share.vrs.sohu.com/my/v.swf&topBar=1&id=84737228&autoplay=false&from=page" type="application/x-shockwave-flash"/></embed></object>
     </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >

@@ -25,15 +25,11 @@
         <img src="${pageContext.request.contextPath}/image/粤菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>　在清朝后期，广东的烧鹅已经声名远扬，如今广州大街小巷的烧味店都少不了它的身影。烧鹅之“鹅”最好选用个头小的清远黑鬃鹅，肉质细嫩，味道鲜美，以特制的酱料涂匀光鹅全身后，以烧鹅环吊起，放入微火的烧烤炉中烧至表皮干紧，然后风干。
+                        　　 </p>
                 </li>
             </ul>
         </fieldset>

@@ -47,7 +47,6 @@
         </ul>
     </fieldset>
     <fieldset class="ingredients">
-        ，按人配需要量、、、（用青菜制成）、、、、、、、、、、桂皮、盐、干辣椒、高汤、芜荽、味精等。
         <legend>配料</legend>
         <ul>
             <li>葱 <p>适量 </p></li>

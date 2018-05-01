@@ -25,15 +25,10 @@
         <img src="${pageContext.request.contextPath}/image/徽菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>双爆串飞是一道菜品，主料是鸡脯肉、鸭脯肉。</p>
                 </li>
             </ul>
         </fieldset>
@@ -44,65 +39,39 @@
     <fieldset class="ingredients">
         <legend>主料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>鸡脯肉 <p>200克 </p></li>
+            <li>鸭脯肉各 <p>200克 </p></li>
+            <li> 青豆<p> 适量</p></li>
+            <li>香菜 <p> 适量</p></li>
         </ul>
     </fieldset>
     <fieldset class="ingredients">
         <legend>配料</legend>
         <ul>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
-            <li> <p> </p></li>
+            <li>鸡蛋清 <p> 1个</p></li>
+            <li>葱 <p>1段 </p></li>
+            <li>姜 <p>2片 </p></li>
+            <li>盐 <p>少许  </p></li>
+            <li>鸡精 <p>少许  </p></li>
+            <li>花椒粉<p>少许  </p></li>
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
         <div class="recipeStep_num">1</div>
-
+        鸡脯肉和鸭脯肉洗净沥干水，削十字花刀，加少许花椒粉、鸡精和盐腌片刻。
     </div>
     <div class="practice">
         <div class="recipeStep_num">2</div>
-
+        锅中煮开水，腌过的肉脯入沸水氽烫至变色即捞出沥水后用蛋清液抓匀；青豆入沸水烫去豆腥味。
     </div>
     <div class="practice">
         <div class="recipeStep_num">3</div>
-
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">4</div>
-
-    </div>
-    <div class="practice">
-        <div class="recipeStep_num">5</div>
-
+        起油锅，下青豆和葱、姜炒，入脯肉炒至熟，盛盘时挑出葱段、姜片加香菜调味即可。
     </div>
 
-    <p class="topic">${comcuisine}的教学视频</p>
-
-    <div class="video">
-
-    </div>
 
     <form method="get"  name="myform1" action="${pageContext.request.contextPath}/customer/comments.do" >
         <div id="content" style="width: 700px; height: auto;margin : 40px auto 0 auto;">

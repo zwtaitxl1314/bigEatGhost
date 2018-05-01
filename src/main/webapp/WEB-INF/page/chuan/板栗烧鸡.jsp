@@ -25,15 +25,10 @@
         <img src="${pageContext.request.contextPath}/image/川菜/${comcuisine}.jpg">
         <p class="cuisinename" id="cuisinename">${comcuisine}</p>
         <fieldset class="benefits ">
-            <legend>功效</legend>
+            <legend>简介</legend>
             <ul>
                 <li>
-                    <p>1. </p>
-                    <p>2. </p>
-                    <p>3. </p>
-                    <p>4. </p>
-                    <p>5. </p>
-                    <p>6. </p>
+                    <p>板栗烧鸡，是一道传统名菜，属东北菜、川菜、湘菜等。菜品具有鸡肉鲜滑、板栗香甜、汁浓醇厚、色泽红亮、美观大方的特点。</p>
                 </li>
             </ul>
         </fieldset>
@@ -61,15 +56,6 @@
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
