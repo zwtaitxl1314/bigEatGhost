@@ -40,9 +40,11 @@ public class YueController {
     @RequestMapping("/to")
     public String to(HttpServletRequest request){
         String cuisine = request.getParameter("cuisine");
+        String yue = request.getParameter("yue");
         HttpSession session = request.getSession();
         session.setAttribute("comcuisine",cuisine);
-        System.out.println("跳转到"+cuisine+"界面");
+        session.setAttribute("yue",yue);
+        System.out.println("跳转到"+yue+"菜"+cuisine+"界面");
 
         List list = new ArrayList();
         list = cd.find(cuisine);
@@ -50,7 +52,7 @@ public class YueController {
         System.out.println("list"+list);
         session.setAttribute("commentlist", list);
 
-        return "yue/"+cuisine;
+        return yue+"/"+cuisine;
     }
 
 }

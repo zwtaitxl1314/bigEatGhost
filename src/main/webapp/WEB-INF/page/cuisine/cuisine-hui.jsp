@@ -17,7 +17,7 @@
             $("a").click(function () {
                 var cuisine = $(this).next().html();
                 console.log(cuisine)
-                window.location.href="/lu/to.do?cuisine="+cuisine;
+                window.location.href="/hui/to.do?cuisine="+cuisine;
             })
         });
 

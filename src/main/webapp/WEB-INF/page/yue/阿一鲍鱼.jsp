@@ -25,7 +25,7 @@
             <img src="${pageContext.request.contextPath}/image/粤菜/${comcuisine}.jpg">
             <p class="cuisinename" id="cuisinename">${comcuisine}</p>
             <fieldset class="benefits ">
-                <legend>功效</legend>
+                <legend>功效${yue}</legend>
                 <ul>
                     <li>
                         <p>1.鲍鱼含有丰富的蛋白质，还有较多的钙，铁，碘和维生素A，等营养元素；</p>
@@ -133,6 +133,7 @@
                             <a >${user.username}</a>
                             <input type="hidden" name="username" value="${user.username}">
                             <input type="hidden" name="comcuisine" value="${comcuisine}">
+                            <input type="hidden" name="yue" value="${yue}">
                         </div>
                         <div class="content">
                             <div class="cont-box">

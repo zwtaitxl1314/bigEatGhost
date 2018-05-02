@@ -71,15 +71,6 @@
         </ul>
     </fieldset>
 
-    <fieldset class="ingredients">
-        <legend>口味</legend>
-        <ul>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </fieldset>
 
     <p class="topic">${comcuisine}的做法步骤</p>
     <div class="practice">
@@ -134,6 +125,7 @@
                         <a >${user.username}</a>
                         <input type="hidden" name="username" value="${user.username}">
                         <input type="hidden" name="comcuisine" value="${comcuisine}">
+                        <input type="hidden" name="yue" value="${yue}">
                     </div>
                     <div class="content">
                         <div class="cont-box">

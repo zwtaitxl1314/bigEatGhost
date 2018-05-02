@@ -9,6 +9,19 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/js/bootstrap-3.3.7-dist/css/bootstrap.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/foot.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/head.css">
+    <script type="text/javascript" src="${pageContext.request.contextPath}/css/jquery-3.3.1/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+
+
+        $(function(){
+            $("a").click(function () {
+                var cuisine = $(this).next().html();
+                console.log(cuisine)
+                window.location.href="/yue/to.do?cuisine="+cuisine;
+            })
+        });
+
+    </script>
 </head>
 <body>
 <jsp:include page="/WEB-INF/page/head.jsp" flush="true"/>
