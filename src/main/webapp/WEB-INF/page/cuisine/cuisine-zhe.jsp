@@ -16,11 +16,11 @@
         $(function(){
             $("a").click(function () {
                 var cuisine = $(this).next().html();
-                console.log(cuisine)
-                window.location.href="/yue/to.do?cuisine="+cuisine;
+                var what="zhe";
+                console.log(what);
+                window.location.href="/cuisine/to.do?cuisine="+cuisine+"&what="+what;
             })
         });
-
     </script>
 </head>
 <body>
@@ -34,55 +34,55 @@
     <ul>
         <li>
             <a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/image/浙菜/冰糖甲鱼.jpg"></a>
-            <p>咕咾肉</p>
+            <p>冰糖甲鱼</p>
         </li>
         <li>
             <a href="javascript:void(0);" ><img src="${pageContext.request.contextPath}/image/浙菜/干炸响铃.jpg"></a>
-            <p>太湖大闸蟹</p>
+            <p>干炸响铃</p>
         </li>
         <li>
             <a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/image/浙菜/干菜焖肉.jpg"></a>
-            <p>太湖银鱼</p>
+            <p>干菜焖肉</p>
         </li>
         <li>
             <a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/image/浙菜/杭州煨鸡.jpg"></a>
-            <p>松鼠鳜鱼</p>
+            <p>杭州煨鸡</p>
         </li>
     </ul>
     <ul>
         <li>
             <a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/image/浙菜/油焖春笋.jpg"></a>
-            <p>糖醋排骨</p>
+            <p>油焖春笋</p>
         </li>
         <li>
             <a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/image/浙菜/虾爆鳝背.jpg"></a>
-            <p>阳澄湖大闸蟹</p>
+            <p>虾爆鳝背</p>
         </li>
         <li>
             <a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/image/浙菜/西湖醋鱼.jpg"></a>
-            <p>香菇炖鸡</p>
+            <p>西湖醋鱼</p>
         </li>
         <li>
             <a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/image/浙菜/赛蟹羹.jpg"></a>
-            <p>鲃肺汤</p>
+            <p>赛蟹羹</p>
         </li>
     </ul>
     <ul>
         <li>
             <a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/image/浙菜/龙井虾仁.jpg"></a>
-            <p>叫化童鸡</p>
+            <p>龙井虾仁</p>
         </li>
         <li>
             <a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/image/浙菜/嘉兴五芳斋粽子.jpg"></a>
-            <p>白汁圆菜</p>
+            <p>嘉兴五芳斋粽子</p>
         </li>
         <li>
             <a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/image/浙菜/蛤蜊黄鱼羹.jpg"></a>
-            <p>碧螺虾仁</p>
+            <p>蛤蜊黄鱼羹</p>
         </li>
         <li>
             <a href="javascript:void(0);"><img src="${pageContext.request.contextPath}/image/浙菜/虎跑素火煺.jpg"></a>
-            <p>桃源红烧羊肉</p>
+            <p>虎跑素火煺</p>
         </li>
     </ul>
 

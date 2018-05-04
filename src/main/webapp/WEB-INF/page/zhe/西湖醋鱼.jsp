@@ -102,6 +102,7 @@
                         <img src="${pageContext.request.contextPath}/image/1.jpg">
                         <a >${user.username}</a>
                         <input type="hidden" name="username" value="${user.username}">
+                        <input type="hidden" name="what" value="${what}">
                         <input type="hidden" name="comcuisine" value="${comcuisine}">
                     </div>
                     <div class="content">

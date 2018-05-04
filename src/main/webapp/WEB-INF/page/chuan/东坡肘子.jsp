@@ -91,7 +91,7 @@
     </div>
 
 
-    <p class="topic">${comcuisine}的教学视频</p>
+    <p class="topic">${comcuisine}的教学视频${what}</p>
 
     <div class="video">
         <embed src="http://player.video.qiyi.com/9275dac6a605e1bd0fdfd052b4bcfc8a/0/0/v_19rro1upzs.swf-albumId=348272500-tvId=348272500-isPurchase=0-cnId=21" allowFullScreen="true" quality="high" width="480" height="350" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
@@ -106,6 +106,7 @@
                         <a >${user.username}</a>
                         <input type="hidden" name="username" value="${user.username}">
                         <input type="hidden" name="comcuisine" value="${comcuisine}">
+                        <input type="hidden" name="what" value="${what}">
                     </div>
                     <div class="content">
                         <div class="cont-box">

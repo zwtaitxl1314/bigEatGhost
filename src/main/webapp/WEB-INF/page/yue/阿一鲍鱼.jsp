@@ -133,7 +133,7 @@
                             <a >${user.username}</a>
                             <input type="hidden" name="username" value="${user.username}">
                             <input type="hidden" name="comcuisine" value="${comcuisine}">
-                            <input type="hidden" name="yue" value="${yue}">
+                            <input type="hidden" name="what" value="${what}">
                         </div>
                         <div class="content">
                             <div class="cont-box">

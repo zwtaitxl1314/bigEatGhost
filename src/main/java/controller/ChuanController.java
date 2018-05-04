@@ -13,15 +13,17 @@ import java.util.List;
 @Controller
 @RequestMapping( "/chuan/**")
 public class ChuanController {
-
+/*
     @Autowired
     private CommentDao cd;
 
     @RequestMapping("/to")
     public String to(HttpServletRequest request){
         String cuisine = request.getParameter("cuisine");
+        String what = request.getParameter("what");
         HttpSession session = request.getSession();
         session.setAttribute("comcuisine",cuisine);
+        session.setAttribute("what",what);
         System.out.println("跳转到"+cuisine+"界面");
 
         List list = new ArrayList();
@@ -30,7 +32,7 @@ public class ChuanController {
         System.out.println("list"+list);
         session.setAttribute("commentlist", list);
 
-        return "chuan/"+cuisine;
-    }
+        return what+"/"+cuisine;
+    }*/
 
 }

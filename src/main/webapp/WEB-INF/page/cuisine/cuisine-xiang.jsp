@@ -14,11 +14,11 @@
         $(function(){
             $("a").click(function () {
                 var cuisine = $(this).next().html();
-                console.log(cuisine)
-                window.location.href="/xiang/to.do?cuisine="+cuisine;
+                var what="xiang";
+                console.log(xiang);
+                window.location.href="/cuisine/to.do?cuisine="+cuisine+"&what="+what;
             })
         });
-
     </script>
 </head>
 <body>

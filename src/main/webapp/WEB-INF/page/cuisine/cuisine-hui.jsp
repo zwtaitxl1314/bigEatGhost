@@ -16,8 +16,9 @@
         $(function(){
             $("a").click(function () {
                 var cuisine = $(this).next().html();
-                console.log(cuisine)
-                window.location.href="/hui/to.do?cuisine="+cuisine;
+                var what="hui";
+                console.log(what);
+                window.location.href="/cuisine/to.do?cuisine="+cuisine+"&what="+what;
             })
         });
 

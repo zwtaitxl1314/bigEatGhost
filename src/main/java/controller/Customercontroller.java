@@ -147,8 +147,8 @@ public class Customercontroller {
         String username = request.getParameter("username");
         String comments= request.getParameter("comments");
         String comcuisine= request.getParameter("comcuisine");
-        String yue = request.getParameter("yue");
-        System.out.println(yue+"菜"+comcuisine+","+username+",评论内容："+comments);
+        String what = request.getParameter("what");
+        System.out.println(what+"菜"+comcuisine+","+username+",评论内容："+comments);
         com.setComusername(username);
         com.setComments(comments);
         com.setComcuisine(comcuisine);
@@ -166,7 +166,7 @@ public class Customercontroller {
         //session.setAttribute("comdate", list);
         System.out.println("list"+list);
         session.setAttribute("commentlist", list);
-        return yue+"/"+comcuisine;
+        return what+"/"+comcuisine;
     }
 
     /*用户信息控制器*/
